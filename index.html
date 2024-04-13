@@ -16,7 +16,6 @@
     <div id="globeViz"></div>
 
     <script>
-
         const jsonData = {
             "Birds": [
                 {
@@ -37,7 +36,7 @@
                     "Card": {
                         "image": "https://raw.githubusercontent.com/Utku-Mese/LifeSync/main/assets/images/area1.png",
                         "title": "Leylek",
-                        "description": "Leylekler, genellikle sıcak iklimlerde yaşarlar. Leyleklerin en bilinen özelliği, yuvalarını yüksek yerlere yapmalarıdır. Leyleklerin yuvalarını yaparken, genellikle ağaç dalları, saman, çamur ve benzeri malzemeleri kullanırlar. Leyleklerin yuvalarını yaparken, genellikle ağaç dalları, saman, çamur ve benzeri malzemeleri kullanırlar. Leyleklerin yuvalarını yaparken, genellikle ağaç dalları, saman, çamur ve benzeri malzemeleri kullanırlar."
+                        "description": "Leylekler, genellikle sıcak iklimlerde yaşarlar. Leyleklerin en bilinen özelliği, yuvalarını yüksek yerlere yapmalarıdır."
                     }
                 },
 
@@ -49,17 +48,17 @@
                         "#00FF00"
                     ],
                     "startPoint": [
-                        6654165,
-                        6351635
+                        37.7749,
+                        -122.4194
                     ],
                     "endPoint": [
-                        6654165,
-                        6351635
+                        40.7128,
+                        -74.0060
                     ],
                     "Card": {
                         "image": "https://raw.githubusercontent.com/Utku-Mese/LifeSync/main/assets/images/area2.png",
                         "title": "Kartal",
-                        "description": "Kartallar, genellikle yüksek yerlerde yaşarlar. Kartalların en bilinen özelliği, avlarını yüksek yerlerden avlamalarıdır. Kartalların en bilinen özelliği, avlarını yüksek yerlerden avlamalarıdır. Kartalların en bilinen özelliği, avlarını yüksek yerlerden avlamalarıdır. Kartalların en bilinen özelliği, avlarını yüksek yerlerden avlamalarıdır."
+                        "description": "Kartallar, genellikle yüksek yerlerde yaşarlar. Kartalların en bilinen özelliği, avlarını yüksek yerlerden avlamalarıdır."
                     }
                 },
                 {
@@ -70,17 +69,17 @@
                         "#00FF00"
                     ],
                     "startPoint": [
-                        6654165,
-                        6351635
+                        37.7749,
+                        -122.4194
                     ],
                     "endPoint": [
-                        6654165,
-                        6351635
+                        41.0082,
+                        28.9784
                     ],
                     "Card": {
                         "image": "https://raw.githubusercontent.com/Utku-Mese/LifeSync/main/assets/images/area3.png",
                         "title": "Baykuş",
-                        "description": "Baykuşlar, genellikle gece avlanan kuşlardır. Baykuşlar, genellikle gece avlanan kuşlardır. Baykuşlar, genellikle gece avlanan kuşlardır. Baykuşlar, genellikle gece avlanan kuşlardır. Baykuşlar, genellikle gece avlanan kuşlardır."
+                        "description": "Baykuşlar, genellikle gece avlanan kuşlardır."
                     }
                 }
             ]
@@ -94,14 +93,13 @@
             card: bird.Card
         }));
 
-
         const myGlobe = Globe()
             (document.getElementById('globeViz'))
 
             .globeImageUrl('//unpkg.com/three-globe/example/img/earth-night.jpg')
             .pointOfView({ lat: 39.6, lng: -98.5, altitude: 2 }) // aim at continental US centroid
 
-            .arcLabel(d => `${d.name}: ${d.card.title}`)
+            .arcLabel(d => `${d.name}: ${d.card.description}`)
             .arcStartLat(d => +d.startPoint.lat)
             .arcStartLng(d => +d.startPoint.lng)
             .arcEndLat(d => +d.endPoint.lat)
@@ -120,6 +118,5 @@
 
         // load data
         myGlobe.arcsData(birdsData);
-
     </script>
 </body>
