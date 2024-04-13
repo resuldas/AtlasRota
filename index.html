@@ -4,19 +4,15 @@
             margin: 0;
         }
     </style>
-
     <script src="//unpkg.com/d3-dsv"></script>
     <script src="//unpkg.com/index-array-by"></script>
-
     <script src="//unpkg.com/globe.gl"></script>
-    <!--<script src="../../dist/globe.gl.js"></script>-->
 </head>
-
 <body>
     <div id="globeViz"></div>
-
+    
     <script>
-        const jsonData = {
+        /* const jsonData = {
             "Birds": [
                 {
                     "Id": 1,
@@ -83,7 +79,11 @@
                     }
                 }
             ]
-        }
+        } */
+
+        const jsonData = fetch('https://raw.githubusercontent.com/Utku-Mese/LifeSync/main/assets/data/birds.json')
+            .then(res => res.json())
+            .then(data => data);
 
         const birdsData = jsonData.Birds.map(bird => ({
             name: bird.Name,

@@ -4,63 +4,64 @@
             "Id": 1,
             "Name": "Leylek",
             "Linecolor": [
-                "#0000FF",
-                "#0000DD"
+                "#000055",
+                "#AAAAff"
             ],
             "startPoint": [
-                6654165,
-                6351635
+                41.0082,
+                28.9784
             ],
             "endPoint": [
-                6654165,
-                6351635
+                37.7749,
+                -122.4194
             ],
             "Card": {
                 "image": "https://raw.githubusercontent.com/Utku-Mese/LifeSync/main/assets/images/area1.png",
                 "title": "Leylek",
-                "description": "Leylekler, genellikle sıcak iklimlerde yaşarlar. Leyleklerin en bilinen özelliği, yuvalarını yüksek yerlere yapmalarıdır. Leyleklerin yuvalarını yaparken, genellikle ağaç dalları, saman, çamur ve benzeri malzemeleri kullanırlar. Leyleklerin yuvalarını yaparken, genellikle ağaç dalları, saman, çamur ve benzeri malzemeleri kullanırlar. Leyleklerin yuvalarını yaparken, genellikle ağaç dalları, saman, çamur ve benzeri malzemeleri kullanırlar."
+                "description": "Leylekler, genellikle sıcak iklimlerde yaşarlar. Leyleklerin en bilinen özelliği, yuvalarını yüksek yerlere yapmalarıdır."
             }
         },
+
         {
             "Id": 2,
             "Name": "Kartal",
             "Linecolor": [
-                "#FF0000",
-                "#00FF00"
+                "#550000",
+                "#FFAAAA"
             ],
             "startPoint": [
-                6654165,
-                6351635
+                34.0522,
+                -118.2437
             ],
             "endPoint": [
-                6654165,
-                6351635
+                40.7128,
+                -74.0060
             ],
             "Card": {
                 "image": "https://raw.githubusercontent.com/Utku-Mese/LifeSync/main/assets/images/area2.png",
                 "title": "Kartal",
-                "description": "Kartallar, genellikle yüksek yerlerde yaşarlar. Kartalların en bilinen özelliği, avlarını yüksek yerlerden avlamalarıdır. Kartalların en bilinen özelliği, avlarını yüksek yerlerden avlamalarıdır. Kartalların en bilinen özelliği, avlarını yüksek yerlerden avlamalarıdır. Kartalların en bilinen özelliği, avlarını yüksek yerlerden avlamalarıdır."
+                "description": "Kartallar, genellikle yüksek yerlerde yaşarlar. Kartalların en bilinen özelliği, avlarını yüksek yerlerden avlamalarıdır."
             }
         },
         {
             "Id": 3,
             "Name": "Baykuş",
             "Linecolor": [
-                "#FF0000",
-                "#00FF00"
+                "#005500",
+                "#AAFFAA"
             ],
             "startPoint": [
-                6654165,
-                6351635
+                40.7128,
+                -74.0060
             ],
             "endPoint": [
-                6654165,
-                6351635
+                41.0082,
+                28.9784
             ],
             "Card": {
                 "image": "https://raw.githubusercontent.com/Utku-Mese/LifeSync/main/assets/images/area3.png",
                 "title": "Baykuş",
-                "description": "Baykuşlar, genellikle gece avlanan kuşlardır. Baykuşlar, genellikle gece avlanan kuşlardır. Baykuşlar, genellikle gece avlanan kuşlardır. Baykuşlar, genellikle gece avlanan kuşlardır. Baykuşlar, genellikle gece avlanan kuşlardır."
+                "description": "Baykuşlar, genellikle gece avlanan kuşlardır."
             }
         }
     ]
