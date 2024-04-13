@@ -1,0 +1,67 @@
+{
+    "Birds": [
+        {
+            "Id": 1,
+            "Name": "Leylek",
+            "Linecolor": [
+                "#0000FF",
+                "#0000DD"
+            ],
+            "startPoint": [
+                6654165,
+                6351635
+            ],
+            "endPoint": [
+                6654165,
+                6351635
+            ],
+            "Card": {
+                "image": "https://raw.githubusercontent.com/Utku-Mese/LifeSync/main/assets/images/area1.png",
+                "title": "Leylek",
+                "description": "Leylekler, genellikle sıcak iklimlerde yaşarlar. Leyleklerin en bilinen özelliği, yuvalarını yüksek yerlere yapmalarıdır. Leyleklerin yuvalarını yaparken, genellikle ağaç dalları, saman, çamur ve benzeri malzemeleri kullanırlar. Leyleklerin yuvalarını yaparken, genellikle ağaç dalları, saman, çamur ve benzeri malzemeleri kullanırlar. Leyleklerin yuvalarını yaparken, genellikle ağaç dalları, saman, çamur ve benzeri malzemeleri kullanırlar."
+            }
+        },
+        {
+            "Id": 2,
+            "Name": "Kartal",
+            "Linecolor": [
+                "#FF0000",
+                "#00FF00"
+            ],
+            "startPoint": [
+                6654165,
+                6351635
+            ],
+            "endPoint": [
+                6654165,
+                6351635
+            ],
+            "Card": {
+                "image": "https://raw.githubusercontent.com/Utku-Mese/LifeSync/main/assets/images/area2.png",
+                "title": "Kartal",
+                "description": "Kartallar, genellikle yüksek yerlerde yaşarlar. Kartalların en bilinen özelliği, avlarını yüksek yerlerden avlamalarıdır. Kartalların en bilinen özelliği, avlarını yüksek yerlerden avlamalarıdır. Kartalların en bilinen özelliği, avlarını yüksek yerlerden avlamalarıdır. Kartalların en bilinen özelliği, avlarını yüksek yerlerden avlamalarıdır."
+            }
+        },
+        {
+            "Id": 3,
+            "Name": "Baykuş",
+            "Linecolor": [
+                "#FF0000",
+                "#00FF00"
+            ],
+            "startPoint": [
+                6654165,
+                6351635
+            ],
+            "endPoint": [
+                6654165,
+                6351635
+            ],
+            "Card": {
+                "image": "https://raw.githubusercontent.com/Utku-Mese/LifeSync/main/assets/images/area3.png",
+                "title": "Baykuş",
+                "description": "Baykuşlar, genellikle gece avlanan kuşlardır. Baykuşlar, genellikle gece avlanan kuşlardır. Baykuşlar, genellikle gece avlanan kuşlardır. Baykuşlar, genellikle gece avlanan kuşlardır. Baykuşlar, genellikle gece avlanan kuşlardır."
+            }
+        }
+    ]
+}

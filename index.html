@@ -1,0 +1,125 @@
+<head>
+    <style>
+        body {
+            margin: 0;
+        }
+    </style>
+
+    <script src="//unpkg.com/d3-dsv"></script>
+    <script src="//unpkg.com/index-array-by"></script>
+
+    <script src="//unpkg.com/globe.gl"></script>
+    <!--<script src="../../dist/globe.gl.js"></script>-->
+</head>
+
+<body>
+    <div id="globeViz"></div>
+
+    <script>
+
+        const jsonData = {
+            "Birds": [
+                {
+                    "Id": 1,
+                    "Name": "Leylek",
+                    "Linecolor": [
+                        "#000055",
+                        "#AAAAff"
+                    ],
+                    "startPoint": [
+                        41.0082,
+                        28.9784
+                    ],
+                    "endPoint": [
+                        37.7749,
+                        -122.4194
+                    ],
+                    "Card": {
+                        "image": "https://raw.githubusercontent.com/Utku-Mese/LifeSync/main/assets/images/area1.png",
+                        "title": "Leylek",
+                        "description": "Leylekler, genellikle sıcak iklimlerde yaşarlar. Leyleklerin en bilinen özelliği, yuvalarını yüksek yerlere yapmalarıdır. Leyleklerin yuvalarını yaparken, genellikle ağaç dalları, saman, çamur ve benzeri malzemeleri kullanırlar. Leyleklerin yuvalarını yaparken, genellikle ağaç dalları, saman, çamur ve benzeri malzemeleri kullanırlar. Leyleklerin yuvalarını yaparken, genellikle ağaç dalları, saman, çamur ve benzeri malzemeleri kullanırlar."
+                    }
+                },
+
+                {
+                    "Id": 2,
+                    "Name": "Kartal",
+                    "Linecolor": [
+                        "#FF0000",
+                        "#00FF00"
+                    ],
+                    "startPoint": [
+                        6654165,
+                        6351635
+                    ],
+                    "endPoint": [
+                        6654165,
+                        6351635
+                    ],
+                    "Card": {
+                        "image": "https://raw.githubusercontent.com/Utku-Mese/LifeSync/main/assets/images/area2.png",
+                        "title": "Kartal",
+                        "description": "Kartallar, genellikle yüksek yerlerde yaşarlar. Kartalların en bilinen özelliği, avlarını yüksek yerlerden avlamalarıdır. Kartalların en bilinen özelliği, avlarını yüksek yerlerden avlamalarıdır. Kartalların en bilinen özelliği, avlarını yüksek yerlerden avlamalarıdır. Kartalların en bilinen özelliği, avlarını yüksek yerlerden avlamalarıdır."
+                    }
+                },
+                {
+                    "Id": 3,
+                    "Name": "Baykuş",
+                    "Linecolor": [
+                        "#FF0000",
+                        "#00FF00"
+                    ],
+                    "startPoint": [
+                        6654165,
+                        6351635
+                    ],
+                    "endPoint": [
+                        6654165,
+                        6351635
+                    ],
+                    "Card": {
+                        "image": "https://raw.githubusercontent.com/Utku-Mese/LifeSync/main/assets/images/area3.png",
+                        "title": "Baykuş",
+                        "description": "Baykuşlar, genellikle gece avlanan kuşlardır. Baykuşlar, genellikle gece avlanan kuşlardır. Baykuşlar, genellikle gece avlanan kuşlardır. Baykuşlar, genellikle gece avlanan kuşlardır. Baykuşlar, genellikle gece avlanan kuşlardır."
+                    }
+                }
+            ]
+        }
+
+        const birdsData = jsonData.Birds.map(bird => ({
+            name: bird.Name,
+            lineColor: bird.Linecolor,
+            startPoint: { lat: bird.startPoint[0], lng: bird.startPoint[1] },
+            endPoint: { lat: bird.endPoint[0], lng: bird.endPoint[1] },
+            card: bird.Card
+        }));
+
+
+        const myGlobe = Globe()
+            (document.getElementById('globeViz'))
+
+            .globeImageUrl('//unpkg.com/three-globe/example/img/earth-night.jpg')
+            .pointOfView({ lat: 39.6, lng: -98.5, altitude: 2 }) // aim at continental US centroid
+
+            .arcLabel(d => `${d.name}: ${d.card.title}`)
+            .arcStartLat(d => +d.startPoint.lat)
+            .arcStartLng(d => +d.startPoint.lng)
+            .arcEndLat(d => +d.endPoint.lat)
+            .arcEndLng(d => +d.endPoint.lng)
+            .arcDashLength(0.75)
+            .arcDashGap(1)
+            .arcDashInitialGap(() => Math.random())
+            .arcDashAnimateTime(2000)
+            .arcColor(d => d.lineColor)
+            .arcsTransitionDuration(0)
+
+            .pointColor(() => 'orange')
+            .pointAltitude(0)
+            .pointRadius(0.02)
+            .pointsMerge(true);
+
+        // load data
+        myGlobe.arcsData(birdsData);
+
+    </script>
+</body>
