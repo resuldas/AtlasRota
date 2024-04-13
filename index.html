@@ -43,16 +43,15 @@
                     .arcDashAnimateTime(2000)
                     .arcColor(d => d.lineColor)
                     .arcsTransitionDuration(0)
-
                     .pointColor(() => 'orange')
                     .pointAltitude(0)
                     .pointRadius(0.02)
                     .pointsMerge(true);
 
-                // load data
+
                 myGlobe.arcsData(birdsData);
 
-                // Add arcs for visited places and last visited place to end point
+
                 birdsData.forEach(bird => {
                     bird.visitedPlaces.forEach((place, index) => {
                         if (index < bird.visitedPlaces.length - 1) {
