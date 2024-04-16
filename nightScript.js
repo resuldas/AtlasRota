@@ -71,6 +71,7 @@ var daySwitch = document.getElementById('daySwitch');
 daySwitch.addEventListener('change', function () {
     if (daySwitch.checked) {
         window.location.href = 'night.html';
+        daySwitch.style.backgroundImage = "url('assets/images/sun.png')";
     } else {
         window.location.href = 'day.html';
     }

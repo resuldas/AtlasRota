@@ -18,7 +18,7 @@ fetch('https://raw.githubusercontent.com/Utku-Mese/AtlasRota/main/data.json')
             /* .globeImageUrl('//unpkg.com/three-globe/example/img/earth-night.jpg') */
             .backgroundImageUrl('//unpkg.com/three-globe/example/img/night-sky.png')
             .pointOfView({ lat: 39.9334, lng: 32.8597, altitude: 2 })
-            .arcLabel(d => `${d.name}: ${d.card.description}`)
+            .arcLabel(d => `${d.name}`)
             .arcStartLat(d => +d.startPoint.lat)
             .arcStartLng(d => +d.startPoint.lng)
             .arcEndLat(d => +d.visitedPlaces[0]?.lat || d.endPoint.lat)
@@ -38,7 +38,7 @@ fetch('https://raw.githubusercontent.com/Utku-Mese/AtlasRota/main/data.json')
 
 
         myGlobe.arcsData(birdsData);
-        
+
         myGlobe.controls().autoRotate = true;
         myGlobe.controls().autoRotateSpeed = 0.6;
 
@@ -78,4 +78,10 @@ daySwitch.addEventListener('change', function () {
         window.location.href = 'day.html';
     }
 })
+
+var cardName = document.getElementById('name');
+cardName.textContent = "Leylek"
+
+var cardDescription = document.getElementById('description');
+cardDescription.textContent = "Leylekler, Ciconiidae familyasından büyük, uzun bacaklı, uzun boyunlu, genellikle beyaz tüyleri olan kuşlardır"
 

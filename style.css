@@ -14,7 +14,6 @@ body {
     left: 50%;
     transform: translateX(-50%);
     z-index: 1000;
-    
 }
 
 .switch {
@@ -30,7 +29,7 @@ body {
     height: 0;
 }
 
-.slider {
+.slider { /* switch içi chacked=false hali*/
     position: absolute;
     cursor: pointer;
     top: 0;
@@ -41,34 +40,44 @@ body {
     -webkit-transition: .4s;
     transition: .4s;
     border-radius: 20px;
+    background-image: url("assets/images/day.png");
+    background-size: cover;
 }
 
-.slider:before {
+.slider:before { /* switch topu default */
     position: absolute;
     content: "";
     height: 20px;
     width: 20px;
     left: 4px;
     bottom: 4px;
-    background-color: rgb(184, 184, 184);
+    background-color: transparent;
     -webkit-transition: .4s;
     transition: .4s;
     border-radius: 50%;
-    background-image: "assets/images/moon.png";
+    background-image: url("assets/images/sun.png");
+    background-size: cover;
+}
+.slider:checked{
+    background-color: #0c3e5a;
 }
 
-input:checked+.slider {
+input:checked+.slider { /* switch içi checked=true hali */
     background-color: #0c3e5a;
+    background-image: url("assets/images/night.png");
+    background-size: contain;
 }
 
 input:focus+.slider {
     box-shadow: 0 0 1px #2b2e36;
 }
 
-input:checked+.slider:before {
+input:checked+.slider:before { /* switch topu checked=true hali */
     -webkit-transform: translateX(26px);
     -ms-transform: translateX(26px);
     transform: translateX(26px);
+    background-image: url("assets/images/moon.png");
+    background-size: cover;
 }
 
 .slider.round {
@@ -77,4 +86,75 @@ input:checked+.slider:before {
 
 .slider.round:before {
     border-radius: 50%;
+}
+
+#infoCard{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+    width: 300px;
+    background-color: #15004e56;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    box-shadow: rgba(0, 57, 90, 0.527) 0px 0px 10px 5px;
+}
+
+#infoCardTitle{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+/* #infoCard {
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    padding: 10px;
+    width: 200px; 
+} */
+
+#infoCardImage {
+    width: 50%;
+    height: 200px; 
+    background-image: url("assets/images/leylek.png"); 
+    background-size: cover;
+    background-position: relative;
+    border-radius: 5px;
+}
+
+#infoCardName {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333333;
+    margin-top: 10px;
+}
+
+#infoCardData {
+    margin-top: 0px;
+}
+
+#infoCardDescription {
+    font-size: 14px;
+    color: #666666;
+}
+
+#name {
+    font-size: 20px;
+    font-weight: bold;
+    color: #c3c0c0;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#description {
+    font-size: 14px;
+    color: #c0bebe;
+    font-family: Arial, Helvetica, sans-serif;
 }
