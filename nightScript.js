@@ -65,4 +65,12 @@ fetch('https://raw.githubusercontent.com/Utku-Mese/AtlasRota/main/data.json')
         console.error('Veri çekme hatası:', error);
     });
 
+var daySwitch = document.getElementById('daySwitch');
 
+daySwitch.addEventListener('change', function () {
+    if (daySwitch.checked) {
+        window.location.href = 'night.html';
+    } else {
+        window.location.href = 'day.html';
+    }
+})
