@@ -36,8 +36,11 @@ fetch('https://raw.githubusercontent.com/Utku-Mese/AtlasRota/main/data.json')
 
 
 
-        myGlobe.arcsData(birdsData);
 
+        myGlobe.arcsData(birdsData);
+        
+        myGlobe.controls().autoRotate = true;
+        myGlobe.controls().autoRotateSpeed = 0.6;
 
         birdsData.forEach(bird => {
             bird.visitedPlaces.forEach((place, index) => {
