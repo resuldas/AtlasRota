@@ -30,57 +30,237 @@
         },
         {
             "Id": 2,
-            "Name": "Kartal",
+            "Name": "Kelaynak",
             "Linecolor": [
-                "#550000",
-                "#FFAAAA"
+                "#FF5733",
+                "#FFD700"
             ],
             "startPoint": [
-                34.0522,
-                -118.2437
+                51.1657,
+                10.4515
             ],
             "endPoint": [
-                40.7128,
-                -74.0060
+                -22.9068,
+                -43.1729
             ],
             "Card": {
-                "image": "https://raw.githubusercontent.com/Utku-Mese/LifeSync/main/assets/images/area2.png",
-                "title": "Kartal",
-                "description": "Kartallar, genellikle yüksek yerlerde yaşarlar. Kartalların en bilinen özelliği, avlarını yüksek yerlerden avlamalarıdır.",
+                "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Grus_rubicunda_-_Lake_Burley_Griffin.jpg/220px-Grus_rubiscunda_-_Lake_Burley_Griffin.jpg",
+                "title": "Kelaynak",
+                "description": "Kelaynaklar, sığ sulak alanlarda yaşarlar ve uzun bacakları ile bilinirler.",
                 "Route": [
-                    "usa",
-                    "italy",
-                    "france",
-                    "spain",
-                    "portugal"
+                    "germany",
+                    "austria",
+                    "hungary",
+                    "greece",
+                    "brazil"
                 ]
             }
         },
         {
             "Id": 3,
-            "Name": "Baykuş",
+            "Name": "Sarıkanat",
             "Linecolor": [
-                "#005500",
-                "#AAFFAA"
+                "#E8A13E",
+                "#FFD700"
             ],
             "startPoint": [
+                53.3498,
+                -6.2603
+            ],
+            "endPoint": [
+                35.6895,
+                139.6917
+            ],
+            "Card": {
+                "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Cygnus_cygnus_2.jpg/220px-Cygnus_cygnus_2.jpg",
+                "title": "Sarıkanat",
+                "description": "Sarıkanatlar, genellikle soğuk iklimlerde yaşarlar ve geniş kanat açıklığına sahiptirler.",
+                "Route": [
+                    "ireland",
+                    "uk",
+                    "netherlands",
+                    "belgium",
+                    "japan"
+                ]
+            }
+        },
+        {
+            "Id": 4,
+            "Name": "Şahin",
+            "Linecolor": [
+                "#A52A2A",
+                "#FF4500"
+            ],
+            "startPoint": [
+                38.9637,
+                35.2433
+            ],
+            "endPoint": [
                 40.7128,
                 -74.0060
             ],
+            "Card": {
+                "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Falco_cherrug_001.jpg/220px-Falco_cherrug_001.jpg",
+                "title": "Şahin",
+                "description": "Şahinler, hızlı uçucuları ve avcı doğalarıyla bilinirler. Göç esnasında genellikle yüksekten uçarlar.",
+                "Route": [
+                    "turkey",
+                    "greece",
+                    "italy",
+                    "usa"
+                ]
+            }
+        },
+        {
+            "Id": 5,
+            "Name": "Albatros",
+            "Linecolor": [
+                "#2E8B57",
+                "#FFD700"
+            ],
+            "startPoint": [
+                -41.2865,
+                174.7762
+            ],
             "endPoint": [
+                -37.8136,
+                144.9631
+            ],
+            "Card": {
+                "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Diomedea_exulans_Juvenile_Soaring.jpg/220px-Diomedea_exulans_Juvenile_Soaring.jpg",
+                "title": "Albatros",
+                "description": "Albatroslar, uzun kanat açıklığı ile bilinen deniz kuşlarıdır. Genellikle denizlerde yaşarlar ve uzun mesafeli göçleriyle tanınırlar.",
+                "Route": [
+                    "new zealand",
+                    "australia"
+                ]
+            }
+        },
+        {
+            "Id": 6,
+            "Name": "Leylek",
+            "Linecolor": [
+                "#000055",
+                "#AAAAff"
+            ],
+            "startPoint": [
                 41.0082,
                 28.9784
             ],
+            "endPoint": [
+                37.7749,
+                -122.4194
+            ],
             "Card": {
-                "image": "https://raw.githubusercontent.com/Utku-Mese/LifeSync/main/assets/images/area3.png",
-                "title": "Baykuş",
-                "description": "Baykuşlar, genellikle gece avlanan kuşlardır.",
+                "image": "https://w7.pngwing.com/pngs/524/694/png-transparent-white-stork-icon-stork-animals-fauna-bird.png",
+                "title": "Leylek",
+                "description": "Leylekler, genellikle sıcak iklimlerde yaşarlar. Leyleklerin en bilinen özelliği, yuvalarını yüksek yerlere yapmalarıdır.",
                 "Route": [
-                    "usa",
                     "italy",
                     "france",
                     "spain",
-                    "portugal"
+                    "portugal",
+                    "usa"
+                ]
+            }
+        },
+        {
+            "Id": 7,
+            "Name": "Martı",
+            "Linecolor": [
+                "#F0E68C",
+                "#87CEEB"
+            ],
+            "startPoint": [
+                41.9028,
+                12.4964
+            ],
+            "endPoint": [
+                45.4408,
+                12.3155
+            ],
+            "Card": {
+                "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/M%C3%B6we_Larus_cachinnans_1.jpg/220px-M%C3%B6we_Larus_cachinnans_1.jpg",
+                "title": "Martı",
+                "description": "Martılar, deniz kıyılarında ve şehirlerde yaşayan orta büyüklükteki deniz kuşlarıdır. Genellikle balıkla beslenirler.",
+                "Route": [
+                    "italy",
+                    "croatia"
+                ]
+            }
+        },
+        {
+            "Id": 8,
+            "Name": "Kartal",
+            "Linecolor": [
+                "#800000",
+                "#FFD700"
+            ],
+            "startPoint": [
+                53.3498,
+                -6.2603
+            ],
+            "endPoint": [
+                59.3293,
+                18.0686
+            ],
+            "Card": {
+                "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Golden_Eagle_in_flight_-_5.jpg/220px-Golden_Eagle_in_flight_-_5.jpg",
+                "title": "Kartal",
+                "description": "Kartallar, büyük etçil kuşlardır ve uzun mesafeleri kolaylıkla kat edebilirler. Genellikle yükseklerde yuvalanırlar.",
+                "Route": [
+                    "ireland",
+                    "sweden"
+                ]
+            }
+        },
+        {
+            "Id": 9,
+            "Name": "Leylek",
+            "Linecolor": [
+                "#000055",
+                "#AAAAff"
+            ],
+            "startPoint": [
+                48.8566,
+                2.3522
+            ],
+            "endPoint": [
+                51.5074,
+                -0.1278
+            ],
+            "Card": {
+                "image": "https://w7.pngwing.com/pngs/524/694/png-transparent-white-stork-icon-stork-animals-fauna-bird.png",
+                "title": "Leylek",
+                "description": "Leylekler, genellikle sıcak iklimlerde yaşarlar. Leyleklerin en bilinen özelliği, yuvalarını yüksek yerlere yapmalarıdır.",
+                "Route": [
+                    "france",
+                    "uk"
+                ]
+            }
+        },
+        {
+            "Id": 10,
+            "Name": "Turna",
+            "Linecolor": [
+                "#663399",
+                "#FFD700"
+            ],
+            "startPoint": [
+                51.1657,
+                10.4515
+            ],
+            "endPoint": [
+                41.9028,
+                12.4964
+            ],
+            "Card": {
+                "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Grus_grus_Sweden_2012.jpg/220px-Grus_grus_Sweden_2012.jpg",
+                "title": "Turna",
+                "description": "Turnalar, uzun bacakları ve boyunları ile bilinen büyük kuşlardır. Göç esnasında genellikle gruplar halinde uçarlar.",
+                "Route": [
+                    "germany",
+                    "italy"
                 ]
             }
         }
