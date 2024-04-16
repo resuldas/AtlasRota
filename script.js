@@ -34,6 +34,8 @@ fetch('https://raw.githubusercontent.com/Utku-Mese/AtlasRota/main/data.json')
             .pointsMerge(true);
 
 
+
+
         myGlobe.arcsData(birdsData);
 
 
@@ -62,3 +64,5 @@ fetch('https://raw.githubusercontent.com/Utku-Mese/AtlasRota/main/data.json')
     .catch(error => {
         console.error('Veri çekme hatası:', error);
     });
+
+

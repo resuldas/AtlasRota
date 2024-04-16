@@ -16,12 +16,18 @@
                 -122.4194
             ],
             "Card": {
-                "image": "https://raw.githubusercontent.com/Utku-Mese/LifeSync/main/assets/images/area1.png",
+                "image": "https://w7.pngwing.com/pngs/524/694/png-transparent-white-stork-icon-stork-animals-fauna-bird.png",
                 "title": "Leylek",
-                "description": "Leylekler, genellikle sıcak iklimlerde yaşarlar. Leyleklerin en bilinen özelliği, yuvalarını yüksek yerlere yapmalarıdır."
+                "description": "Leylekler, genellikle sıcak iklimlerde yaşarlar. Leyleklerin en bilinen özelliği, yuvalarını yüksek yerlere yapmalarıdır.",
+                "Route": [
+                    "italy",
+                    "france",
+                    "spain",
+                    "portugal",
+                    "usa"
+                ]
             }
         },
-
         {
             "Id": 2,
             "Name": "Kartal",
@@ -40,7 +46,14 @@
             "Card": {
                 "image": "https://raw.githubusercontent.com/Utku-Mese/LifeSync/main/assets/images/area2.png",
                 "title": "Kartal",
-                "description": "Kartallar, genellikle yüksek yerlerde yaşarlar. Kartalların en bilinen özelliği, avlarını yüksek yerlerden avlamalarıdır."
+                "description": "Kartallar, genellikle yüksek yerlerde yaşarlar. Kartalların en bilinen özelliği, avlarını yüksek yerlerden avlamalarıdır.",
+                "Route": [
+                    "usa",
+                    "italy",
+                    "france",
+                    "spain",
+                    "portugal"
+                ]
             }
         },
         {
@@ -61,7 +74,14 @@
             "Card": {
                 "image": "https://raw.githubusercontent.com/Utku-Mese/LifeSync/main/assets/images/area3.png",
                 "title": "Baykuş",
-                "description": "Baykuşlar, genellikle gece avlanan kuşlardır."
+                "description": "Baykuşlar, genellikle gece avlanan kuşlardır.",
+                "Route": [
+                    "usa",
+                    "italy",
+                    "france",
+                    "spain",
+                    "portugal"
+                ]
             }
         }
     ]
