@@ -1,6 +1,6 @@
 // Map data source: https://raw.githubusercontent.com/Utku-Mese/AtlasRota/main/data.json
 
-fetch('https://raw.githubusercontent.com/Utku-Mese/AtlasRota/main/data.json')
+fetch('https://raw.githubusercontent.com/Utku-Mese/AtlasRota/main/data/data.json')
     .then(response => response.json())
     .then(jsonData => {
         const birdsData = jsonData.Birds.map(bird => ({
