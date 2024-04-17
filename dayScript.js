@@ -85,3 +85,12 @@ cardName.textContent = "Leylek"
 var cardDescription = document.getElementById('description');
 cardDescription.textContent = "Leylekler, Ciconiidae familyasından büyük, uzun bacaklı, uzun boyunlu, genellikle beyaz tüyleri olan kuşlardır"
 
+function openNav() {
+    document.getElementById("mySidenav").style.width = "275px";
+    document.getElementById("drawerSpan").style.display = "none";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("drawerSpan").style.display = "block";
+}

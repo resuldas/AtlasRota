@@ -10,11 +10,32 @@
 
 <body>
     <div id="globeContainer">
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">Türleri Keşfet</a>
+            <a href="#">Tehlike Altındakiler</a>
+            <a href="#">Makaleler</a>
+            <a href="#">Blog</a>
+            <a href="#">Hakkımızda</a>
+        </div>
+        <span id="drawerSpan" onclick="openNav()">&#9776;
+        </span>
         <div id="switchContainer">
             <label class="switch">
                 <input type="checkbox" , id="daySwitch" , checked="true">
                 <span class="slider"></span>
             </label>
+        </div>
+        <div id="infoCard">
+            <div id="infoCardImage"></div>
+            <div id="infoCardName">
+                <p id="name"></p>
+            </div>
+            <div id="infoCardData">
+                <div id="infoCardDescription">
+                    <p id="description"></p>
+                </div>
+            </div>
         </div>
         <div id="globeViz"></div>
     </div>
