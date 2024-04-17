@@ -41,7 +41,7 @@ body {
     -webkit-transition: .4s;
     transition: .4s;
     border-radius: 20px;
-    background-image: url("assets/images/day.png");
+    background-image: url("../assets/images/switchButton/day.png");
     background-size: cover;
 }
 
@@ -57,7 +57,7 @@ body {
     -webkit-transition: .4s;
     transition: .4s;
     border-radius: 50%;
-    background-image: url("assets/images/sun.png");
+    background-image: url("../assets/images/switchButton/sun.png");
     background-size: cover;
 }
 
@@ -68,7 +68,7 @@ body {
 input:checked+.slider {
     /* switch içi checked=true hali */
     background-color: #0c3e5a;
-    background-image: url("assets/images/night.png");
+    background-image: url("../assets/images/switchButton/night.png");
     background-size: contain;
 }
 
@@ -81,7 +81,7 @@ input:checked+.slider:before {
     -webkit-transform: translateX(26px);
     -ms-transform: translateX(26px);
     transform: translateX(26px);
-    background-image: url("assets/images/moon.png");
+    background-image: url("../assets/images/switchButton/moon.png");
     background-size: cover;
 }
 
@@ -128,7 +128,7 @@ input:checked+.slider:before {
 #infoCardImage {
     width: 50%;
     height: 200px;
-    background-image: url("assets/images/leylek.png");
+    background-image: url("../assets/images/leylek.png");
     background-size: cover;
     background-position: relative;
     border-radius: 5px;
@@ -205,6 +205,12 @@ input:checked+.slider:before {
     z-index: 1000;
     color: rgb(181, 181, 181);
 }
+
+#drawerSpan:hover {
+    color: white;
+}
+
+
 
 @media screen and (max-height: 450px) {
     .sidenav {
