@@ -1,4 +1,8 @@
-// Map data source: https://raw.githubusercontent.com/Utku-Mese/AtlasRota/main/data.json
+const infoCard = document.getElementById('infoCard');
+//infoCard.style.backgroundColor = 'rgba(255, 255, 255, 0.8)';
+infoCard.style.visibility = 'hidden';
+let myGlobe;
+let isPlaying = true;
 
 fetch('https://raw.githubusercontent.com/Utku-Mese/AtlasRota/main/data/newData.json')
     .then(response => response.json())
@@ -17,11 +21,12 @@ fetch('https://raw.githubusercontent.com/Utku-Mese/AtlasRota/main/data/newData.j
             attackDuration: attack.attackDuration,
             attackVolume: attack.attackVolume,
             attackMethod: attack.attackMethod,
+            data: attack,
         }));
 
         console.log(attacksData);
 
-        const myGlobe = Globe()
+        myGlobe = Globe()
             (document.getElementById('globeViz'))
             /* .globeImageUrl('//unpkg.com/three-globe/example/img/earth-blue-marble.jpg') */
             .globeImageUrl('//unpkg.com/three-globe/example/img/earth-night.jpg')
@@ -34,7 +39,7 @@ fetch('https://raw.githubusercontent.com/Utku-Mese/AtlasRota/main/data/newData.j
             .arcEndLng(d => +d.endPoint.lng)
             .arcDashGap(1)
             .arcDashInitialGap(() => Math.random())
-            .arcDashAnimateTime(2000)
+            .arcDashAnimateTime(6000)
             .arcColor(d => d.lineColor)
             .arcsTransitionDuration(0)
             .pointColor(() => 'orange')
@@ -47,39 +52,45 @@ fetch('https://raw.githubusercontent.com/Utku-Mese/AtlasRota/main/data/newData.j
         myGlobe.controls().autoRotate = true;
         myGlobe.controls().autoRotateSpeed = 0.6;
 
-        // Card datas
-        const road = document.getElementById('road');
-        road.textContent = jsonData.attacks[0].attackers + " → " + jsonData.attacks[0].target;
 
-        const attackerName = document.getElementById('attacker');
-        attackerName.textContent = "Saldiran: " + jsonData.attacks[0].attackers;
+        myGlobe.onArcClick(arc => {
+            const arcData = arc.data;
 
-        const targetDescription = document.getElementById('target');
-        targetDescription.textContent = "Hedef: " + jsonData.attacks[0].target;
+            const road = document.getElementById('road');
+            road.textContent = arcData.attackers + " → " + arcData.target;
 
-        const attackDescription = document.getElementById('attackDescription');
-        attackDescription.textContent = jsonData.attacks[0].description;
+            const attackerName = document.getElementById('attacker');
+            attackerName.textContent = "Saldiran: " + arcData.attackers;
 
-        const attackType = document.getElementById('attackType');
-        attackType.textContent = "Atak Tipi: " + jsonData.attacks[0].attackType;
+            const targetDescription = document.getElementById('target');
+            targetDescription.textContent = "Hedef: " + arcData.target;
 
-        const attackTime = document.getElementById('attackTime');
-        attackTime.textContent = "Tarih: " + new Date(jsonData.attacks[0].time).toLocaleString('en-US', { timeZone: 'UTC' });
+            const attackDescription = document.getElementById('attackDescription');
+            attackDescription.textContent = arcData.description;
 
-        const attackStatus = document.getElementById('attackStatus');
-        attackStatus.textContent = "Statü: " + jsonData.attacks[0].status;
+            const attackType = document.getElementById('attackType');
+            attackType.textContent = "Atak Tipi: " + arcData.attackType;
 
-        const attackSeverity = document.getElementById('attackSeverity');
-        attackSeverity.textContent = "Şiddet: " + jsonData.attacks[0].severity;
+            const attackTime = document.getElementById('attackTime');
+            attackTime.textContent = "Tarih: " + new Date(arcData.time).toLocaleString('en-US', { timeZone: 'UTC' });
 
-        const attackDuration = document.getElementById('attackDuration');
-        attackDuration.textContent = "Süre: " + jsonData.attacks[0].attackDuration;
+            const attackStatus = document.getElementById('attackStatus');
+            attackStatus.textContent = "Statü: " + arcData.status;
 
-        const attackVolume = document.getElementById('attackVolume');
-        attackVolume.textContent = "Hacim: " + jsonData.attacks[0].attackVolume;
+            const attackSeverity = document.getElementById('attackSeverity');
+            attackSeverity.textContent = "Şiddet: " + arcData.severity;
 
-        const attackMethod = document.getElementById('attackMethod');
-        attackMethod.textContent = "Yöntem: " + jsonData.attacks[0].attackMethod;
+            const attackDuration = document.getElementById('attackDuration');
+            attackDuration.textContent = "Süre: " + arcData.attackDuration;
+
+            const attackVolume = document.getElementById('attackVolume');
+            attackVolume.textContent = "Hacim: " + arcData.attackVolume;
+
+            const attackMethod = document.getElementById('attackMethod');
+            attackMethod.textContent = "Yöntem: " + arcData.attackMethod;
+
+            infoCard.style.visibility = 'visible';
+        });
 
     })
     .catch(error => {
@@ -105,4 +116,18 @@ function openNav() {
 function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
     document.getElementById("drawerSpan").style.display = "block";
+}
+
+function pause() {
+    if (myGlobe) {
+        if (isPlaying) {
+            myGlobe.controls().autoRotate = false;
+            myGlobe.arcDashAnimateTime(0);
+            isPlaying = false;
+        } else {
+            myGlobe.controls().autoRotate = true;
+            myGlobe.arcDashAnimateTime(6000);
+            isPlaying = true;
+        }
+    }
 }

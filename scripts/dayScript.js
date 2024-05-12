@@ -1,3 +1,7 @@
+const infoCard = document.getElementById('infoCard');
+infoCard.style.visibility = 'hidden';
+let myGlobe;
+let isPlaying = true;
 
 fetch('https://raw.githubusercontent.com/Utku-Mese/AtlasRota/main/data/newData.json')
     .then(response => response.json())
@@ -16,16 +20,12 @@ fetch('https://raw.githubusercontent.com/Utku-Mese/AtlasRota/main/data/newData.j
             attackDuration: attack.attackDuration,
             attackVolume: attack.attackVolume,
             attackMethod: attack.attackMethod,
+            data: attack,
         }));
 
-        console.log(attacksData);
-
-
-
-        const myGlobe = Globe()
+        myGlobe = Globe()
             (document.getElementById('globeViz'))
             .globeImageUrl('//unpkg.com/three-globe/example/img/earth-blue-marble.jpg')
-            /* .globeImageUrl('//unpkg.com/three-globe/example/img/earth-night.jpg') */
             .backgroundImageUrl('//unpkg.com/three-globe/example/img/night-sky.png')
             .pointOfView({ lat: 39.9334, lng: 32.8597, altitude: 2 })
             .arcLabel(d => `${d.attackType} - ${d.status} - ${d.severity}`)
@@ -35,7 +35,7 @@ fetch('https://raw.githubusercontent.com/Utku-Mese/AtlasRota/main/data/newData.j
             .arcEndLng(d => +d.endPoint.lng)
             .arcDashGap(1)
             .arcDashInitialGap(() => Math.random())
-            .arcDashAnimateTime(2000)
+            .arcDashAnimateTime(6000)
             .arcColor(d => d.lineColor)
             .arcsTransitionDuration(0)
             .pointColor(() => 'orange')
@@ -43,55 +43,53 @@ fetch('https://raw.githubusercontent.com/Utku-Mese/AtlasRota/main/data/newData.j
             .pointRadius(0.02)
             .pointsMerge(true);
 
-
-
-
-
-
         myGlobe.arcsData(attacksData);
 
         myGlobe.controls().autoRotate = true;
         myGlobe.controls().autoRotateSpeed = 0.6;
 
-        // Card datas
-        const road = document.getElementById('road');
-        road.textContent = jsonData.attacks[0].attackers + " → " + jsonData.attacks[0].target;
+        myGlobe.onArcClick(arc => {
+            const arcData = arc.data;
 
-        const attackerName = document.getElementById('attacker');
-        attackerName.textContent = "Saldiran: " + jsonData.attacks[0].attackers;
+            const road = document.getElementById('road');
+            road.textContent = arcData.attackers + " → " + arcData.target;
 
-        const targetDescription = document.getElementById('target');
-        targetDescription.textContent = "Hedef: " + jsonData.attacks[0].target;
+            const attackerName = document.getElementById('attacker');
+            attackerName.textContent = "Saldiran: " + arcData.attackers;
 
-        const attackDescription = document.getElementById('attackDescription');
-        attackDescription.textContent = jsonData.attacks[0].description;
+            const targetDescription = document.getElementById('target');
+            targetDescription.textContent = "Hedef: " + arcData.target;
 
-        const attackType = document.getElementById('attackType');
-        attackType.textContent = "Atak Tipi: " + jsonData.attacks[0].attackType;
+            const attackDescription = document.getElementById('attackDescription');
+            attackDescription.textContent = arcData.description;
 
-        const attackTime = document.getElementById('attackTime');
-        attackTime.textContent = "Tarih: " + new Date(jsonData.attacks[0].time).toLocaleString('en-US', { timeZone: 'UTC' });
+            const attackType = document.getElementById('attackType');
+            attackType.textContent = "Atak Tipi: " + arcData.attackType;
 
-        const attackStatus = document.getElementById('attackStatus');
-        attackStatus.textContent = "Statü: " + jsonData.attacks[0].status;
+            const attackTime = document.getElementById('attackTime');
+            attackTime.textContent = "Tarih: " + new Date(arcData.time).toLocaleString('en-US', { timeZone: 'UTC' });
 
-        const attackSeverity = document.getElementById('attackSeverity');
-        attackSeverity.textContent = "Şiddet: " + jsonData.attacks[0].severity;
+            const attackStatus = document.getElementById('attackStatus');
+            attackStatus.textContent = "Statü: " + arcData.status;
 
-        const attackDuration = document.getElementById('attackDuration');
-        attackDuration.textContent = "Süre: " + jsonData.attacks[0].attackDuration;
+            const attackSeverity = document.getElementById('attackSeverity');
+            attackSeverity.textContent = "Şiddet: " + arcData.severity;
 
-        const attackVolume = document.getElementById('attackVolume');
-        attackVolume.textContent = "Hacim: " + jsonData.attacks[0].attackVolume;
+            const attackDuration = document.getElementById('attackDuration');
+            attackDuration.textContent = "Süre: " + arcData.attackDuration;
 
-        const attackMethod = document.getElementById('attackMethod');
-        attackMethod.textContent = "Yöntem: " + jsonData.attacks[0].attackMethod;
+            const attackVolume = document.getElementById('attackVolume');
+            attackVolume.textContent = "Hacim: " + arcData.attackVolume;
 
+            const attackMethod = document.getElementById('attackMethod');
+            attackMethod.textContent = "Yöntem: " + arcData.attackMethod;
+
+            infoCard.style.visibility = 'visible';
+        });
     })
     .catch(error => {
         console.error('Veri çekme hatası:', error);
     });
-
 
 var daySwitch = document.getElementById('daySwitch');
 
@@ -101,9 +99,7 @@ daySwitch.addEventListener('change', function () {
     } else {
         window.location.href = 'day.html';
     }
-})
-
-
+});
 
 function openNav() {
     document.getElementById("mySidenav").style.width = "275px";
@@ -113,4 +109,18 @@ function openNav() {
 function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
     document.getElementById("drawerSpan").style.display = "block";
+}
+
+function pause() {
+    if (myGlobe) {
+        if (isPlaying) {
+            myGlobe.controls().autoRotate = false;
+            myGlobe.arcDashAnimateTime(0);
+            isPlaying = false;
+        } else {
+            myGlobe.controls().autoRotate = true;
+            myGlobe.arcDashAnimateTime(6000);
+            isPlaying = true;
+        }
+    }
 }
