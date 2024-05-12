@@ -1,0 +1,214 @@
+{
+    "attacks": [
+        {
+            "Id": 1,
+            "startPoint": [
+                37.7749,
+                -122.4194
+            ],
+            "endPoint": [
+                37.3382,
+                -121.8863
+            ],
+            "time": "2024-01-01T08:00:00Z",
+            "status": "Active",
+            "severity": "High",
+            "description": "San Francisco'daki bir banka şubesine DDoS saldırısı",
+            "target": "San Francisco Bankası",
+            "attackers": "Anonim",
+            "attackType": "DDoS",
+            "attackDuration": "2 saat",
+            "attackVolume": "800 Gbps",
+            "attackMethod": "TCP SYN Flood"
+        },
+        {
+            "Id": 2,
+            "startPoint": [
+                34.0522,
+                -118.2437
+            ],
+            "endPoint": [
+                33.6846,
+                -117.8265
+            ],
+            "time": "2024-01-05T12:30:00Z",
+            "status": "Active",
+            "severity": "Critical",
+            "description": "Los Angeles'taki bir devlet kurumuna ransomware saldırısı",
+            "target": "Los Angeles Devlet Merkezi",
+            "attackers": "Bilinmiyor",
+            "attackType": "Ransomware",
+            "attackDuration": "5 saat",
+            "attackVolume": "15 TB",
+            "attackMethod": "E-posta Eki"
+        },
+        {
+            "Id": 3,
+            "startPoint": [
+                41.8781,
+                -87.6298
+            ],
+            "endPoint": [
+                40.7128,
+                -74.0060
+            ],
+            "time": "2024-01-10T15:45:00Z",
+            "status": "Active",
+            "severity": "High",
+            "description": "Chicago'daki bir teknoloji şirketine saldırı",
+            "target": "ChiTech",
+            "attackers": "DarkNet Collective",
+            "attackType": "SQL Injection",
+            "attackDuration": "3 saat",
+            "attackVolume": "N/A",
+            "attackMethod": "SQL Injection"
+        },
+        {
+            "Id": 4,
+            "startPoint": [
+                51.5074,
+                -0.1278
+            ],
+            "endPoint": [
+                48.8566,
+                2.3522
+            ],
+            "time": "2024-01-15T10:00:00Z",
+            "status": "Active",
+            "severity": "Medium",
+            "description": "Londra'daki bir hükümet kurumuna phishing saldırısı",
+            "target": "Londra Hükümet Merkezi",
+            "attackers": "Bilinmiyor",
+            "attackType": "Phishing",
+            "attackDuration": "2 saat",
+            "attackVolume": "N/A",
+            "attackMethod": "E-posta Yoluyla"
+        },
+        {
+            "Id": 5,
+            "startPoint": [
+                48.8566,
+                2.3522
+            ],
+            "endPoint": [
+                52.3676,
+                4.9041
+            ],
+            "time": "2024-01-20T09:30:00Z",
+            "status": "Active",
+            "severity": "High",
+            "description": "Paris'teki bir finans kuruluşuna DDoS saldırısı",
+            "target": "Paris Finans Bankası",
+            "attackers": "Anonim",
+            "attackType": "DDoS",
+            "attackDuration": "4 saat",
+            "attackVolume": "1.5 Tbps",
+            "attackMethod": "DNS Amplification"
+        },
+        {
+            "Id": 6,
+            "startPoint": [
+                35.6895,
+                139.6917
+            ],
+            "endPoint": [
+                40.7128,
+                -74.0060
+            ],
+            "time": "2024-01-25T14:15:00Z",
+            "status": "Active",
+            "severity": "Critical",
+            "description": "Tokyo'daki bir enerji şirketine fidye yazılımı saldırısı",
+            "target": "Tokyo Energy Inc.",
+            "attackers": "Blackhat Union",
+            "attackType": "Ransomware",
+            "attackDuration": "6 saat",
+            "attackVolume": "25 TB",
+            "attackMethod": "E-posta Eki"
+        },
+        {
+            "Id": 7,
+            "startPoint": [
+                40.7128,
+                -74.0060
+            ],
+            "endPoint": [
+                37.7749,
+                -122.4194
+            ],
+            "time": "2024-01-30T11:45:00Z",
+            "status": "Active",
+            "severity": "High",
+            "description": "New York'taki bir sağlık kuruluşuna fidye yazılımı saldırısı",
+            "target": "NYC Health Hospital",
+            "attackers": "DarkNet Collective",
+            "attackType": "Ransomware",
+            "attackDuration": "4 saat",
+            "attackVolume": "20 TB",
+            "attackMethod": "E-posta Yoluyla"
+        },
+        {
+            "Id": 8,
+            "startPoint": [
+                55.7558,
+                37.6176
+            ],
+            "endPoint": [
+                41.0082,
+                28.9784
+            ],
+            "time": "2024-02-05T13:30:00Z",
+            "status": "Active",
+            "severity": "Medium",
+            "description": "Moskova'daki bir telekom şirketine SQL Injection saldırısı",
+            "target": "Moskova TelCo",
+            "attackers": "Blackhat Union",
+            "attackType": "SQL Injection",
+            "attackDuration": "2 saat",
+            "attackVolume": "N/A",
+            "attackMethod": "SQL Injection"
+        },
+        {
+            "Id": 9,
+            "startPoint": [
+                37.7749,
+                -122.4194
+            ],
+            "endPoint": [
+                37.3382,
+                -121.8863
+            ],
+            "time": "2024-02-10T16:45:00Z",
+            "status": "Active",
+            "severity": "High",
+            "description": "San Francisco'daki bir e-ticaret sitesine DDoS saldırısı",
+            "target": "SF Retail",
+            "attackers": "Anonim",
+            "attackType": "DDoS",
+            "attackDuration": "3 saat",
+            "attackVolume": "1.2 Tbps",
+            "attackMethod": "SYN Flood"
+        },
+        {
+            "Id": 10,
+            "startPoint": [
+                37.7749,
+                -122.4194
+            ],
+            "endPoint": [
+                37.3382,
+                -121.8863
+            ],
+            "time": "2024-02-15T09:00:00Z",
+            "status": "Active",
+            "severity": "Critical",
+            "description": "San Francisco'daki bir sağlık kuruluşuna fidye yazılımı saldırısı",
+            "target": "SF Health Center",
+            "attackers": "Blackhat Union",
+            "attackType": "Ransomware",
+            "attackDuration": "5 saat",
+            "attackVolume": "18 TB",
+            "attackMethod": "E-posta Yoluyla"
+        }
+    ]
+}

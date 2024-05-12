@@ -1,6 +1,5 @@
-// Map data source: https://raw.githubusercontent.com/Utku-Mese/AtlasRota/main/data.json
 
-fetch('https://raw.githubusercontent.com/Utku-Mese/AtlasRota/main/data/data.json')
+fetch('https://raw.githubusercontent.com/Utku-Mese/AtlasRota/main/data/newData.json')
     .then(response => response.json())
     .then(jsonData => {
         const birdsData = jsonData.Birds.map(bird => ({
@@ -35,14 +34,12 @@ fetch('https://raw.githubusercontent.com/Utku-Mese/AtlasRota/main/data/data.json
 
 
 
-
-
         myGlobe.arcsData(birdsData);
 
         myGlobe.controls().autoRotate = true;
         myGlobe.controls().autoRotateSpeed = 0.6;
 
-        birdsData.forEach(bird => {
+        /* birdsData.forEach(bird => {
             bird.visitedPlaces.forEach((place, index) => {
                 if (index < bird.visitedPlaces.length - 1) {
                     myGlobe.arcsData([{
@@ -62,7 +59,7 @@ fetch('https://raw.githubusercontent.com/Utku-Mese/AtlasRota/main/data/data.json
                     }]);
                 }
             });
-        });
+        }); */
     })
     .catch(error => {
         console.error('Veri çekme hatası:', error);
