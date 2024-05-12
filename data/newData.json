@@ -419,6 +419,111 @@
             "attackDuration": "6 saat",
             "attackVolume": "28 TB",
             "attackMethod": "E-posta Eki"
+        },
+        {
+            "Id": 21,
+            "startPoint": [
+                40.7128,
+                -74.0060
+            ],
+            "endPoint": [
+                37.7749,
+                -122.4194
+            ],
+            "time": "2024-04-10T13:00:00Z",
+            "status": "Active",
+            "severity": "Low",
+            "description": "New York'taki bir kafe WiFi ağına yapılan phishing saldırısı",
+            "target": "NY Cafe",
+            "attackers": "Bilinmiyor",
+            "attackType": "Phishing",
+            "attackDuration": "1 saat",
+            "attackVolume": "N/A",
+            "attackMethod": "E-posta Yoluyla"
+        },
+        {
+            "Id": 22,
+            "startPoint": [
+                34.0522,
+                -118.2437
+            ],
+            "endPoint": [
+                34.0522,
+                -118.2437
+            ],
+            "time": "2024-04-15T14:30:00Z",
+            "status": "Active",
+            "severity": "Low",
+            "description": "Los Angeles'ta bir restoranın web sitesine yapılan SQL Injection saldırısı",
+            "target": "LA Restaurant",
+            "attackers": "Anonim",
+            "attackType": "SQL Injection",
+            "attackDuration": "1 saat",
+            "attackVolume": "N/A",
+            "attackMethod": "SQL Injection"
+        },
+        {
+            "Id": 23,
+            "startPoint": [
+                37.7749,
+                -122.4194
+            ],
+            "endPoint": [
+                51.5074,
+                -0.1278
+            ],
+            "time": "2024-04-20T10:45:00Z",
+            "status": "Active",
+            "severity": "Low",
+            "description": "San Francisco'daki bir otelin telefon ağına yapılan vishing saldırısı",
+            "target": "SF Hotel",
+            "attackers": "Grey Hat Group",
+            "attackType": "Vishing",
+            "attackDuration": "2 saat",
+            "attackVolume": "N/A",
+            "attackMethod": "Telefonla"
+        },
+        {
+            "Id": 24,
+            "startPoint": [
+                51.5074,
+                -0.1278
+            ],
+            "endPoint": [
+                41.8781,
+                -87.6298
+            ],
+            "time": "2024-04-25T11:30:00Z",
+            "status": "Active",
+            "severity": "Low",
+            "description": "Londra'daki bir okulun eğitim portalına yapılan XSS saldırısı",
+            "target": "London School",
+            "attackers": "Bilinmiyor",
+            "attackType": "XSS",
+            "attackDuration": "1 saat",
+            "attackVolume": "N/A",
+            "attackMethod": "Web Sitesi Üzerinden"
+        },
+        {
+            "Id": 25,
+            "startPoint": [
+                48.8566,
+                2.3522
+            ],
+            "endPoint": [
+                40.7128,
+                -74.0060
+            ],
+            "time": "2024-05-01T12:15:00Z",
+            "status": "Active",
+            "severity": "Low",
+            "description": "Paris'te bir marketin müşteri veritabanına yapılan SQL Injection saldırısı",
+            "target": "Paris Market",
+            "attackers": "Anonim",
+            "attackType": "SQL Injection",
+            "attackDuration": "1 saat",
+            "attackVolume": "N/A",
+            "attackMethod": "SQL Injection"
         }
     ]
 }

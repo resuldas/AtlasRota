@@ -53,27 +53,40 @@ fetch('https://raw.githubusercontent.com/Utku-Mese/AtlasRota/main/data/newData.j
         myGlobe.controls().autoRotate = true;
         myGlobe.controls().autoRotateSpeed = 0.6;
 
-        /* birdsData.forEach(bird => {
-            bird.visitedPlaces.forEach((place, index) => {
-                if (index < bird.visitedPlaces.length - 1) {
-                    myGlobe.arcsData([{
-                        name: `${bird.name} Visited Place ${index}`,
-                        lineColor: bird.lineColor,
-                        startPoint: { lat: place.lat, lng: place.lng },
-                        endPoint: { lat: bird.visitedPlaces[index + 1].lat, lng: bird.visitedPlaces[index + 1].lng },
-                        card: bird.card
-                    }]);
-                } else {
-                    myGlobe.arcsData([{
-                        name: `${bird.name} Last Visited Place`,
-                        lineColor: bird.lineColor,
-                        startPoint: { lat: place.lat, lng: place.lng },
-                        endPoint: { lat: bird.endPoint[0], lng: bird.endPoint[1] },
-                        card: bird.card
-                    }]);
-                }
-            });
-        }); */
+        // Card datas
+        const road = document.getElementById('road');
+        road.textContent = jsonData.attacks[0].attackers + " → " + jsonData.attacks[0].target;
+
+        const attackerName = document.getElementById('attacker');
+        attackerName.textContent = "Saldiran: " + jsonData.attacks[0].attackers;
+
+        const targetDescription = document.getElementById('target');
+        targetDescription.textContent = "Hedef: " + jsonData.attacks[0].target;
+
+        const attackDescription = document.getElementById('attackDescription');
+        attackDescription.textContent = jsonData.attacks[0].description;
+
+        const attackType = document.getElementById('attackType');
+        attackType.textContent = "Atak Tipi: " + jsonData.attacks[0].attackType;
+
+        const attackTime = document.getElementById('attackTime');
+        attackTime.textContent = "Tarih: " + new Date(jsonData.attacks[0].time).toLocaleString('en-US', { timeZone: 'UTC' });
+
+        const attackStatus = document.getElementById('attackStatus');
+        attackStatus.textContent = "Statü: " + jsonData.attacks[0].status;
+
+        const attackSeverity = document.getElementById('attackSeverity');
+        attackSeverity.textContent = "Şiddet: " + jsonData.attacks[0].severity;
+
+        const attackDuration = document.getElementById('attackDuration');
+        attackDuration.textContent = "Süre: " + jsonData.attacks[0].attackDuration;
+
+        const attackVolume = document.getElementById('attackVolume');
+        attackVolume.textContent = "Hacim: " + jsonData.attacks[0].attackVolume;
+
+        const attackMethod = document.getElementById('attackMethod');
+        attackMethod.textContent = "Yöntem: " + jsonData.attacks[0].attackMethod;
+
     })
     .catch(error => {
         console.error('Veri çekme hatası:', error);
@@ -90,11 +103,7 @@ daySwitch.addEventListener('change', function () {
     }
 })
 
-var cardName = document.getElementById('name');
-cardName.textContent = "Leylek"
 
-var cardDescription = document.getElementById('description');
-cardDescription.textContent = "Leylekler, Ciconiidae familyasından büyük, uzun bacaklı, uzun boyunlu, genellikle beyaz tüyleri olan kuşlardır"
 
 function openNav() {
     document.getElementById("mySidenav").style.width = "275px";
