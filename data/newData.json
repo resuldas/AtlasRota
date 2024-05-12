@@ -196,8 +196,8 @@
                 -122.4194
             ],
             "endPoint": [
-                37.3382,
-                -121.8863
+                37.7749,
+                -122.4195
             ],
             "time": "2024-02-15T09:00:00Z",
             "status": "Active",
@@ -209,6 +209,216 @@
             "attackDuration": "5 saat",
             "attackVolume": "18 TB",
             "attackMethod": "E-posta Yoluyla"
+        },
+        {
+            "Id": 11,
+            "startPoint": [
+                48.8566,
+                2.3522
+            ],
+            "endPoint": [
+                51.5074,
+                -0.1278
+            ],
+            "time": "2024-02-20T14:00:00Z",
+            "status": "Active",
+            "severity": "Medium",
+            "description": "Paris'teki bir banka şubesine phishing saldırısı",
+            "target": "Paris Bankası",
+            "attackers": "Grey Hat Group",
+            "attackType": "Phishing",
+            "attackDuration": "2 saat",
+            "attackVolume": "N/A",
+            "attackMethod": "E-posta Yoluyla"
+        },
+        {
+            "Id": 12,
+            "startPoint": [
+                51.5074,
+                -0.1278
+            ],
+            "endPoint": [
+                37.7749,
+                -122.4194
+            ],
+            "time": "2024-02-25T09:30:00Z",
+            "status": "Active",
+            "severity": "High",
+            "description": "Londra'daki bir hükümet kurumuna DDoS saldırısı",
+            "target": "Londra Hükümet Merkezi",
+            "attackers": "Anonymous",
+            "attackType": "DDoS",
+            "attackDuration": "3 saat",
+            "attackVolume": "900 Gbps",
+            "attackMethod": "UDP Flood"
+        },
+        {
+            "Id": 13,
+            "startPoint": [
+                40.7128,
+                -74.0060
+            ],
+            "endPoint": [
+                51.5074,
+                -0.1278
+            ],
+            "time": "2024-03-01T12:00:00Z",
+            "status": "Active",
+            "severity": "Critical",
+            "description": "New York'taki bir teknoloji şirketine fidye yazılımı saldırısı",
+            "target": "NYC Tech Solutions",
+            "attackers": "Blackhat Union",
+            "attackType": "Ransomware",
+            "attackDuration": "6 saat",
+            "attackVolume": "30 TB",
+            "attackMethod": "E-posta Eki"
+        },
+        {
+            "Id": 14,
+            "startPoint": [
+                37.7749,
+                -122.4194
+            ],
+            "endPoint": [
+                35.6895,
+                139.6917
+            ],
+            "time": "2024-03-05T15:45:00Z",
+            "status": "Active",
+            "severity": "High",
+            "description": "San Francisco'daki bir enerji şirketine fidye yazılımı saldırısı",
+            "target": "SF Energy Inc.",
+            "attackers": "Grey Hat Group",
+            "attackType": "Ransomware",
+            "attackDuration": "4 saat",
+            "attackVolume": "22 TB",
+            "attackMethod": "E-posta Yoluyla"
+        },
+        {
+            "Id": 15,
+            "startPoint": [
+                37.7749,
+                -122.4194
+            ],
+            "endPoint": [
+                48.8566,
+                2.3522
+            ],
+            "time": "2024-03-10T10:30:00Z",
+            "status": "Active",
+            "severity": "Medium",
+            "description": "San Francisco'daki bir üniversiteye SQL Injection saldırısı",
+            "target": "SF Üniversitesi",
+            "attackers": "Bilinmiyor",
+            "attackType": "SQL Injection",
+            "attackDuration": "2 saat",
+            "attackVolume": "N/A",
+            "attackMethod": "SQL Injection"
+        },
+        {
+            "Id": 16,
+            "startPoint": [
+                34.0522,
+                -118.2437
+            ],
+            "endPoint": [
+                40.7128,
+                -74.0060
+            ],
+            "time": "2024-03-15T14:15:00Z",
+            "status": "Active",
+            "severity": "High",
+            "description": "Los Angeles'taki bir sağlık kuruluşuna DDoS saldırısı",
+            "target": "LA Health Clinic",
+            "attackers": "Anonim",
+            "attackType": "DDoS",
+            "attackDuration": "4 saat",
+            "attackVolume": "1.8 Tbps",
+            "attackMethod": "DNS Amplification"
+        },
+        {
+            "Id": 17,
+            "startPoint": [
+                37.7749,
+                -122.4194
+            ],
+            "endPoint": [
+                41.0082,
+                28.9784
+            ],
+            "time": "2024-03-20T11:00:00Z",
+            "status": "Active",
+            "severity": "Critical",
+            "description": "San Francisco'daki bir banka şubesine ransomware saldırısı",
+            "target": "SF Bank",
+            "attackers": "DarkNet Collective",
+            "attackType": "Ransomware",
+            "attackDuration": "5 saat",
+            "attackVolume": "24 TB",
+            "attackMethod": "E-posta Eki"
+        },
+        {
+            "Id": 18,
+            "startPoint": [
+                51.5074,
+                -0.1278
+            ],
+            "endPoint": [
+                48.8566,
+                2.3522
+            ],
+            "time": "2024-03-25T09:45:00Z",
+            "status": "Active",
+            "severity": "High",
+            "description": "Londra'daki bir finans kuruluşuna DDoS saldırısı",
+            "target": "Londra Finans Bankası",
+            "attackers": "Anonymous",
+            "attackType": "DDoS",
+            "attackDuration": "3 saat",
+            "attackVolume": "1.2 Tbps",
+            "attackMethod": "SYN Flood"
+        },
+        {
+            "Id": 19,
+            "startPoint": [
+                41.8781,
+                -87.6298
+            ],
+            "endPoint": [
+                40.7128,
+                -74.0060
+            ],
+            "time": "2024-03-30T10:30:00Z",
+            "status": "Active",
+            "severity": "Medium",
+            "description": "Chicago'daki bir devlet kurumuna phishing saldırısı",
+            "target": "Chicago Devlet Merkezi",
+            "attackers": "Grey Hat Group",
+            "attackType": "Phishing",
+            "attackDuration": "2 saat",
+            "attackVolume": "N/A",
+            "attackMethod": "E-posta Yoluyla"
+        },
+        {
+            "Id": 20,
+            "startPoint": [
+                34.0522,
+                -118.2437
+            ],
+            "endPoint": [
+                37.7749,
+                -122.4194
+            ],
+            "time": "2024-04-05T11:15:00Z",
+            "status": "Active",
+            "severity": "Critical",
+            "description": "Los Angeles'taki bir e-ticaret sitesine ransomware saldırısı",
+            "target": "LA Retail",
+            "attackers": "DarkNet Collective",
+            "attackType": "Ransomware",
+            "attackDuration": "6 saat",
+            "attackVolume": "28 TB",
+            "attackMethod": "E-posta Eki"
         }
     ]
 }

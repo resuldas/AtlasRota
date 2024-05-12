@@ -2,14 +2,25 @@
 fetch('https://raw.githubusercontent.com/Utku-Mese/AtlasRota/main/data/newData.json')
     .then(response => response.json())
     .then(jsonData => {
-        const birdsData = jsonData.Birds.map(bird => ({
-            name: bird.Name,
-            lineColor: bird.Linecolor,
-            startPoint: { lat: bird.startPoint[0], lng: bird.startPoint[1] },
-            endPoint: { lat: bird.endPoint[0], lng: bird.endPoint[1] },
-            card: bird.Card,
-            visitedPlaces: bird.VisitedPlaces || []
+        const attacksData = jsonData.attacks.map(attack => ({
+            attackType: attack.attackType,
+            lineColor: attack.severity === 'Critical' ? '#7C0000' : attack.severity === 'High' ? '#FF0000' : attack.severity === 'Medium' ? '#FFA500' : '#00FF00',
+            startPoint: { lat: attack.startPoint[0], lng: attack.startPoint[1] },
+            endPoint: { lat: attack.endPoint[0], lng: attack.endPoint[1] },
+            time: new Date(attack.time).toLocaleString('en-US', { timeZone: 'UTC' }),
+            status: attack.status,
+            severity: attack.severity,
+            description: attack.description,
+            target: attack.target,
+            attackers: attack.attackers,
+            attackDuration: attack.attackDuration,
+            attackVolume: attack.attackVolume,
+            attackMethod: attack.attackMethod,
         }));
+
+        console.log(attacksData);
+
+
 
         const myGlobe = Globe()
             (document.getElementById('globeViz'))
@@ -17,11 +28,11 @@ fetch('https://raw.githubusercontent.com/Utku-Mese/AtlasRota/main/data/newData.j
             /* .globeImageUrl('//unpkg.com/three-globe/example/img/earth-night.jpg') */
             .backgroundImageUrl('//unpkg.com/three-globe/example/img/night-sky.png')
             .pointOfView({ lat: 39.9334, lng: 32.8597, altitude: 2 })
-            .arcLabel(d => `${d.name}`)
+            .arcLabel(d => `${d.attackType} - ${d.status} - ${d.severity}`)
             .arcStartLat(d => +d.startPoint.lat)
             .arcStartLng(d => +d.startPoint.lng)
-            .arcEndLat(d => +d.visitedPlaces[0]?.lat || d.endPoint.lat)
-            .arcEndLng(d => +d.visitedPlaces[0]?.lng || d.endPoint.lng)
+            .arcEndLat(d => +d.endPoint.lat)
+            .arcEndLng(d => +d.endPoint.lng)
             .arcDashGap(1)
             .arcDashInitialGap(() => Math.random())
             .arcDashAnimateTime(2000)
@@ -34,7 +45,10 @@ fetch('https://raw.githubusercontent.com/Utku-Mese/AtlasRota/main/data/newData.j
 
 
 
-        myGlobe.arcsData(birdsData);
+
+
+
+        myGlobe.arcsData(attacksData);
 
         myGlobe.controls().autoRotate = true;
         myGlobe.controls().autoRotateSpeed = 0.6;
