@@ -62,9 +62,9 @@
             "attackers": "DarkNet Collective",
             "attackType": "SQL Injection",
             "attackDuration": "3 hours",
-            "attackVolume": "N/A",
+            "attackVolume": "1.3 Tbps",
             "attackMethod": "SQL Injection",
-            "pop": 0
+            "pop": 1326597
         },
         {
             "Id": 4,
@@ -84,9 +84,9 @@
             "attackers": "Unknown",
             "attackType": "Phishing",
             "attackDuration": "2 hours",
-            "attackVolume": "N/A",
+            "attackVolume": "94 Gbps",
             "attackMethod": "Email",
-            "pop": 0
+            "pop": 93260
         },
         {
             "Id": 5,
@@ -172,7 +172,7 @@
             "attackers": "Blackhat Union",
             "attackType": "SQL Injection",
             "attackDuration": "2 hours",
-            "attackVolume": "N/A",
+            "attackVolume": "60 GB",
             "attackMethod": "SQL Injection",
             "pop": 0
         },
@@ -238,9 +238,9 @@
             "attackers": "Grey Hat Group",
             "attackType": "Phishing",
             "attackDuration": "2 hours",
-            "attackVolume": "N/A",
+            "attackVolume": "30 GB",
             "attackMethod": "Email",
-            "pop": 0
+            "pop": 30956
         },
         {
             "Id": 12,
@@ -326,9 +326,9 @@
             "attackers": "Unknown",
             "attackType": "SQL Injection",
             "attackDuration": "2 hours",
-            "attackVolume": "N/A",
+            "attackVolume": "6 TB",
             "attackMethod": "SQL Injection",
-            "pop": 0
+            "pop": 63948
         },
         {
             "Id": 16,
@@ -414,9 +414,9 @@
             "attackers": "Grey Hat Group",
             "attackType": "Phishing",
             "attackDuration": "2 hours",
-            "attackVolume": "N/A",
+            "attackVolume": "32 GB",
             "attackMethod": "Email",
-            "pop": 0
+            "pop": 32987
         },
         {
             "Id": 20,
@@ -458,9 +458,9 @@
             "attackers": "Unknown",
             "attackType": "Phishing",
             "attackDuration": "1 hour",
-            "attackVolume": "N/A",
+            "attackVolume": "9 TB",
             "attackMethod": "Email",
-            "pop": 0
+            "pop": 96135
         },
         {
             "Id": 22,
@@ -480,9 +480,9 @@
             "attackers": "Anonymous",
             "attackType": "SQL Injection",
             "attackDuration": "1 hour",
-            "attackVolume": "N/A",
+            "attackVolume": "1 TB",
             "attackMethod": "SQL Injection",
-            "pop": 0
+            "pop": 10235
         },
         {
             "Id": 23,
@@ -502,9 +502,9 @@
             "attackers": "Grey Hat Group",
             "attackType": "Vishing",
             "attackDuration": "2 hours",
-            "attackVolume": "N/A",
+            "attackVolume": "96 GBps",
             "attackMethod": "Phone",
-            "pop": 0
+            "pop": 963165
         },
         {
             "Id": 24,
@@ -524,9 +524,9 @@
             "attackers": "Unknown",
             "attackType": "XSS",
             "attackDuration": "1 hour",
-            "attackVolume": "N/A",
+            "attackVolume": "1.1 Tbps",
             "attackMethod": "Website",
-            "pop": 0
+            "pop": 1165498
         },
         {
             "Id": 25,
@@ -546,9 +546,9 @@
             "attackers": "Anonymous",
             "attackType": "SQL Injection",
             "attackDuration": "1 hour",
-            "attackVolume": "N/A",
+            "attackVolume": "15 TB",
             "attackMethod": "SQL Injection",
-            "pop": 0
+            "pop": 84415
         }
     ]
 }
