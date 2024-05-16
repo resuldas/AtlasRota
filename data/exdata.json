@@ -19,8 +19,7 @@
             "attackType": "DDoS",
             "attackDuration": "2 hours",
             "attackVolume": "800 Gbps",
-            "attackMethod": "TCP SYN Flood",
-            "pop": 819200
+            "attackMethod": "TCP SYN Flood"
         },
         {
             "Id": 2,
@@ -41,8 +40,7 @@
             "attackType": "Ransomware",
             "attackDuration": "5 hours",
             "attackVolume": "15 TB",
-            "attackMethod": "Email Attachment",
-            "pop": 15360
+            "attackMethod": "Email Attachment"
         },
         {
             "Id": 3,
@@ -52,7 +50,7 @@
             ],
             "endPoint": [
                 40.7128,
-                -74.006
+                -74.0060
             ],
             "time": "2024-01-10T15:45:00Z",
             "status": "Active",
@@ -63,8 +61,7 @@
             "attackType": "SQL Injection",
             "attackDuration": "3 hours",
             "attackVolume": "N/A",
-            "attackMethod": "SQL Injection",
-            "pop": 0
+            "attackMethod": "SQL Injection"
         },
         {
             "Id": 4,
@@ -85,8 +82,7 @@
             "attackType": "Phishing",
             "attackDuration": "2 hours",
             "attackVolume": "N/A",
-            "attackMethod": "Email",
-            "pop": 0
+            "attackMethod": "Email"
         },
         {
             "Id": 5,
@@ -107,8 +103,7 @@
             "attackType": "DDoS",
             "attackDuration": "4 hours",
             "attackVolume": "1.5 Tbps",
-            "attackMethod": "DNS Amplification",
-            "pop": 1536000
+            "attackMethod": "DNS Amplification"
         },
         {
             "Id": 6,
@@ -118,7 +113,7 @@
             ],
             "endPoint": [
                 40.7128,
-                -74.006
+                -74.0060
             ],
             "time": "2024-01-25T14:15:00Z",
             "status": "Active",
@@ -129,14 +124,13 @@
             "attackType": "Ransomware",
             "attackDuration": "6 hours",
             "attackVolume": "25 TB",
-            "attackMethod": "Email Attachment",
-            "pop": 25600
+            "attackMethod": "Email Attachment"
         },
         {
             "Id": 7,
             "startPoint": [
                 40.7128,
-                -74.006
+                -74.0060
             ],
             "endPoint": [
                 37.7749,
@@ -151,8 +145,7 @@
             "attackType": "Ransomware",
             "attackDuration": "4 hours",
             "attackVolume": "20 TB",
-            "attackMethod": "Email",
-            "pop": 20480
+            "attackMethod": "Email"
         },
         {
             "Id": 8,
@@ -173,8 +166,7 @@
             "attackType": "SQL Injection",
             "attackDuration": "2 hours",
             "attackVolume": "N/A",
-            "attackMethod": "SQL Injection",
-            "pop": 0
+            "attackMethod": "SQL Injection"
         },
         {
             "Id": 9,
@@ -195,8 +187,7 @@
             "attackType": "DDoS",
             "attackDuration": "3 hours",
             "attackVolume": "1.2 Tbps",
-            "attackMethod": "SYN Flood",
-            "pop": 1228800
+            "attackMethod": "SYN Flood"
         },
         {
             "Id": 10,
@@ -217,8 +208,7 @@
             "attackType": "Ransomware",
             "attackDuration": "5 hours",
             "attackVolume": "18 TB",
-            "attackMethod": "Email",
-            "pop": 18432
+            "attackMethod": "Email"
         },
         {
             "Id": 11,
@@ -239,8 +229,7 @@
             "attackType": "Phishing",
             "attackDuration": "2 hours",
             "attackVolume": "N/A",
-            "attackMethod": "Email",
-            "pop": 0
+            "attackMethod": "Email"
         },
         {
             "Id": 12,
@@ -261,14 +250,13 @@
             "attackType": "DDoS",
             "attackDuration": "3 hours",
             "attackVolume": "900 Gbps",
-            "attackMethod": "UDP Flood",
-            "pop": 921600
+            "attackMethod": "UDP Flood"
         },
         {
             "Id": 13,
             "startPoint": [
                 40.7128,
-                -74.006
+                -74.0060
             ],
             "endPoint": [
                 51.5074,
@@ -283,8 +271,7 @@
             "attackType": "Ransomware",
             "attackDuration": "6 hours",
             "attackVolume": "30 TB",
-            "attackMethod": "Email Attachment",
-            "pop": 30720
+            "attackMethod": "Email Attachment"
         },
         {
             "Id": 14,
@@ -305,8 +292,7 @@
             "attackType": "Ransomware",
             "attackDuration": "4 hours",
             "attackVolume": "22 TB",
-            "attackMethod": "Email",
-            "pop": 22528
+            "attackMethod": "Email"
         },
         {
             "Id": 15,
@@ -327,8 +313,7 @@
             "attackType": "SQL Injection",
             "attackDuration": "2 hours",
             "attackVolume": "N/A",
-            "attackMethod": "SQL Injection",
-            "pop": 0
+            "attackMethod": "SQL Injection"
         },
         {
             "Id": 16,
@@ -338,7 +323,7 @@
             ],
             "endPoint": [
                 40.7128,
-                -74.006
+                -74.0060
             ],
             "time": "2024-03-15T14:15:00Z",
             "status": "Active",
@@ -349,8 +334,7 @@
             "attackType": "DDoS",
             "attackDuration": "4 hours",
             "attackVolume": "1.8 Tbps",
-            "attackMethod": "DNS Amplification",
-            "pop": 1843200
+            "attackMethod": "DNS Amplification"
         },
         {
             "Id": 17,
@@ -371,8 +355,7 @@
             "attackType": "Ransomware",
             "attackDuration": "5 hours",
             "attackVolume": "24 TB",
-            "attackMethod": "Email",
-            "pop": 24576
+            "attackMethod": "Email"
         },
         {
             "Id": 18,
@@ -393,8 +376,7 @@
             "attackType": "DDoS",
             "attackDuration": "3 hours",
             "attackVolume": "1.2 Tbps",
-            "attackMethod": "SYN Flood",
-            "pop": 1228800
+            "attackMethod": "SYN Flood"
         },
         {
             "Id": 19,
@@ -404,7 +386,7 @@
             ],
             "endPoint": [
                 40.7128,
-                -74.006
+                -74.0060
             ],
             "time": "2024-03-30T10:30:00Z",
             "status": "Active",
@@ -415,8 +397,7 @@
             "attackType": "Phishing",
             "attackDuration": "2 hours",
             "attackVolume": "N/A",
-            "attackMethod": "Email",
-            "pop": 0
+            "attackMethod": "Email"
         },
         {
             "Id": 20,
@@ -437,14 +418,13 @@
             "attackType": "Ransomware",
             "attackDuration": "6 hours",
             "attackVolume": "28 TB",
-            "attackMethod": "Email",
-            "pop": 28672
+            "attackMethod": "Email"
         },
         {
             "Id": 21,
             "startPoint": [
                 40.7128,
-                -74.006
+                -74.0060
             ],
             "endPoint": [
                 37.7749,
@@ -459,8 +439,7 @@
             "attackType": "Phishing",
             "attackDuration": "1 hour",
             "attackVolume": "N/A",
-            "attackMethod": "Email",
-            "pop": 0
+            "attackMethod": "Email"
         },
         {
             "Id": 22,
@@ -481,8 +460,7 @@
             "attackType": "SQL Injection",
             "attackDuration": "1 hour",
             "attackVolume": "N/A",
-            "attackMethod": "SQL Injection",
-            "pop": 0
+            "attackMethod": "SQL Injection"
         },
         {
             "Id": 23,
@@ -503,8 +481,7 @@
             "attackType": "Vishing",
             "attackDuration": "2 hours",
             "attackVolume": "N/A",
-            "attackMethod": "Phone",
-            "pop": 0
+            "attackMethod": "Phone"
         },
         {
             "Id": 24,
@@ -525,8 +502,7 @@
             "attackType": "XSS",
             "attackDuration": "1 hour",
             "attackVolume": "N/A",
-            "attackMethod": "Website",
-            "pop": 0
+            "attackMethod": "Website"
         },
         {
             "Id": 25,
@@ -536,7 +512,7 @@
             ],
             "endPoint": [
                 40.7128,
-                -74.006
+                -74.0060
             ],
             "time": "2024-05-01T12:15:00Z",
             "status": "Active",
@@ -547,8 +523,7 @@
             "attackType": "SQL Injection",
             "attackDuration": "1 hour",
             "attackVolume": "N/A",
-            "attackMethod": "SQL Injection",
-            "pop": 0
+            "attackMethod": "SQL Injection"
         }
     ]
 }
