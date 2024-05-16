@@ -60,34 +60,34 @@ fetch('https://raw.githubusercontent.com/Utku-Mese/AtlasRota/main/data/newData.j
             road.textContent = arcData.attackers + " → " + arcData.target;
 
             const attackerName = document.getElementById('attacker');
-            attackerName.textContent = "Saldiran: " + arcData.attackers;
+            attackerName.textContent = "Attacker: " + arcData.attackers;
 
             const targetDescription = document.getElementById('target');
-            targetDescription.textContent = "Hedef: " + arcData.target;
+            targetDescription.textContent = "Target: " + arcData.target;
 
             const attackDescription = document.getElementById('attackDescription');
             attackDescription.textContent = arcData.description;
 
             const attackType = document.getElementById('attackType');
-            attackType.textContent = "Atak Tipi: " + arcData.attackType;
+            attackType.textContent = "Attack Type: " + arcData.attackType;
 
             const attackTime = document.getElementById('attackTime');
-            attackTime.textContent = "Tarih: " + new Date(arcData.time).toLocaleString('en-US', { timeZone: 'UTC' });
+            attackTime.textContent = "Date: " + new Date(arcData.time).toLocaleString('en-US', { timeZone: 'UTC' });
 
             const attackStatus = document.getElementById('attackStatus');
-            attackStatus.textContent = "Statü: " + arcData.status;
+            attackStatus.textContent = "Status: " + arcData.status;
 
             const attackSeverity = document.getElementById('attackSeverity');
-            attackSeverity.textContent = "Şiddet: " + arcData.severity;
+            attackSeverity.textContent = "Severity: " + arcData.severity;
 
             const attackDuration = document.getElementById('attackDuration');
-            attackDuration.textContent = "Süre: " + arcData.attackDuration;
+            attackDuration.textContent = "Duration: " + arcData.attackDuration;
 
             const attackVolume = document.getElementById('attackVolume');
-            attackVolume.textContent = "Hacim: " + arcData.attackVolume;
+            attackVolume.textContent = "Volume: " + arcData.attackVolume;
 
             const attackMethod = document.getElementById('attackMethod');
-            attackMethod.textContent = "Yöntem: " + arcData.attackMethod;
+            attackMethod.textContent = "Method: " + arcData.attackMethod;
 
             infoCard.style.visibility = 'visible';
         });
@@ -111,12 +111,15 @@ daySwitch.addEventListener('change', function () {
 function openNav() {
     document.getElementById("mySidenav").style.width = "275px";
     document.getElementById("drawerSpan").style.display = "none";
+    document.getElementById("pauseButton").style.visibility = "hidden";
 }
 
 function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
     document.getElementById("drawerSpan").style.display = "block";
+    document.getElementById("pauseButton").style.visibility = "visible";
 }
+
 
 function pause() {
     if (myGlobe) {
