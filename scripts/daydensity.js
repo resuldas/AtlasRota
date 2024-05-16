@@ -20,7 +20,7 @@ fetch('https://raw.githubusercontent.com/Utku-Mese/AtlasRota/main/data/newData.j
             attackVolume: attack.attackVolume,
             lat: attack.endPoint[0],
             lng: attack.endPoint[1],
-            pop: attack.pop 
+            pop: attack.pop * 50
         }));
 
         const weightColor = d3.scaleSequentialSqrt(d3.interpolateYlOrRd)
