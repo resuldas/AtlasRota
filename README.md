@@ -64,6 +64,8 @@ Projeyi yüklemek ve çalıştırmak için şu adımları izleyin:
 
 Bu proje [MIT Lisansı](/LICENSE) kapsamında lisanslanmıştır.
 
+### Tasarlayan ve geliştirenler; [Mehmet Utku Meşe](https://www.linkedin.com/in/mehmet-utku-mese/), [Hilal Davas](https://www.linkedin.com/in/hilaldavas/?locale=tr_TR), [Ceren Aydın](https://www.linkedin.com/in/ceren-ayd%C4%B1n-538067234/).
+
 
 <br>
 <hr>
@@ -128,5 +130,7 @@ To install and run the project locally, follow these steps:
 ## License
 
 This project is licensed under the [MIT License](/LICENSE).
+
+### Designed and developed with by [Mehmet Utku Meşe](https://www.linkedin.com/in/mehmet-utku-mese/), [Hilal Davas](https://www.linkedin.com/in/hilaldavas/?locale=tr_TR), [Ceren Aydın](https://www.linkedin.com/in/ceren-ayd%C4%B1n-538067234/).
 
 
