@@ -28,7 +28,7 @@ fetch('https://raw.githubusercontent.com/Utku-Mese/AtlasRota/main/data/newData.j
 
         const world = Globe()
             (document.getElementById('globeViz'))
-            .globeImageUrl('//unpkg.com/three-globe/example/img/earth-blue-marble.jpg')
+            .globeImageUrl('//unpkg.com/three-globe/example/img/earth-night.jpg')
             .bumpImageUrl('//unpkg.com/three-globe/example/img/earth-topology.png')
             .backgroundImageUrl('//unpkg.com/three-globe/example/img/night-sky.png')
             .hexBinPointWeight('pop')
@@ -47,14 +47,14 @@ fetch('https://raw.githubusercontent.com/Utku-Mese/AtlasRota/main/data/newData.j
 
     })
 
+
 var daySwitch = document.getElementById('daySwitch');
 
 daySwitch.addEventListener('change', function () {
     if (daySwitch.checked) {
-        window.location.href = 'nightDensity.html';
+        window.location.href = 'night.html';
+        daySwitch.style.backgroundImage = "url('assets/images/sun.png')";
     } else {
-        window.location.href = 'nightdensity.html';
+        window.location.href = 'day.html';
     }
-});
-
-
+})

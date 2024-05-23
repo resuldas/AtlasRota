@@ -120,7 +120,7 @@ function pause() {
             myGlobe.arcDashAnimateTime(0);
             isPlaying = false;
         } else {
-            myGlobe.controls().autoRotate = true;S
+            myGlobe.controls().autoRotate = true; S
             myGlobe.arcDashAnimateTime(6000);
             isPlaying = true;
         }
