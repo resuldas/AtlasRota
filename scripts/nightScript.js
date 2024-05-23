@@ -4,7 +4,7 @@ infoCard.style.visibility = 'hidden';
 let myGlobe;
 let isPlaying = true;
 
-fetch('https://raw.githubusercontent.com/Utku-Mese/AtlasRota/main/data/newData.json')
+fetch('../data/newData.json')
     .then(response => response.json())
     .then(jsonData => {
         const attacksData = jsonData.attacks.map(attack => ({
