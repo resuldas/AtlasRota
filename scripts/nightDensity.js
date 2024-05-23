@@ -38,8 +38,8 @@ fetch('https://raw.githubusercontent.com/Utku-Mese/AtlasRota/main/data/newData.j
             .hexTopColor(d => weightColor(d.sumWeight))
             .hexSideColor(d => weightColor(d.sumWeight))
             .hexBinMerge(true)
-            .enablePointerInteraction(false); // performance improvement
-
+            .enablePointerInteraction(false); 
+            
         world.hexBinPointsData(attacksData);
         world.controls().autoRotate = true;
         world.controls().autoRotateSpeed = 0.6;
@@ -52,9 +52,9 @@ var daySwitch = document.getElementById('daySwitch');
 
 daySwitch.addEventListener('change', function () {
     if (daySwitch.checked) {
-        window.location.href = 'night.html';
+        window.location.href = 'nightDensity.html';
         daySwitch.style.backgroundImage = "url('assets/images/sun.png')";
     } else {
-        window.location.href = 'day.html';
+        window.location.href = 'dayDensity.html';
     }
 })

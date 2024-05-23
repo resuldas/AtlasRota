@@ -86,10 +86,99 @@ fetch('https://raw.githubusercontent.com/Utku-Mese/AtlasRota/main/data/newData.j
 
             infoCard.style.visibility = 'visible';
         });
+
+        populateAttackList(attacksData);
     })
     .catch(error => {
-        console.error('Veri çekme hatası:', error);
+        console.error('Data fetch error:', error);
     });
+
+function populateAttackList(attacksData) {
+    const attackList = document.getElementById('attackList');
+    attackList.innerHTML = '';
+
+    attacksData.forEach(attack => {
+        const attackItem = document.createElement('div');
+        attackItem.className = 'attackItem';
+        attackItem.innerHTML = `
+            <p><strong>${attack.attackType}</strong></p>
+            <p>Attacker: ${attack.attackers}</p>
+            <p>Target: ${attack.target}</p>
+            <p>Severity: ${attack.severity}</p>
+        `;
+
+        attackItem.addEventListener('click', () => {
+            myGlobe.pointOfView({
+                lat: (attack.startPoint.lat + attack.endPoint.lat) / 2,
+                lng: (attack.startPoint.lng + attack.endPoint.lng) / 2,
+                altitude: 1.5
+            }, 1000);
+            displayAttackInfo(attack);
+        });
+
+        attackList.appendChild(attackItem);
+    });
+
+
+    startAutoScroll();
+}
+
+function startAutoScroll() {
+    const attackList = document.getElementById('attackList');
+    const attackItemHeight = attackList.children[0].offsetHeight;
+    const totalHeight = attackItemHeight * attackList.children.length;
+    const visibleHeight = document.getElementById('attackListContainer').offsetHeight;
+    const scrollAmount = totalHeight - visibleHeight;
+
+    if (totalHeight > visibleHeight) {
+        attackList.style.top = `0px`;
+        attackList.classList.remove('auto-scroll');
+
+
+        void attackList.offsetWidth;
+
+        attackList.style.top = `0px`;
+        attackList.classList.add('auto-scroll');
+        attackList.style.animationDuration = `${(totalHeight / attackItemHeight) * 5}s`;
+    }
+}
+
+function displayAttackInfo(arcData) {
+    const road = document.getElementById('road');
+    road.textContent = arcData.attackers + " → " + arcData.target;
+
+    const attackerName = document.getElementById('attacker');
+    attackerName.textContent = "Attacker: " + arcData.attackers;
+
+    const targetDescription = document.getElementById('target');
+    targetDescription.textContent = "Target: " + arcData.target;
+
+    const attackDescription = document.getElementById('attackDescription');
+    attackDescription.textContent = arcData.description;
+
+    const attackType = document.getElementById('attackType');
+    attackType.textContent = "Attack Type: " + arcData.attackType;
+
+    const attackTime = document.getElementById('attackTime');
+    attackTime.textContent = "Date: " + new Date(arcData.time).toLocaleString('en-US', { timeZone: 'UTC' });
+
+    const attackStatus = document.getElementById('attackStatus');
+    attackStatus.textContent = "Status: " + arcData.status;
+
+    const attackSeverity = document.getElementById('attackSeverity');
+    attackSeverity.textContent = "Severity: " + arcData.severity;
+
+    const attackDuration = document.getElementById('attackDuration');
+    attackDuration.textContent = "Duration: " + arcData.attackDuration;
+
+    const attackVolume = document.getElementById('attackVolume');
+    attackVolume.textContent = "Volume: " + arcData.attackVolume;
+
+    const attackMethod = document.getElementById('attackMethod');
+    attackMethod.textContent = "Method: " + arcData.attackMethod;
+
+    infoCard.style.visibility = 'visible';
+}
 
 var daySwitch = document.getElementById('daySwitch');
 
@@ -120,7 +209,7 @@ function pause() {
             myGlobe.arcDashAnimateTime(0);
             isPlaying = false;
         } else {
-            myGlobe.controls().autoRotate = true; S
+            myGlobe.controls().autoRotate = true;
             myGlobe.arcDashAnimateTime(6000);
             isPlaying = true;
         }

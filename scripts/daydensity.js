@@ -53,7 +53,7 @@ daySwitch.addEventListener('change', function () {
     if (daySwitch.checked) {
         window.location.href = 'nightDensity.html';
     } else {
-        window.location.href = 'nightdensity.html';
+        window.location.href = 'dayDensity.html';
     }
 });
 

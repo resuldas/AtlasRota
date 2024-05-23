@@ -20,12 +20,10 @@
             <a href="https://www.bbc.com/turkce/topics/cdr56v87v05t" target="_blank">News</a>
             <a href="aboutUs.html">About Us</a>
         </div>
-        <span id="drawerSpan" onclick="openNav()">&#9776;
-        </span>
+        <span id="drawerSpan" onclick="openNav()">&#9776;</span>
         <div id="switchContainer">
             <label class="switch">
-
-                <input type="checkbox" , id="daySwitch">
+                <input type="checkbox" id="daySwitch">
                 <span class="slider"></span>
             </label>
         </div>
@@ -37,7 +35,7 @@
             </div>
         </div>
         <div id="pauseButton">
-            <img class="pause" src="../assets/images/pause.png" width="40px" height="40px" alt=" pause"
+            <img class="pause" src="../assets/images/pause.png" width="40px" height="40px" alt="pause"
                 onclick="pause()">
         </div>
         <div id="infoCard">
@@ -80,8 +78,11 @@
                 </div>
             </div>
         </div>
-
+        <div id="attackListContainer" class="attackListContainer">
+            <div id="attackList" class="attackList"></div>
+        </div>
         <div id="globeViz"></div>
+
     </div>
     <script src="//unpkg.com/d3-dsv"></script>
     <script src="//unpkg.com/index-array-by"></script>
