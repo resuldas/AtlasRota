@@ -433,9 +433,12 @@ input:checked+.slider:before {
     color: #cccccc;
 }
 
-.item.active, .item a.active {
-    color: #333333; /* Koyu gri */
-    background-color: #1c1c1c; /* Koyu siyah */
+.item.active,
+.item a.active {
+    color: #333333;
+    /* Koyu gri */
+    background-color: #1c1c1c;
+    /* Koyu siyah */
 }
 
 #logo {
