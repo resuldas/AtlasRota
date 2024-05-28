@@ -15,8 +15,12 @@
     <a href="https://cyware.com/cyber-security-news-articles" target="_blank">Articles</a>
     <a href="https://www.bbc.com/turkce/topics/cdr56v87v05t" target="_blank">News</a>
     <a href="aboutUs.html">About Us</a>
-</div>
-<span id="drawerSpan" onclick="openNav()">&#9776;</span>
+
+  </div>
+
+  </div>
+  <span id="drawerSpan" onclick="openNav()">&#9776;</span>
+
   <div id="switchContainer">
     <label class="switch">
 
@@ -24,16 +28,18 @@
       <span class="slider"></span>
     </label>
   </div>
-  <div id="graf-dropdown" >
+  <div id="graf-dropdown">
     <button class="dropbtn">Graphics</button>
     <div class="dropdown-content">
-        <a href="#">Graf</a>
-        <a href="dayDensity.html">Density</a>
+      <a href="day.html">Graf</a>
+      <a href="#">Density</a>
     </div>
   </div>
   <div id="pauseButton">
-    <img class="pause" src="../assets/images/pause.png" width="40px" height="40px" alt="pause"
-        onclick="pause()">
+    <img class="pause" src="../assets/images/pause.png" width="40px" height="40px" alt="pause" onclick="pause()">
+  </div>
+  <div id="attackListContainer" class="attackListContainer">
+    <div id="attackList" class="attackList"></div>
   </div>
   <div id="globeViz"></div>
   <script src="../scripts/dayDensity.js"></script>

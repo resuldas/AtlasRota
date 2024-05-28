@@ -52,6 +52,8 @@ fetch('../data/newData.json')
         myGlobe.controls().autoRotate = true;
         myGlobe.controls().autoRotateSpeed = 0.6;
 
+        populateAttackList(attacksData);
+
 
         myGlobe.onArcClick(arc => {
             const arcData = arc.data;
@@ -132,5 +134,55 @@ function pause() {
             myGlobe.arcDashAnimateTime(6000);
             isPlaying = true;
         }
+    }
+}
+
+function populateAttackList(attacksData) {
+    const attackList = document.getElementById('attackList');
+    attackList.innerHTML = '';
+
+    attacksData.forEach(attack => {
+        const attackItem = document.createElement('div');
+        attackItem.className = 'attackItem';
+        attackItem.innerHTML = `
+            <p><strong>${attack.attackType}</strong></p>
+            <p>Attacker: ${attack.attackers}</p>
+            <p>Target: ${attack.target}</p>
+            <p>Severity: ${attack.severity}</p>
+        `;
+
+        attackItem.addEventListener('click', () => {
+            myGlobe.pointOfView({
+                lat: (attack.startPoint.lat + attack.endPoint.lat) / 2,
+                lng: (attack.startPoint.lng + attack.endPoint.lng) / 2,
+                altitude: 1.5
+            }, 1000);
+            displayAttackInfo(attack);
+        });
+
+        attackList.appendChild(attackItem);
+    });
+
+
+    startAutoScroll();
+}
+
+function startAutoScroll() {
+    const attackList = document.getElementById('attackList');
+    const attackItemHeight = attackList.children[0].offsetHeight;
+    const totalHeight = attackItemHeight * attackList.children.length;
+    const visibleHeight = document.getElementById('attackListContainer').offsetHeight;
+    const scrollAmount = totalHeight - visibleHeight;
+
+    if (totalHeight > visibleHeight) {
+        attackList.style.top = `0px`;
+        attackList.classList.remove('auto-scroll');
+
+
+        void attackList.offsetWidth;
+
+        attackList.style.top = `0px`;
+        attackList.classList.add('auto-scroll');
+        attackList.style.animationDuration = `${(totalHeight / attackItemHeight) * 5}s`;
     }
 }
