@@ -18,9 +18,9 @@
             "attackers": "Anonymous",
             "attackType": "DDoS",
             "attackDuration": "2 hours",
-            "attackVolume": "800 Gbps",
+            "attackVolume": "100 GB",
             "attackMethod": "TCP SYN Flood",
-            "pop": 819200
+            "pop": 102400
         },
         {
             "Id": 2,
@@ -40,7 +40,7 @@
             "attackers": "Unknown",
             "attackType": "Ransomware",
             "attackDuration": "5 hours",
-            "attackVolume": "15 TB",
+            "attackVolume": "15 GB",
             "attackMethod": "Email Attachment",
             "pop": 15360
         },
@@ -62,9 +62,9 @@
             "attackers": "DarkNet Collective",
             "attackType": "SQL Injection",
             "attackDuration": "3 hours",
-            "attackVolume": "1.3 Tbps",
+            "attackVolume": "121 GB",
             "attackMethod": "SQL Injection",
-            "pop": 1326597
+            "pop": 123904
         },
         {
             "Id": 4,
@@ -84,9 +84,9 @@
             "attackers": "Unknown",
             "attackType": "Phishing",
             "attackDuration": "2 hours",
-            "attackVolume": "94 Gbps",
+            "attackVolume": "12 GB",
             "attackMethod": "Email",
-            "pop": 93260
+            "pop": 12288
         },
         {
             "Id": 5,
@@ -106,9 +106,9 @@
             "attackers": "Anonymous",
             "attackType": "DDoS",
             "attackDuration": "4 hours",
-            "attackVolume": "1.5 Tbps",
+            "attackVolume": "18 GB",
             "attackMethod": "DNS Amplification",
-            "pop": 1536000
+            "pop": 18432
         },
         {
             "Id": 6,
@@ -128,7 +128,7 @@
             "attackers": "Blackhat Union",
             "attackType": "Ransomware",
             "attackDuration": "6 hours",
-            "attackVolume": "25 TB",
+            "attackVolume": "25 GB",
             "attackMethod": "Email Attachment",
             "pop": 25600
         },
@@ -150,7 +150,7 @@
             "attackers": "DarkNet Collective",
             "attackType": "Ransomware",
             "attackDuration": "4 hours",
-            "attackVolume": "20 TB",
+            "attackVolume": "20 GB",
             "attackMethod": "Email",
             "pop": 20480
         },
@@ -174,7 +174,7 @@
             "attackDuration": "2 hours",
             "attackVolume": "60 GB",
             "attackMethod": "SQL Injection",
-            "pop": 0
+            "pop": 61440
         },
         {
             "Id": 9,
@@ -194,9 +194,9 @@
             "attackers": "Anonymous",
             "attackType": "DDoS",
             "attackDuration": "3 hours",
-            "attackVolume": "1.2 Tbps",
+            "attackVolume": "15 GB",
             "attackMethod": "SYN Flood",
-            "pop": 1228800
+            "pop": 15360
         },
         {
             "Id": 10,
@@ -216,9 +216,9 @@
             "attackers": "Blackhat Union",
             "attackType": "Ransomware",
             "attackDuration": "5 hours",
-            "attackVolume": "18 TB",
+            "attackVolume": "18 GB",
             "attackMethod": "Email",
-            "pop": 18432
+            "pop": 18432 
         },
         {
             "Id": 11,
@@ -240,7 +240,7 @@
             "attackDuration": "2 hours",
             "attackVolume": "30 GB",
             "attackMethod": "Email",
-            "pop": 30956
+            "pop": 30720
         },
         {
             "Id": 12,
@@ -260,9 +260,9 @@
             "attackers": "Anonymous",
             "attackType": "DDoS",
             "attackDuration": "3 hours",
-            "attackVolume": "900 Gbps",
+            "attackVolume": "2 GB",
             "attackMethod": "UDP Flood",
-            "pop": 921600
+            "pop": 2048
         },
         {
             "Id": 13,
@@ -282,7 +282,7 @@
             "attackers": "Blackhat Union",
             "attackType": "Ransomware",
             "attackDuration": "6 hours",
-            "attackVolume": "30 TB",
+            "attackVolume": "30 GB",
             "attackMethod": "Email Attachment",
             "pop": 30720
         },
@@ -304,7 +304,7 @@
             "attackers": "Grey Hat Group",
             "attackType": "Ransomware",
             "attackDuration": "4 hours",
-            "attackVolume": "22 TB",
+            "attackVolume": "22 GB",
             "attackMethod": "Email",
             "pop": 22528
         },
@@ -326,9 +326,9 @@
             "attackers": "Unknown",
             "attackType": "SQL Injection",
             "attackDuration": "2 hours",
-            "attackVolume": "6 TB",
+            "attackVolume": "6 GB",
             "attackMethod": "SQL Injection",
-            "pop": 63948
+            "pop": 6144
         },
         {
             "Id": 16,
@@ -348,9 +348,9 @@
             "attackers": "Anonymous",
             "attackType": "DDoS",
             "attackDuration": "4 hours",
-            "attackVolume": "1.8 Tbps",
+            "attackVolume": "125 GB",
             "attackMethod": "DNS Amplification",
-            "pop": 1843200
+            "pop": 128000
         },
         {
             "Id": 17,
@@ -370,7 +370,7 @@
             "attackers": "DarkNet Collective",
             "attackType": "Ransomware",
             "attackDuration": "5 hours",
-            "attackVolume": "24 TB",
+            "attackVolume": "24 GB",
             "attackMethod": "Email",
             "pop": 24576
         },
@@ -392,9 +392,9 @@
             "attackers": "Anonymous",
             "attackType": "DDoS",
             "attackDuration": "3 hours",
-            "attackVolume": "1.2 Tbps",
+            "attackVolume": "29 GB",
             "attackMethod": "SYN Flood",
-            "pop": 1228800
+            "pop": 29696
         },
         {
             "Id": 19,
@@ -416,7 +416,7 @@
             "attackDuration": "2 hours",
             "attackVolume": "32 GB",
             "attackMethod": "Email",
-            "pop": 32987
+            "pop": 32768
         },
         {
             "Id": 20,
@@ -436,7 +436,7 @@
             "attackers": "DarkNet Collective",
             "attackType": "Ransomware",
             "attackDuration": "6 hours",
-            "attackVolume": "28 TB",
+            "attackVolume": "28 GB",
             "attackMethod": "Email",
             "pop": 28672
         },
@@ -458,9 +458,9 @@
             "attackers": "Unknown",
             "attackType": "Phishing",
             "attackDuration": "1 hour",
-            "attackVolume": "9 TB",
+            "attackVolume": "9 GB",
             "attackMethod": "Email",
-            "pop": 96135
+            "pop": 9216
         },
         {
             "Id": 22,
@@ -480,9 +480,9 @@
             "attackers": "Anonymous",
             "attackType": "SQL Injection",
             "attackDuration": "1 hour",
-            "attackVolume": "1 TB",
+            "attackVolume": "1 GB",
             "attackMethod": "SQL Injection",
-            "pop": 10235
+            "pop": 1024
         },
         {
             "Id": 23,
@@ -502,9 +502,9 @@
             "attackers": "Grey Hat Group",
             "attackType": "Vishing",
             "attackDuration": "2 hours",
-            "attackVolume": "96 GBps",
+            "attackVolume": "12 GB",
             "attackMethod": "Phone",
-            "pop": 963165
+            "pop": 12288
         },
         {
             "Id": 24,
@@ -524,9 +524,9 @@
             "attackers": "Unknown",
             "attackType": "XSS",
             "attackDuration": "1 hour",
-            "attackVolume": "1.1 Tbps",
+            "attackVolume": "136 GB",
             "attackMethod": "Website",
-            "pop": 1165498
+            "pop": 139264
         },
         {
             "Id": 25,
@@ -546,9 +546,2579 @@
             "attackers": "Anonymous",
             "attackType": "SQL Injection",
             "attackDuration": "1 hour",
-            "attackVolume": "15 TB",
+            "attackVolume": "15 GB",
             "attackMethod": "SQL Injection",
-            "pop": 84415
+            "pop": 15360
+        },
+        {
+            "Id": 26,
+            "startPoint": [37.7749, -122.4194],
+            "endPoint": [37.3382, -121.8863],
+            "time": "2024-05-06T08:30:00Z",
+            "status": "Active",
+            "severity": "Critical",
+            "description": "Ransomware attack on a government institution in San Francisco",
+            "target": "SF Government Office",
+            "attackers": "DarkNet Collective",
+            "attackType": "Ransomware",
+            "attackDuration": "6 hours",
+            "attackVolume": "25 GB",
+            "attackMethod": "Email Attachment",
+            "pop": 25600
+        },
+        {
+            "Id": 27,
+            "startPoint": [51.5074, -0.1278],
+            "endPoint": [48.8566, 2.3522],
+            "time": "2024-05-10T11:45:00Z",
+            "status": "Active",
+            "severity": "High",
+            "description": "DDoS attack on a financial institution in London",
+            "target": "London Finance Bank",
+            "attackers": "Anonymous",
+            "attackType": "DDoS",
+            "attackDuration": "4 hours",
+            "attackVolume": "30 GB",
+            "attackMethod": "TCP SYN Flood",
+            "pop": 30720
+        },
+        {
+            "Id": 28,
+            "startPoint": [40.7128, -74.006],
+            "endPoint": [34.0522, -118.2437],
+            "time": "2024-05-15T13:15:00Z",
+            "status": "Active",
+            "severity": "High",
+            "description": "Ransomware attack on a healthcare organization in New York City",
+            "target": "NYC Health Hospital",
+            "attackers": "Blackhat Union",
+            "attackType": "Ransomware",
+            "attackDuration": "5 hours",
+            "attackVolume": "35 GB",
+            "attackMethod": "Email",
+            "pop": 35840
+        },
+        {
+            "Id": 29,
+            "startPoint": [37.7749, -122.4194],
+            "endPoint": [34.0522, -118.2437],
+            "time": "2024-05-20T10:00:00Z",
+            "status": "Active",
+            "severity": "Medium",
+            "description": "Phishing attack on an e-commerce site in San Francisco",
+            "target": "SF Retail",
+            "attackers": "Unknown",
+            "attackType": "Phishing",
+            "attackDuration": "3 hours",
+            "attackVolume": "20 GB",
+            "attackMethod": "Email",
+            "pop": 20480
+        },
+        {
+            "Id": 30,
+            "startPoint": [51.5074, -0.1278],
+            "endPoint": [37.7749, -122.4194],
+            "time": "2024-05-25T14:30:00Z",
+            "status": "Active",
+            "severity": "Low",
+            "description": "SQL Injection attack on a technology company in London",
+            "target": "London Tech Solutions",
+            "attackers": "Grey Hat Group",
+            "attackType": "SQL Injection",
+            "attackDuration": "2 hours",
+            "attackVolume": "12 GB",
+            "attackMethod": "SQL Injection",
+            "pop": 12288
+        },
+        {
+            "Id": 31,
+            "startPoint": [48.8566, 2.3522],
+            "endPoint": [37.7749, -122.4194],
+            "time": "2024-05-30T12:45:00Z",
+            "status": "Active",
+            "severity": "Medium",
+            "description": "Phishing attack on a bank branch in Paris",
+            "target": "Paris Bank",
+            "attackers": "Anonymous",
+            "attackType": "Phishing",
+            "attackDuration": "4 hours",
+            "attackVolume": "25 GB",
+            "attackMethod": "Email",
+            "pop": 25600
+        },
+        {
+            "Id": 32,
+            "startPoint": [34.0522, -118.2437],
+            "endPoint": [51.5074, -0.1278],
+            "time": "2024-06-05T08:00:00Z",
+            "status": "Active",
+            "severity": "High",
+            "description": "DDoS attack on a government institution in Los Angeles",
+            "target": "LA Government Office",
+            "attackers": "DarkNet Collective",
+            "attackType": "DDoS",
+            "attackDuration": "6 hours",
+            "attackVolume": "40 GB",
+            "attackMethod": "DNS Amplification",
+            "pop": 40960
+        },
+        {
+            "Id": 33,
+            "startPoint": [37.7749, -122.4194],
+            "endPoint": [40.7128, -74.006],
+            "time": "2024-06-10T10:30:00Z",
+            "status": "Active",
+            "severity": "Critical",
+            "description": "Ransomware attack on a technology company in San Francisco",
+            "target": "SF Tech Solutions",
+            "attackers": "Blackhat Union",
+            "attackType": "Ransomware",
+            "attackDuration": "5 hours",
+            "attackVolume": "45 GB",
+            "attackMethod": "Email Attachment",
+            "pop": 46080
+        },
+        {
+            "Id": 34,
+            "startPoint": [40.7128, -74.006],
+            "endPoint": [34.0522, -118.2437],
+            "time": "2024-06-15T13:45:00Z",
+            "status": "Active",
+            "severity": "Medium",
+            "description": "Phishing attack on a healthcare organization in New York City",
+            "target": "NYC Health Clinic",
+            "attackers": "Grey Hat Group",
+            "attackType": "Phishing",
+            "attackDuration": "4 hours",
+            "attackVolume": "35 GB",
+            "attackMethod": "Email",
+            "pop": 35840
+        },
+        {
+            "Id": 35,
+            "startPoint": [48.8566, 2.3522],
+            "endPoint": [51.5074, -0.1278],
+            "time": "2024-06-20T14:00:00Z",
+            "status": "Active",
+            "severity": "Low",
+            "description": "SQL Injection attack on a financial institution in Paris",
+            "target": "Paris Finance Bank",
+            "attackers": "Anonymous",
+            "attackType": "SQL Injection",
+            "attackDuration": "3 hours",
+            "attackVolume": "18 GB",
+            "attackMethod": "SQL Injection",
+            "pop": 18432
+        },
+        {
+            "Id": 36,
+            "startPoint": [34.0522, -118.2437],
+            "endPoint": [37.7749, -122.4194],
+            "time": "2024-06-25T08:30:00Z",
+            "status": "Active",
+            "severity": "Low",
+            "description": "Phishing attack on a small business website in Los Angeles",
+            "target": "LA Small Business",
+            "attackers": "Unknown",
+            "attackType": "Phishing",
+            "attackDuration": "2 hours",
+            "attackVolume": "500 MB",
+            "attackMethod": "Email",
+            "pop": 512
+        },
+        {
+            "Id": 37,
+            "startPoint": [40.7128, -74.006],
+            "endPoint": [34.0522, -118.2437],
+            "time": "2024-06-30T11:45:00Z",
+            "status": "Active",
+            "severity": "Medium",
+            "description": "SQL Injection attack on a local library's website in New York City",
+            "target": "NYC Local Library",
+            "attackers": "Grey Hat Group",
+            "attackType": "SQL Injection",
+            "attackDuration": "3 hours",
+            "attackVolume": "700 MB",
+            "attackMethod": "SQL Injection",
+            "pop": 716
+        },
+        {
+            "Id": 38,
+            "startPoint": [37.7749, -122.4194],
+            "endPoint": [40.7128, -74.006],
+            "time": "2024-07-05T13:15:00Z",
+            "status": "Active",
+            "severity": "Low",
+            "description": "DDoS attack on a personal blog in San Francisco",
+            "target": "SF Personal Blog",
+            "attackers": "Anonymous",
+            "attackType": "DDoS",
+            "attackDuration": "4 hours",
+            "attackVolume": "800 MB",
+            "attackMethod": "TCP SYN Flood",
+            "pop": 819
+        },
+        {
+            "Id": 39,
+            "startPoint": [51.5074, -0.1278],
+            "endPoint": [48.8566, 2.3522],
+            "time": "2024-07-10T10:00:00Z",
+            "status": "Active",
+            "severity": "Medium",
+            "description": "Ransomware attack on a small accounting firm in London",
+            "target": "London Accounting Firm",
+            "attackers": "Blackhat Union",
+            "attackType": "Ransomware",
+            "attackDuration": "5 hours",
+            "attackVolume": "600 MB",
+            "attackMethod": "Email Attachment",
+            "pop": 614
+        },
+        {
+            "Id": 40,
+            "startPoint": [48.8566, 2.3522],
+            "endPoint": [37.7749, -122.4194],
+            "time": "2024-07-15T12:45:00Z",
+            "status": "Active",
+            "severity": "Low",
+            "description": "Phishing attack on a personal email account in Paris",
+            "target": "Paris Email",
+            "attackers": "Unknown",
+            "attackType": "Phishing",
+            "attackDuration": "3 hours",
+            "attackVolume": "400 MB",
+            "attackMethod": "Email",
+            "pop": 409
+        },
+        {
+            "Id": 41,
+            "startPoint": [34.0522, -118.2437],
+            "endPoint": [51.5074, -0.1278],
+            "time": "2024-07-20T14:00:00Z",
+            "status": "Active",
+            "severity": "Medium",
+            "description": "SQL Injection attack on a small business website in Los Angeles",
+            "target": "LA Small Business",
+            "attackers": "Grey Hat Group",
+            "attackType": "SQL Injection",
+            "attackDuration": "4 hours",
+            "attackVolume": "900 MB",
+            "attackMethod": "SQL Injection",
+            "pop": 921
+        },
+        {
+            "Id": 42,
+            "startPoint": [37.7749, -122.4194],
+            "endPoint": [51.5074, -0.1278],
+            "time": "2024-07-25T08:30:00Z",
+            "status": "Active",
+            "severity": "Low",
+            "description": "DDoS attack on a personal portfolio website in San Francisco",
+            "target": "SF Portfolio",
+            "attackers": "Anonymous",
+            "attackType": "DDoS",
+            "attackDuration": "2 hours",
+            "attackVolume": "200 MB",
+            "attackMethod": "UDP Flood",
+            "pop": 205
+        },
+        {
+            "Id": 43,
+            "startPoint": [51.5074, -0.1278],
+            "endPoint": [40.7128, -74.006],
+            "time": "2024-07-30T11:45:00Z",
+            "status": "Active",
+            "severity": "Medium",
+            "description": "Ransomware attack on a small law firm in London",
+            "target": "London Law Firm",
+            "attackers": "Blackhat Union",
+            "attackType": "Ransomware",
+            "attackDuration": "5 hours",
+            "attackVolume": "600 MB",
+            "attackMethod": "Email Attachment",
+            "pop": 614
+        },
+        {
+            "Id": 44,
+            "startPoint": [40.7128, -74.006],
+            "endPoint": [34.0522, -118.2437],
+            "time": "2024-08-05T13:15:00Z",
+            "status": "Active",
+            "severity": "Low",
+            "description": "Phishing attack on a personal email account in New York City",
+            "target": "NYC Email",
+            "attackers": "Unknown",
+            "attackType": "Phishing",
+            "attackDuration": "4 hours",
+            "attackVolume": "800 MB",
+            "attackMethod": "Email",
+            "pop": 819
+        },
+        {
+            "Id": 45,
+            "startPoint": [37.7749, -122.4194],
+            "endPoint": [48.8566, 2.3522],
+            "time": "2024-08-10T10:00:00Z",
+            "status": "Active",
+            "severity": "Medium",
+            "description": "SQL Injection attack on a personal blog in San Francisco",
+            "target": "SF Personal Blog",
+            "attackers": "Grey Hat Group",
+            "attackType": "SQL Injection",
+            "attackDuration": "3 hours",
+            "attackVolume": "700 MB",
+            "attackMethod": "SQL Injection",
+            "pop": 716
+    },
+        {
+            "Id": 46,
+            "startPoint": [55.7558, 37.6176],
+            "endPoint": [55.7558, 37.6176],
+            "time": "2024-08-15T12:30:00Z",
+            "status": "Active",
+            "severity": "High",
+            "description": "Ransomware attack on a telecommunications company in Moscow",
+            "target": "Moscow Telecom",
+            "attackers": "Blackhat Union",
+            "attackType": "Ransomware",
+            "attackDuration": "6 hours",
+            "attackVolume": "80 GB",
+            "attackMethod": "Email Attachment",
+            "pop": 81920
+        },
+        {
+            "Id": 47,
+            "startPoint": [-14.235, -51.9253],
+            "endPoint": [-14.235, -51.9253],
+            "time": "2024-08-20T14:45:00Z",
+            "status": "Active",
+            "severity": "Low",
+            "description": "DDoS attack on a local coffee shop's website in Brazil",
+            "target": "Brazil Coffee Shop",
+            "attackers": "Anonymous",
+            "attackType": "DDoS",
+            "attackDuration": "2 hours",
+            "attackVolume": "300 MB",
+            "attackMethod": "UDP Flood",
+            "pop": 307
+        },
+        {
+            "Id": 48,
+            "startPoint": [25.2048, 55.2708],
+            "endPoint": [25.2048, 55.2708],
+            "time": "2024-08-25T09:30:00Z",
+            "status": "Active",
+            "severity": "Medium",
+            "description": "Phishing attack on a small business email in Dubai",
+            "target": "Dubai Small Business",
+            "attackers": "Unknown",
+            "attackType": "Phishing",
+            "attackDuration": "3 hours",
+            "attackVolume": "5 GB",
+            "attackMethod": "Email",
+            "pop": 5120
+        },
+        {
+            "Id": 49,
+            "startPoint": [-23.5505, -46.6333],
+            "endPoint": [-23.5505, -46.6333],
+            "time": "2024-09-01T10:15:00Z",
+            "status": "Active",
+            "severity": "Low",
+            "description": "SQL Injection attack on a personal blog in São Paulo",
+            "target": "São Paulo Blog",
+            "attackers": "Grey Hat Group",
+            "attackType": "SQL Injection",
+            "attackDuration": "4 hours",
+            "attackVolume": "200 MB",
+            "attackMethod": "SQL Injection",
+            "pop": 205
+        },
+        {
+            "Id": 50,
+            "startPoint": [19.0759, 72.8777],
+            "endPoint": [19.0759, 72.8777],
+            "time": "2024-09-05T11:30:00Z",
+            "status": "Active",
+            "severity": "Critical",
+            "description": "Ransomware attack on a banking institution in Mumbai",
+            "target": "Mumbai Bank",
+            "attackers": "DarkNet Collective",
+            "attackType": "Ransomware",
+            "attackDuration": "5 hours",
+            "attackVolume": "150 GB",
+            "attackMethod": "Email",
+            "pop": 153600
+        },
+        {
+            "Id": 51,
+            "startPoint": [-33.8688, 151.2093],
+            "endPoint": [-33.8688, 151.2093],
+            "time": "2024-09-10T12:45:00Z",
+            "status": "Active",
+            "severity": "Low",
+            "description": "Phishing attack on a personal email account in Sydney",
+            "target": "Sydney Email",
+            "attackers": "Unknown",
+            "attackType": "Phishing",
+            "attackDuration": "2 hours",
+            "attackVolume": "300 MB",
+            "attackMethod": "Email",
+            "pop": 307
+        },
+        {
+            "Id": 52,
+            "startPoint": [19.4326, -99.1332],
+            "endPoint": [19.4326, -99.1332],
+            "time": "2024-09-15T13:00:00Z",
+            "status": "Active",
+            "severity": "Medium",
+            "description": "SQL Injection attack on a small business website in Mexico City",
+            "target": "Mexico City Small Business",
+            "attackers": "Grey Hat Group",
+            "attackType": "SQL Injection",
+            "attackDuration": "3 hours",
+            "attackVolume": "2 GB",
+            "attackMethod": "SQL Injection",
+            "pop": 2048
+        },
+        {
+            "Id": 53,
+            "startPoint": [31.9686, -99.9018],
+            "endPoint": [31.9686, -99.9018],
+            "time": "2024-09-20T14:15:00Z",
+            "status": "Active",
+            "severity": "Low",
+            "description": "DDoS attack on a personal portfolio website in Texas",
+            "target": "Texas Portfolio",
+            "attackers": "Anonymous",
+            "attackType": "DDoS",
+            "attackDuration": "2 hours",
+            "attackVolume": "400 MB",
+            "attackMethod": "UDP Flood",
+            "pop": 409
+        },
+        {
+            "Id": 54,
+            "startPoint": [55.7558, 37.6176],
+            "endPoint": [55.7558, 37.6176],
+            "time": "2024-09-25T15:30:00Z",
+            "status": "Active",
+            "severity": "High",
+            "description": "Ransomware attack on a financial institution in Moscow",
+            "target": "Moscow Finance",
+            "attackers": "Blackhat Union",
+            "attackType": "Ransomware",
+            "attackDuration": "6 hours",
+            "attackVolume": "80 GB",
+            "attackMethod": "Email Attachment",
+            "pop": 81920
+        },
+        {
+            "Id": 55,
+            "startPoint": [55.7558, 37.6176],
+            "endPoint": [55.7558, 37.6176],
+            "time": "2024-09-30T16:45:00Z",
+            "status": "Active",
+            "severity": "Critical",
+            "description": "Ransomware attack on a government institution in Moscow",
+            "target": "Moscow Government",
+            "attackers": "DarkNet Collective",
+            "attackType": "Ransomware",
+            "attackDuration": "5 hours",
+            "attackVolume": "120 GB",
+            "attackMethod": "Email",
+            "pop": 122880
+        },
+        {
+            "Id": 56,
+            "startPoint": [-23.5505, -46.6333],
+            "endPoint": [-23.5505, -46.6333],
+            "time": "2024-10-05T09:00:00Z",
+            "status": "Active",
+            "severity": "Medium",
+            "description": "SQL Injection attack on a local restaurant's website in São Paulo",
+            "target": "São Paulo Restaurant",
+            "attackers": "Grey Hat Group",
+            "attackType": "SQL Injection",
+            "attackDuration": "4 hours",
+            "attackVolume": "3 GB",
+            "attackMethod": "SQL Injection",
+            "pop": 3072
+        },
+        {
+            "Id": 57,
+            "startPoint": [-34.6037, -58.3816],
+            "endPoint": [-34.6037, -58.3816],
+            "time": "2024-10-10T10:15:00Z",
+            "status": "Active",
+            "severity": "Low",
+            "description": "DDoS attack on a personal blog in Buenos Aires",
+            "target": "Buenos Aires Blog",
+            "attackers": "Anonymous",
+            "attackType": "DDoS",
+            "attackDuration": "3 hours",
+            "attackVolume": "250 MB",
+            "attackMethod": "UDP Flood",
+            "pop": 256
+        },
+        {
+            "Id": 58,
+            "startPoint": [31.2304, 121.4737],
+            "endPoint": [31.2304, 121.4737],
+            "time": "2024-10-15T11:30:00Z",
+            "status": "Active",
+            "severity": "Low",
+            "description": "Phishing attack on a local business email in Shanghai",
+            "target": "Shanghai Business",
+            "attackers": "Unknown",
+            "attackType": "Phishing",
+            "attackDuration": "2 hours",
+            "attackVolume": "200 MB",
+            "attackMethod": "Email",
+            "pop": 205
+        },
+        {
+            "Id": 59,
+            "startPoint": [34.0522, -118.2437],
+            "endPoint": [34.0522, -118.2437],
+            "time": "2024-10-20T12:45:00Z",
+            "status": "Active",
+            "severity": "Low",
+            "description": "SQL Injection attack on a personal website in Los Angeles",
+            "target": "Los Angeles Website",
+            "attackers": "Grey Hat Group",
+            "attackType": "SQL Injection",
+            "attackDuration": "2 hours",
+            "attackVolume": "300 MB",
+            "attackMethod": "SQL Injection",
+            "pop": 307
+        },
+        {
+            "Id": 60,
+            "startPoint": [13.0827, 80.2707],
+            "endPoint": [13.0827, 80.2707],
+            "time": "2024-10-25T13:00:00Z",
+            "status": "Active",
+            "severity": "Medium",
+            "description": "Phishing attack on a small business email in Chennai",
+            "target": "Chennai Small Business",
+            "attackers": "Unknown",
+            "attackType": "Phishing",
+            "attackDuration": "3 hours",
+            "attackVolume": "5 GB",
+            "attackMethod": "Email",
+            "pop": 5120
+        },
+        {
+            "Id": 61,
+            "startPoint": [19.0759, 72.8777],
+            "endPoint": [19.0759, 72.8777],
+            "time": "2024-11-01T14:15:00Z",
+            "status": "Active",
+            "severity": "High",
+            "description": "Ransomware attack on a financial institution in Mumbai",
+            "target": "Mumbai Finance",
+            "attackers": "Blackhat Union",
+            "attackType": "Ransomware",
+            "attackDuration": "6 hours",
+            "attackVolume": "85 GB",
+            "attackMethod": "Email Attachment",
+            "pop": 87040
+        },
+        {
+            "Id": 62,
+            "startPoint": [-33.4489, -70.6693],
+            "endPoint": [-33.4489, -70.6693],
+            "time": "2024-11-05T15:30:00Z",
+            "status": "Active",
+            "severity": "Critical",
+            "description": "Ransomware attack on a government institution in Santiago",
+            "target": "Santiago Government",
+            "attackers": "DarkNet Collective",
+            "attackType": "Ransomware",
+            "attackDuration": "5 hours",
+            "attackVolume": "110 GB",
+            "attackMethod": "Email",
+            "pop": 112640
+        },
+        {
+            "Id": 63,
+            "startPoint": [22.5726, 88.3639],
+            "endPoint": [22.5726, 88.3639],
+            "time": "2024-11-10T16:45:00Z",
+            "status": "Active",
+            "severity": "Medium",
+            "description": "Phishing attack on a local business email in Kolkata",
+            "target": "Kolkata Business",
+            "attackers": "Unknown",
+            "attackType": "Phishing",
+            "attackDuration": "4 hours",
+            "attackVolume": "6 GB",
+            "attackMethod": "Email",
+            "pop": 6144
+        },
+        {
+            "Id": 64,
+            "startPoint": [-23.5505, -46.6333],
+            "endPoint": [-23.5505, -46.6333],
+            "time": "2024-11-15T09:00:00Z",
+            "status": "Active",
+            "severity": "Low",
+            "description": "SQL Injection attack on a personal blog in São Paulo",
+            "target": "São Paulo Blog",
+            "attackers": "Grey Hat Group",
+            "attackType": "SQL Injection",
+            "attackDuration": "2 hours",
+            "attackVolume": "300 MB",
+            "attackMethod": "SQL Injection",
+            "pop": 307
+        },
+        {
+            "Id": 65,
+            "startPoint": [1.3521, 103.8198],
+            "endPoint": [1.3521, 103.8198],
+            "time": "2024-11-20T10:15:00Z",
+            "status": "Active",
+            "severity": "High",
+            "description": "Ransomware attack on a telecommunications company in Singapore",
+            "target": "Singapore Telecom",
+            "attackers": "Blackhat Union",
+            "attackType": "Ransomware",
+            "attackDuration": "6 hours",
+            "attackVolume": "75 GB",
+            "attackMethod": "Email Attachment",
+            "pop": 76800
+        },
+        {
+            "Id": 66,
+            "startPoint": [35.6895, 139.6917],
+            "endPoint": [35.6895, 139.6917],
+            "time": "2024-11-25T11:30:00Z",
+            "status": "Active",
+            "severity": "Low",
+            "description": "Phishing attack on a personal email account in Tokyo",
+            "target": "Tokyo Email",
+            "attackers": "Unknown",
+            "attackType": "Phishing",
+            "attackDuration": "2 hours",
+            "attackVolume": "200 MB",
+            "attackMethod": "Email",
+            "pop": 205
+        },
+        {
+            "Id": 67,
+            "startPoint": [
+                9.082,
+                8.6753
+            ],
+            "endPoint": [
+                12.3714,
+                -1.5197
+            ],
+            "time": "2024-05-01T08:00:00Z",
+            "status": "Active",
+            "severity": "Low",
+            "description": "Phishing attack on a local business in Abuja",
+            "target": "Abuja Business Co.",
+            "attackers": "Scam Syndicate",
+            "attackType": "Phishing",
+            "attackDuration": "2 hours",
+            "attackVolume": "650 MB",
+            "attackMethod": "Email",
+            "pop": 665
+        },
+        {
+            "Id": 68,
+            "startPoint": [
+                36.8065,
+                10.1815
+            ],
+            "endPoint": [
+                9.082,
+                8.6753
+            ],
+            "time": "2024-05-05T12:30:00Z",
+            "status": "Active",
+            "severity": "Low",
+            "description": "SQL Injection attack on a small company in Tunis",
+            "target": "Tunis Tech Solutions",
+            "attackers": "Hacktivist Group",
+            "attackType": "SQL Injection",
+            "attackDuration": "1 hour",
+            "attackVolume": "450 MB",
+            "attackMethod": "SQL Injection",
+            "pop": 460
+        },
+        {
+            "Id": 69,
+            "startPoint": [
+                1.2921,
+                36.8219
+            ],
+            "endPoint": [
+                29.9511,
+                -90.0715
+            ],
+            "time": "2024-05-10T15:45:00Z",
+            "status": "Active",
+            "severity": "Low",
+            "description": "DDoS attack on a small online retailer in Nairobi",
+            "target": "Nairobi Retail",
+            "attackers": "Anonymous",
+            "attackType": "DDoS",
+            "attackDuration": "2 hours",
+            "attackVolume": "850 MB",
+            "attackMethod": "SYN Flood",
+            "pop": 870
+        },
+        {
+            "Id": 70,
+            "startPoint": [
+                33.5731,
+                -7.5898
+            ],
+            "endPoint": [
+                -25.746,
+                28.1881
+            ],
+            "time": "2024-05-15T10:00:00Z",
+            "status": "Active",
+            "severity": "Medium",
+            "description": "Ransomware attack on a local government office in Casablanca",
+            "target": "Casablanca Municipality",
+            "attackers": "Blackhat Crew",
+            "attackType": "Ransomware",
+            "attackDuration": "3 hours",
+            "attackVolume": "1.2 GB",
+            "attackMethod": "Email Attachment",
+            "pop": 1228
+        },
+        {
+            "Id": 71,
+            "startPoint": [
+                -17.8252,
+                31.0335
+            ],
+            "endPoint": [
+                -1.2921,
+                36.8219
+            ],
+            "time": "2024-05-20T09:30:00Z",
+            "status": "Active",
+            "severity": "Medium",
+            "description": "Phishing attack on a financial institution in Harare",
+            "target": "Harare Bank",
+            "attackers": "Phishers Guild",
+            "attackType": "Phishing",
+            "attackDuration": "4 hours",
+            "attackVolume": "1.5 GB",
+            "attackMethod": "Email",
+            "pop": 1536
+        },
+        {
+            "Id": 72,
+            "startPoint": [
+                9.082,
+                8.6753
+            ],
+            "endPoint": [
+                -17.8252,
+                31.0335
+            ],
+            "time": "2024-05-25T14:15:00Z",
+            "status": "Active",
+            "severity": "Medium",
+            "description": "SQL Injection attack on an educational institute in Abuja",
+            "target": "Abuja University",
+            "attackers": "Hacktivist Group",
+            "attackType": "SQL Injection",
+            "attackDuration": "3 hours",
+            "attackVolume": "1.1 GB",
+            "attackMethod": "SQL Injection",
+            "pop": 1126
+        },
+        {
+            "Id": 73,
+            "startPoint": [
+                12.9716,
+                77.5946
+            ],
+            "endPoint": [
+                -17.8252,
+                31.0335
+            ],
+            "time": "2024-05-30T11:45:00Z",
+            "status": "Active",
+            "severity": "High",
+            "description": "DDoS attack on a government agency in Addis Ababa",
+            "target": "Addis Ababa Govt. Center",
+            "attackers": "Ethical Hackers",
+            "attackType": "DDoS",
+            "attackDuration": "5 hours",
+            "attackVolume": "4 GB",
+            "attackMethod": "DNS Amplification",
+            "pop": 4096
+        },
+        {
+            "Id": 74,
+            "startPoint": [
+                33.5731,
+                -7.5898
+            ],
+            "endPoint": [
+                6.5244,
+                3.3792
+            ],
+            "time": "2024-06-05T13:30:00Z",
+            "status": "Active",
+            "severity": "High",
+            "description": "Ransomware attack on a telecommunications company in Casablanca",
+            "target": "Casablanca TelCo",
+            "attackers": "Crypto Raiders",
+            "attackType": "Ransomware",
+            "attackDuration": "6 hours",
+            "attackVolume": "7 GB",
+            "attackMethod": "Email Attachment",
+            "pop": 7168
+        },
+        {
+            "Id": 75,
+            "startPoint": [
+                -6.369,
+                34.8888
+            ],
+            "endPoint": [
+                12.9716,
+                77.5946
+            ],
+            "time": "2024-06-10T16:45:00Z",
+            "status": "Active",
+            "severity": "Low",
+            "description": "Phishing attack on an e-commerce website in Dar es Salaam",
+            "target": "Dar es Salaam Online Store",
+            "attackers": "Scam Syndicate",
+            "attackType": "Phishing",
+            "attackDuration": "3 hours",
+            "attackVolume": "900 MB",
+            "attackMethod": "Email",
+            "pop": 921
+        },
+        {
+            "Id": 76,
+            "startPoint": [
+                -17.8252,
+                31.0335
+            ],
+            "endPoint": [
+                33.5731,
+                -7.5898
+            ],
+            "time": "2024-06-15T09:00:00Z",
+            "status": "Active",
+            "severity": "Medium",
+            "description": "SQL Injection attack on a government website in Harare",
+            "target": "Harare Govt. Portal",
+            "attackers": "Hacktivist Group",
+            "attackType": "SQL Injection",
+            "attackDuration": "5 hours",
+            "attackVolume": "1.3 GB",
+            "attackMethod": "SQL Injection",
+            "pop": 1331
+        },
+        {
+            "Id": 77,
+            "startPoint": [
+                9.082,
+                8.6753
+            ],
+            "endPoint": [
+                1.2921,
+                36.8219
+            ],
+            "time": "2024-06-20T14:00:00Z",
+            "status": "Active",
+            "severity": "Medium",
+            "description": "Phishing attack on a local bank in Abuja",
+            "target": "Abuja Bank",
+            "attackers": "Phishers Guild",
+            "attackType": "Phishing",
+            "attackDuration": "2 hours",
+            "attackVolume": "600 MB",
+            "attackMethod": "Email",
+            "pop": 614
+        },
+        {
+            "Id": 78,
+            "startPoint": [
+                12.9716,
+                77.5946
+            ],
+            "endPoint": [
+                -17.8252,
+                31.0335
+            ],
+            "time": "2024-06-25T09:30:00Z",
+            "status": "Active",
+            "severity": "Medium",
+            "description": "DDoS attack on a local government website in Lagos",
+            "target": "Lagos Govt. Portal",
+            "attackers": "Anonymous",
+            "attackType": "DDoS",
+            "attackDuration": "2 hours",
+            "attackVolume": "850 MB",
+            "attackMethod": "SYN Flood",
+            "pop": 870
+        },
+        {
+            "Id": 79,
+            "startPoint": [
+                -1.2921,
+                36.8219
+            ],
+            "endPoint": [
+                9.082,
+                8.6753
+            ],
+            "time": "2024-06-30T10:30:00Z",
+            "status": "Active",
+            "severity": "High",
+            "description": "Ransomware attack on a small business in Nairobi",
+            "target": "Nairobi Tech Co.",
+            "attackers": "Crypto Raiders",
+            "attackType": "Ransomware",
+            "attackDuration": "2 hours",
+            "attackVolume": "700 MB",
+            "attackMethod": "Email Attachment",
+            "pop": 716
+        },
+        {
+            "Id": 80,
+            "startPoint": [
+                4.0435,
+                9.692
+            ],
+            "endPoint": [
+                32.5825,
+                13.0028
+            ],
+            "time": "2024-07-05T11:15:00Z",
+            "status": "Active",
+            "severity": "High",
+            "description": "DDoS attack on a telecommunications company in Douala",
+            "target": "Douala TelCo",
+            "attackers": "Hacktivist Group",
+            "attackType": "DDoS",
+            "attackDuration": "4 hours",
+            "attackVolume": "1.2 GB",
+            "attackMethod": "DNS Amplification",
+            "pop": 1228
+        },
+        {
+            "Id": 81,
+            "startPoint": [
+                9.0579,
+                7.4951
+            ],
+            "endPoint": [
+                32.5825,
+                13.0028
+            ],
+            "time": "2024-07-10T13:00:00Z",
+            "status": "Active",
+            "severity": "High",
+            "description": "Ransomware attack on a government institution in Abuja",
+            "target": "Abuja Government Center",
+            "attackers": "Blackhat Collective",
+            "attackType": "Ransomware",
+            "attackDuration": "5 hours",
+            "attackVolume": "1.5 GB",
+            "attackMethod": "Email",
+            "pop": 1536
+        },
+        {
+            "Id": 82,
+            "startPoint": [
+                -1.2921,
+                36.8219
+            ],
+            "endPoint": [
+                11.5504,
+                43.1456
+            ],
+            "time": "2024-07-15T14:30:00Z",
+            "status": "Active",
+            "severity": "High",
+            "description": "SQL Injection attack on a financial institution in Nairobi",
+            "target": "Nairobi Finance Bank",
+            "attackers": "Anonymous",
+            "attackType": "SQL Injection",
+            "attackDuration": "3 hours",
+            "attackVolume": "1.1 GB",
+            "attackMethod": "SQL Injection",
+            "pop": 1126
+        },
+        {
+            "Id": 83,
+            "startPoint": [
+                4.0435,
+                9.692
+            ],
+            "endPoint": [
+                -6.369,
+                34.8888
+            ],
+            "time": "2024-07-20T10:45:00Z",
+            "status": "Active",
+            "severity": "High",
+            "description": "Phishing attack on a government institution in Douala",
+            "target": "Douala State Center",
+            "attackers": "Phishers Guild",
+            "attackType": "Phishing",
+            "attackDuration": "3 hours",
+            "attackVolume": "1 GB",
+            "attackMethod": "SYN Flood",
+            "pop": 1024
+        },
+        {
+            "Id": 84,
+            "startPoint": [
+                68.9532,
+                33.0743
+            ],
+            "endPoint": [
+                69.1502,
+                33.3095
+            ],
+            "time": "2024-08-05T11:15:00Z",
+            "status": "Active",
+            "severity": "Low",
+            "description": "Phishing attack on a local business in Murmansk",
+            "target": "Murmansk Retail",
+            "attackers": "Scam Syndicate",
+            "attackType": "Phishing",
+            "attackDuration": "3 hours",
+            "attackVolume": "900 MB",
+            "attackMethod": "Email",
+            "pop": 921
+        },
+        {
+            "Id": 85,
+            "startPoint": [
+                62.0416,
+                40.2356
+            ],
+            "endPoint": [
+                61.6747,
+                50.8356
+            ],
+            "time": "2024-08-10T13:00:00Z",
+            "status": "Active",
+            "severity": "Medium",
+            "description": "SQL Injection attack on a government website in Syktyvkar",
+            "target": "Syktyvkar Govt. Portal",
+            "attackers": "Hacktivist Group",
+            "attackType": "SQL Injection",
+            "attackDuration": "2 hours",
+            "attackVolume": "600 MB",
+            "attackMethod": "SQL Injection",
+            "pop": 614
+        },
+        {
+            "Id": 86,
+            "startPoint": [
+                59.9343,
+                30.3351
+            ],
+            "endPoint": [
+                68.9532,
+                33.0743
+            ],
+            "time": "2024-08-15T14:30:00Z",
+            "status": "Active",
+            "severity": "High",
+            "description": "DDoS attack on a financial institution in Saint Petersburg",
+            "target": "Saint Petersburg Finance Bank",
+            "attackers": "Anonymous",
+            "attackType": "DDoS",
+            "attackDuration": "3 hours",
+            "attackVolume": "35 GB",
+            "attackMethod": "DNS Amplification",
+            "pop": 35840
+        },
+        {
+            "Id": 87,
+            "startPoint": [
+                55.7558,
+                37.6176
+            ],
+            "endPoint": [
+                53.1952,
+                50.1002
+            ],
+            "time": "2024-08-20T10:45:00Z",
+            "status": "Active",
+            "severity": "Critical",
+            "description": "Ransomware attack on a government institution in Moscow",
+            "target": "Moscow Govt. Center",
+            "attackers": "Blackhat Union",
+            "attackType": "Ransomware",
+            "attackDuration": "5 hours",
+            "attackVolume": "95 GB",
+            "attackMethod": "Email",
+            "pop": 97280
+        },
+        {
+            "Id": 88,
+            "startPoint": [
+                51.1605,
+                71.4704
+            ],
+            "endPoint": [
+                64.5431,
+                40.5373
+            ],
+            "time": "2024-08-25T11:00:00Z",
+            "status": "Active",
+            "severity": "High",
+            "description": "Phishing attack on a telecommunications company in Astana",
+            "target": "Astana TelCo",
+            "attackers": "Phishers Guild",
+            "attackType": "Phishing",
+            "attackDuration": "3 hours",
+            "attackVolume": "42 GB",
+            "attackMethod": "Email",
+            "pop": 43008
+        },
+        {
+            "Id": 89,
+            "startPoint": [
+                60.1462,
+                64.7549
+            ],
+            "endPoint": [
+                69.1502,
+                33.3095
+            ],
+            "time": "2024-09-05T16:45:00Z",
+            "status": "Active",
+            "severity": "Low",
+            "description": "Phishing attack on an e-commerce site in Tyumen",
+            "target": "Tyumen Online Store",
+            "attackers": "Scam Syndicate",
+            "attackType": "Phishing",
+            "attackDuration": "2 hours",
+            "attackVolume": "950 MB",
+            "attackMethod": "Email",
+            "pop": 972
+        },
+        {
+            "Id": 90,
+            "startPoint": [
+                60.1462,
+                64.7549
+            ],
+            "endPoint": [
+                59.8452,
+                66.7755
+            ],
+            "time": "2024-09-10T12:30:00Z",
+            "status": "Active",
+            "severity": "Medium",
+            "description": "SQL Injection attack on a university in Tyumen",
+            "target": "Tyumen University",
+            "attackers": "Grey Hat Group",
+            "attackType": "SQL Injection",
+            "attackDuration": "3 hours",
+            "attackVolume": "800 MB",
+            "attackMethod": "SQL Injection",
+            "pop": 819
+        },
+        {
+            "Id": 91,
+            "startPoint": [
+                51.1605,
+                71.4704
+            ],
+            "endPoint": [
+                61.524,
+                105.3188
+            ],
+            "time": "2024-10-05T11:30:00Z",
+            "status": "Active",
+            "severity": "High",
+            "description": "Ransomware attack on a local government website in Astana",
+            "target": "Astana Govt. Portal",
+            "attackers": "Crypto Raiders",
+            "attackType": "Ransomware",
+            "attackDuration": "4 hours",
+            "attackVolume": "35 GB",
+            "attackMethod": "Email Attachment",
+            "pop": 35840
+        },
+        {
+            "Id": 92,
+            "startPoint": [
+                61.6747,
+                50.8356
+            ],
+            "endPoint": [
+                64.5431,
+                40.5373
+            ],
+            "time": "2024-09-20T10:00:00Z",
+            "status": "Active",
+            "severity": "Critical",
+            "description": "DDoS attack on a government institution in Perm",
+            "target": "Perm Govt. Center",
+            "attackers": "Blackhat Collective",
+            "attackType": "DDoS",
+            "attackDuration": "4 hours",
+            "attackVolume": "120 GB",
+            "attackMethod": "SYN Flood",
+            "pop": 122880
+        },
+        {
+            "Id": 93,
+            "startPoint": [
+                67.4842,
+                78.5134
+            ],
+            "endPoint": [
+                55.7558,
+                37.6176
+            ],
+            "time": "2024-09-25T09:30:00Z",
+            "status": "Active",
+            "severity": "High",
+            "description": "Phishing attack on a financial institution in Norilsk",
+            "target": "Norilsk Finance Bank",
+            "attackers": "Phishers Guild",
+            "attackType": "Phishing",
+            "attackDuration": "3 hours",
+            "attackVolume": "48 GB",
+            "attackMethod": "Email",
+            "pop": 49152
+        },
+        {
+            "Id": 94,
+            "startPoint": [
+                63.9394,
+                33.4133
+            ],
+            "endPoint": [
+                57.6234,
+                78.0143
+            ],
+            "time": "2024-09-30T13:45:00Z",
+            "status": "Active",
+            "severity": "High",
+            "description": "SQL Injection attack on a telecommunications company in Arkhangelsk",
+            "target": "Arkhangelsk TelCo",
+            "attackers": "Anonymous",
+            "attackType": "SQL Injection",
+            "attackDuration": "2 hours",
+            "attackVolume": "40 GB",
+            "attackMethod": "SQL Injection",
+            "pop": 40960
+        },
+        {
+            "Id": 95,
+            "startPoint": [
+                61.524,
+                105.3188
+            ],
+            "endPoint": [
+                51.1605,
+                71.4704
+            ],
+            "time": "2024-10-05T11:30:00Z",
+            "status": "Active",
+            "severity": "High",
+            "description": "Ransomware attack on a local government website in Yakutsk",
+            "target": "Yakutsk Govt. Portal",
+            "attackers": "Crypto Raiders",
+            "attackType": "Ransomware",
+            "attackDuration": "4 hours",
+            "attackVolume": "35 GB",
+            "attackMethod": "Email Attachment",
+            "pop": 35840
+        },
+        {
+            "Id": 96,
+            "startPoint": [
+                64.5431,
+                40.5373
+            ],
+            "endPoint": [
+                59.9343,
+                30.3351
+            ],
+            "time": "2024-10-10T15:15:00Z",
+            "status": "Active",
+            "severity": "Critical",
+            "description": "DDoS attack on a healthcare organization in Ufa",
+            "target": "Ufa Health Clinic",
+            "attackers": "Hacktivist Group",
+            "attackType": "DDoS",
+            "attackDuration": "5 hours",
+            "attackVolume": "75 GB",
+            "attackMethod": "DNS Amplification",
+            "pop": 76800
+        },
+        {
+            "Id": 97,
+            "startPoint": [
+                61.6747,
+                50.8356
+            ],
+            "endPoint": [
+                59.8452,
+                66.7755
+            ],
+            "time": "2024-10-15T09:00:00Z",
+            "status": "Active",
+            "severity": "High",
+            "description": "Phishing attack on a university in Perm",
+            "target": "Perm University",
+            "attackers": "Phishers Guild",
+            "attackType": "Phishing",
+            "attackDuration": "3 hours",
+            "attackVolume": "45 GB",
+            "attackMethod": "Email",
+            "pop": 46080
+        },
+        {
+            "Id": 98,
+            "startPoint": [
+                53.1952,
+                50.1002
+            ],
+            "endPoint": [
+                57.6234,
+                78.0143
+            ],
+            "time": "2024-10-20T14:30:00Z",
+            "status": "Active",
+            "severity": "Medium",
+            "description": "SQL Injection attack on a local business in Samara",
+            "target": "Samara Retail",
+            "attackers": "Grey Hat Group",
+            "attackType": "SQL Injection",
+            "attackDuration": "2 hours",
+            "attackVolume": "550 MB",
+            "attackMethod": "SQL Injection",
+            "pop": 563
+        },
+        {
+            "Id": 99,
+            "startPoint": [
+                67.4842,
+                78.5134
+            ],
+            "endPoint": [
+                60.1462,
+                64.7549
+            ],
+            "time": "2024-10-25T12:45:00Z",
+            "status": "Active",
+            "severity": "Critical",
+            "description": "Ransomware attack on a telecommunications company in Norilsk",
+            "target": "Norilsk TelCo",
+            "attackers": "Crypto Raiders",
+            "attackType": "Ransomware",
+            "attackDuration": "4 hours",
+            "attackVolume": "110 GB",
+            "attackMethod": "Email",
+            "pop": 112640
+        },
+        {
+            "Id": 100,
+            "startPoint": [
+                55.7558,
+                37.6176
+            ],
+            "endPoint": [
+                53.1952,
+                50.1002
+            ],
+            "time": "2024-10-30T16:00:00Z",
+            "status": "Active",
+            "severity": "High",
+            "description": "DDoS attack on a financial institution in Moscow",
+            "target": "Moscow Finance Bank",
+            "attackers": "Anonymous",
+            "attackType": "DDoS",
+            "attackDuration": "3 hours",
+            "attackVolume": "30 GB",
+            "attackMethod": "SYN Flood",
+            "pop": 30720
+        },  
+        {
+            "Id": 101,
+            "startPoint": [
+                69.1502,
+                33.3095
+            ],
+            "endPoint": [
+                39.9042,
+                116.4074
+            ],
+            "time": "2024-10-10T09:00:00Z",
+            "status": "Active",
+            "severity": "Medium",
+            "description": "DDoS attack on a government website in Beijing",
+            "target": "Beijing Govt. Portal",
+            "attackers": "Shadow Hackers",
+            "attackType": "DDoS",
+            "attackDuration": "3 hours",
+            "attackVolume": "25 GB",
+            "attackMethod": "TCP SYN Flood",
+            "pop": 25600
+        },
+        {
+            "Id": 102,
+            "startPoint": [
+                68.9532,
+                33.0743
+            ],
+            "endPoint": [
+                -33.8688,
+                151.2093
+            ],
+            "time": "2024-10-15T10:30:00Z",
+            "status": "Active",
+            "severity": "High",
+            "description": "Ransomware attack on a financial institution in Sydney",
+            "target": "Sydney Finance Corp.",
+            "attackers": "DarkNet Syndicate",
+            "attackType": "Ransomware",
+            "attackDuration": "5 hours",
+            "attackVolume": "42 GB",
+            "attackMethod": "Email",
+            "pop": 43008
+        },
+        {
+            "Id": 103,
+            "startPoint": [
+                63.9394,
+                33.4133
+            ],
+            "endPoint": [
+                40.7128,
+                -74.006
+            ],
+            "time": "2024-10-20T13:45:00Z",
+            "status": "Active",
+            "severity": "Medium",
+            "description": "Phishing attack on a tech company in New York City",
+            "target": "NY Tech Innovations",
+            "attackers": "HackNet",
+            "attackType": "Phishing",
+            "attackDuration": "2 hours",
+            "attackVolume": "18 GB",
+            "attackMethod": "Email",
+            "pop": 18432
+        },
+        {
+            "Id": 104,
+            "startPoint": [
+                62.0416,
+                40.2356
+            ],
+            "endPoint": [
+                51.5074,
+                -0.1278
+            ],
+            "time": "2024-10-25T14:15:00Z",
+            "status": "Active",
+            "severity": "Critical",
+            "description": "Ransomware attack on a government institution in London",
+            "target": "London Govt. Office",
+            "attackers": "Crypto Pirates",
+            "attackType": "Ransomware",
+            "attackDuration": "6 hours",
+            "attackVolume": "85 GB",
+            "attackMethod": "Email Attachment",
+            "pop": 87040
+        },
+        {
+            "Id": 105,
+            "startPoint": [
+                61.6747,
+                50.8356
+            ],
+            "endPoint": [
+                -22.9068,
+                -43.1729
+            ],
+            "time": "2024-10-30T09:30:00Z",
+            "status": "Active",
+            "severity": "High",
+            "description": "DDoS attack on a bank in Rio de Janeiro",
+            "target": "Rio Bank Corp.",
+            "attackers": "BlackByte",
+            "attackType": "DDoS",
+            "attackDuration": "4 hours",
+            "attackVolume": "60 GB",
+            "attackMethod": "DNS Amplification",
+            "pop": 61440
+        },
+        {
+            "Id": 106,
+            "startPoint": [
+                56.8389,
+                60.6057
+            ],
+            "endPoint": [
+                35.6895,
+                139.6917
+            ],
+            "time": "2024-11-05T11:00:00Z",
+            "status": "Active",
+            "severity": "Low",
+            "description": "Phishing attack on a company in Tokyo",
+            "target": "Tokyo Tech Solutions",
+            "attackers": "HackZone",
+            "attackType": "Phishing",
+            "attackDuration": "1 hour",
+            "attackVolume": "5 GB",
+            "attackMethod": "Email",
+            "pop": 5120
+        },
+        {
+            "Id": 107,
+            "startPoint": [
+                55.7558,
+                37.6176
+            ],
+            "endPoint": [
+                -37.8136,
+                144.9631
+            ],
+            "time": "2024-11-10T12:30:00Z",
+            "status": "Active",
+            "severity": "High",
+            "description": "SQL Injection attack on a financial institution in Melbourne",
+            "target": "Melbourne FinTech",
+            "attackers": "SQL Masters",
+            "attackType": "SQL Injection",
+            "attackDuration": "3 hours",
+            "attackVolume": "48 GB",
+            "attackMethod": "SQL Injection",
+            "pop": 49152
+        },
+        {
+            "Id": 108,
+            "startPoint": [
+                57.6234,
+                78.0143
+            ],
+            "endPoint": [
+                37.7749,
+                -122.4194
+            ],
+            "time": "2024-11-15T14:45:00Z",
+            "status": "Active",
+            "severity": "Medium",
+            "description": "DDoS attack on a tech company in San Francisco",
+            "target": "SF Tech Innovations",
+            "attackers": "ByteStorm",
+            "attackType": "DDoS",
+            "attackDuration": "2 hours",
+            "attackVolume": "20 GB",
+            "attackMethod": "SYN Flood",
+            "pop": 20480
+        },
+        {
+            "Id": 109,
+            "startPoint": [
+                59.9343,
+                30.3351
+            ],
+            "endPoint": [
+                -33.8688,
+                151.2093
+            ],
+            "time": "2024-11-20T16:00:00Z",
+            "status": "Active",
+            "severity": "Critical",
+            "description": "Ransomware attack on a government institution in Sydney",
+            "target": "Sydney Govt. Office",
+            "attackers": "Ransom Legion",
+            "attackType": "Ransomware",
+            "attackDuration": "5 hours",
+            "attackVolume": "100 GB",
+            "attackMethod": "Email",
+            "pop": 102400
+        },
+        {
+            "Id": 110,
+            "startPoint": [
+                57.6261,
+                39.8845
+            ],
+            "endPoint": [
+                40.7128,
+                -74.006
+            ],
+            "time": "2024-11-25T08:15:00Z",
+            "status": "Active",
+            "severity": "High",
+            "description": "Ransomware attack on a technology company in New York City",
+            "target": "NYC Tech Solutions",
+            "attackers": "CryptByte",
+            "attackType": "Ransomware",
+            "attackDuration": "4 hours",
+            "attackVolume": "70 GB",
+            "attackMethod": "Email Attachment",
+            "pop": 71680
+        },
+        {
+            "Id": 111,
+            "startPoint": [
+                52.2871,
+                104.2815
+            ],
+            "endPoint": [
+                34.0522,
+                -118.2437
+            ],
+            "time": "2024-11-30T09:30:00Z",
+            "status": "Active",
+            "severity": "Low",
+            "description": "Phishing attack on a university in Los Angeles",
+            "target": "LA University",
+            "attackers": "Phishers United",
+            "attackType": "Phishing",
+            "attackDuration": "1 hour",
+            "attackVolume": "7 GB",
+            "attackMethod": "Email",
+            "pop": 7168
+        },
+        {
+            "Id": 112,
+            "startPoint": [
+                64.5431,
+                40.5373
+            ],
+            "endPoint": [
+                37.7749,
+                -122.4194
+            ],
+            "time": "2024-12-05T10:45:00Z",
+            "status": "Active",
+            "severity": "Medium",
+            "description": "SQL Injection attack on a tech company in San Francisco",
+            "target": "SF Tech Solutions",
+            "attackers": "SQL Invaders",
+            "attackType": "SQL Injection",
+            "attackDuration": "2 hours",
+            "attackVolume": "35 GB",
+            "attackMethod": "SQL Injection",
+            "pop": 35840
+        },
+        {
+            "Id": 113,
+            "startPoint": [
+                61.5240,
+                105.3188
+            ],
+            "endPoint": [
+                48.8566,
+                2.3522
+            ],
+            "time": "2024-12-10T12:00:00Z",
+            "status": "Active",
+            "severity": "High",
+            "description": "DDoS attack on a government institution in Paris",
+            "target": "Paris Govt. Office",
+            "attackers": "NetStorm",
+            "attackType": "DDoS",
+            "attackDuration": "3 hours",
+            "attackVolume": "45 GB",
+            "attackMethod": "UDP Flood",
+            "pop": 46080
+        },
+        {
+            "Id": 114,
+            "startPoint": [
+                59.8452,
+                66.7755
+            ],
+            "endPoint": [
+                35.6895,
+                139.6917
+            ],
+            "time": "2024-12-15T13:15:00Z",
+            "status": "Active",
+            "severity": "Critical",
+            "description": "Ransomware attack on a company in Tokyo",
+            "target": "Tokyo Corp.",
+            "attackers": "CryptoWave",
+            "attackType": "Ransomware",
+            "attackDuration": "6 hours",
+            "attackVolume": "110 GB",
+            "attackMethod": "Email Attachment",
+            "pop": 112640
+        },
+        {
+            "Id": 115,
+            "startPoint": [
+                53.1952,
+                50.1002
+            ],
+            "endPoint": [
+                34.0522,
+                -118.2437
+            ],
+            "time": "2024-12-20T14:30:00Z",
+            "status": "Active",
+            "severity": "High",
+            "description": "DDoS attack on a tech company in Los Angeles",
+            "target": "LA Tech Solutions",
+            "attackers": "ByteBlast",
+            "attackType": "DDoS",
+            "attackDuration": "4 hours",
+            "attackVolume": "75 GB",
+            "attackMethod": "DNS Amplification",
+            "pop": 76800
+        },
+        {
+            "Id": 116,
+            "startPoint": [
+                60.1462,
+                64.7549
+            ],
+            "endPoint": [
+                51.5074,
+                -0.1278
+            ],
+            "time": "2024-12-25T15:45:00Z",
+            "status": "Active",
+            "severity": "Medium",
+            "description": "Phishing attack on a government institution in London",
+            "target": "London Govt. Office",
+            "attackers": "PhishNet",
+            "attackType": "Phishing",
+            "attackDuration": "2 hours",
+            "attackVolume": "20 GB",
+            "attackMethod":"Email",
+            "pop": 20480
+        },
+        {
+            "Id": 117,
+            "startPoint": [
+                58.5139,
+                31.2711
+            ],
+            "endPoint": [
+                -33.8688,
+                151.2093
+            ],
+            "time": "2024-12-30T16:00:00Z",
+            "status": "Active",
+            "severity": "High",
+            "description": "SQL Injection attack on a financial institution in Sydney",
+            "target": "Sydney Finance Corp.",
+            "attackers": "SQLStorm",
+            "attackType": "SQL Injection",
+            "attackDuration": "3 hours",
+            "attackVolume": "40 GB",
+            "attackMethod": "SQL Injection",
+            "pop": 40960
+        },
+        {
+            "Id": 118,
+            "startPoint": [
+                54.7104,
+                20.4522
+            ],
+            "endPoint": [
+                34.0522,
+                -118.2437
+            ],
+            "time": "2025-01-05T08:30:00Z",
+            "status": "Active",
+            "severity": "Medium",
+            "description": "DDoS attack on a technology company in Los Angeles",
+            "target": "LA Tech Innovations",
+            "attackers": "ByteNet",
+            "attackType": "DDoS",
+            "attackDuration": "2 hours",
+            "attackVolume": "15 GB",
+            "attackMethod": "UDP Flood",
+            "pop": 15360
+        },
+        {
+            "Id": 119,
+            "startPoint": [
+                67.4842,
+                78.5134
+            ],
+            "endPoint": [
+                -33.8688,
+                151.2093
+            ],
+            "time": "2025-01-10T10:00:00Z",
+            "status": "Active",
+            "severity": "Critical",
+            "description": "Ransomware attack on a government institution in Sydney",
+            "target": "Sydney Govt. Office",
+            "attackers": "DarkByte",
+            "attackType": "Ransomware",
+            "attackDuration": "5 hours",
+            "attackVolume": "120 GB",
+            "attackMethod": "Email Attachment",
+            "pop": 122880
+        },
+        {
+            "Id": 120,
+            "startPoint": [
+                35.6895,
+                139.6917
+            ],
+            "endPoint": [
+                -33.8688,
+                151.2093
+            ],
+            "time": "2025-01-15T09:30:00Z",
+            "status": "Active",
+            "severity": "Low",
+            "description": "Phishing attack on a tech company in Sydney",
+            "target": "Sydney Tech Solutions",
+            "attackers": "PhishByte",
+            "attackType": "Phishing",
+            "attackDuration": "2 hours",
+            "attackVolume": "800 MB",
+            "attackMethod": "Email",
+            "pop": 800
+        },
+        {
+            "Id": 121,
+            "startPoint": [
+                31.2304,
+                121.4737
+            ],
+            "endPoint": [
+                51.5074,
+                -0.1278
+            ],
+            "time": "2025-01-20T10:45:00Z",
+            "status": "Active",
+            "severity": "Medium",
+            "description": "DDoS attack on a government institution in London",
+            "target": "London Government Office",
+            "attackers": "ByteStorm",
+            "attackType": "DDoS",
+            "attackDuration": "3 hours",
+            "attackVolume": "2 GB",
+            "attackMethod": "UDP Flood",
+            "pop": 2048
+        },
+        {
+            "Id": 122,
+            "startPoint": [
+                37.5665,
+                126.978
+            ],
+            "endPoint": [
+                48.8566,
+                2.3522
+            ],
+            "time": "2025-01-25T11:30:00Z",
+            "status": "Active",
+            "severity": "Medium",
+            "description": "SQL Injection attack on a bank in Paris",
+            "target": "Paris Bank",
+            "attackers": "SQLByte",
+            "attackType": "SQL Injection",
+            "attackDuration": "2 hours",
+            "attackVolume": "1.5 GB",
+            "attackMethod": "SQL Injection",
+            "pop": 1536
+        },
+        {
+            "Id": 123,
+            "startPoint": [
+                39.9042,
+                116.4074
+            ],
+            "endPoint": [
+                48.8566,
+                2.3522
+            ],
+            "time": "2025-01-30T12:15:00Z",
+            "status": "Active",
+            "severity": "High",
+            "description": "Ransomware attack on a bank in Paris",
+            "target": "Paris Bank",
+            "attackers": "DarkByte",
+            "attackType": "Ransomware",
+            "attackDuration": "4 hours",
+            "attackVolume": "40 GB",
+            "attackMethod": "Email Attachment",
+            "pop": 40960
+        },
+        {
+            "Id": 124,
+            "startPoint": [
+                19.076,
+                72.8777
+            ],
+            "endPoint": [
+                40.7128,
+                -74.006
+            ],
+            "time": "2025-02-05T13:30:00Z",
+            "status": "Active",
+            "severity": "Low",
+            "description": "Phishing attack on a tech company in New York",
+            "target": "NY Tech Innovations",
+            "attackers": "PhishStorm",
+            "attackType": "Phishing",
+            "attackDuration": "2 hours",
+            "attackVolume": "700 MB",
+            "attackMethod": "Email",
+            "pop": 700
+        },
+        {
+            "Id": 125,
+            "startPoint": [
+                1.3521,
+                103.8198
+            ],
+            "endPoint": [
+                37.7749,
+                -122.4194
+            ],
+            "time": "2025-02-10T14:45:00Z",
+            "status": "Active",
+            "severity": "Low",
+            "description": "Phishing attack on a tech company in San Francisco",
+            "target": "SF Tech Innovations",
+            "attackers": "PhishStorm",
+            "attackType": "Phishing",
+            "attackDuration": "2 hours",
+            "attackVolume": "750 MB",
+            "attackMethod": "Email",
+            "pop": 750
+        },
+        {
+            "Id": 126,
+            "startPoint": [
+                13.7563,
+                100.5018
+            ],
+            "endPoint": [
+                40.7128,
+                -74.006
+            ],
+            "time": "2025-02-15T16:00:00Z",
+            "status": "Active",
+            "severity": "Low",
+            "description": "Phishing attack on a tech company in New York",
+            "target": "NY Tech Solutions",
+            "attackers": "PhishStorm",
+            "attackType": "Phishing",
+            "attackDuration": "2 hours",
+            "attackVolume": "700 MB",
+            "attackMethod": "Email",
+            "pop": 700
+        },
+        {
+            "Id": 127,
+            "startPoint": [
+                41.0082,
+                28.9784
+            ],
+            "endPoint": [
+                37.7749,
+                -122.4194
+            ],
+            "time": "2025-02-20T09:30:00Z",
+            "status": "Active",
+            "severity": "Low",
+            "description": "Phishing attack on a tech company in San Francisco",
+            "target": "SF Tech Innovations",
+            "attackers": "PhishStorm",
+            "attackType": "Phishing",
+            "attackDuration": "2 hours",
+            "attackVolume": "750 MB",
+            "attackMethod": "Email",
+            "pop": 750
+        },
+        {
+            "Id": 128,
+            "startPoint": [
+                25.276987,
+                55.296249
+            ],
+            "endPoint": [
+                51.5074,
+                -0.1278
+            ],
+            "time": "2025-02-25T11:00:00Z",
+            "status": "Active",
+            "severity": "Medium",
+            "description": "SQL Injection attack on a government institution in London",
+            "target": "London Govt. Center",
+            "attackers": "SQLStorm",
+            "attackType": "SQL Injection",
+            "attackDuration": "3 hours",
+            "attackVolume": "1.8 GB",
+            "attackMethod": "SQL Injection",
+            "pop": 1843
+        },
+        {
+            "Id": 129,
+            "startPoint": [
+                3.139,
+                101.6869
+            ],
+            "endPoint": [
+                48.8566,
+                2.3522
+            ],
+            "time": "2025-03-02T13:30:00Z",
+            "status": "Active",
+            "severity": "Medium",
+            "description": "DDoS attack on a bank in Paris",
+            "target": "Paris Bank",
+            "attackers": "ByteStorm",
+            "attackType": "DDoS",
+            "attackDuration": "4 hours",
+            "attackVolume": "2.5 GB",
+            "attackMethod": "UDP Flood",
+            "pop": 2560
+        },
+        {
+            "Id": 130,
+            "startPoint": [
+                -6.2088,
+                106.8456
+            ],
+            "endPoint": [
+                48.8566,
+                2.3522
+            ],
+            "time": "2025-03-07T14:45:00Z",
+            "status": "Active",
+            "severity": "High",
+            "description": "Ransomware attack on a bank in Paris",
+            "target": "Paris Bank",
+            "attackers": "DarkStorm",
+            "attackType": "Ransomware",
+            "attackDuration": "6 hours",
+            "attackVolume": "45 GB",
+            "attackMethod": "Email Attachment",
+            "pop": 46080
+        },
+        {
+            "Id": 131,
+            "startPoint": [
+                14.5995,
+                120.9842
+            ],
+            "endPoint": [
+                51.5074,
+                -0.1278
+            ],
+            "time": "2025-03-12T16:00:00Z",
+            "status": "Active",
+            "severity": "High",
+            "description": "Ransomware attack on a government institution in London",
+            "target": "London Govt. Center",
+            "attackers": "DarkStorm",
+            "attackType": "Ransomware",
+            "attackDuration": "5 hours",
+            "attackVolume": "55 GB",
+            "attackMethod": "Email Attachment",
+            "pop": 56320
+        },
+        {
+            "Id": 132,
+            "startPoint": [
+                35.6892,
+                51.389
+            ],
+            "endPoint": [
+                25.276987,
+                55.296249
+            ],
+            "time": "2025-03-17T09:30:00Z",
+            "status": "Active",
+            "severity": "High",
+            "description": "Ransomware attack on a government institution in Dubai",
+            "target": "Dubai Govt. Center",
+            "attackers": "DarkStorm",
+            "attackType": "Ransomware",
+            "attackDuration": "6 hours",
+            "attackVolume": "50 GB",
+            "attackMethod": "Email Attachment",
+            "pop": 51200
+        },
+        {
+            "Id": 133,
+            "startPoint": [
+                24.7136,
+                46.6753
+            ],
+            "endPoint": [
+                28.6139,
+                77.209
+            ],
+            "time": "2025-03-22T11:45:00Z",
+            "status": "Active",
+            "severity": "Critical",
+            "description": "Advanced Persistent Threat attack on a government institution in Delhi",
+            "target": "Delhi Govt. Center",
+            "attackers": "BlackByte",
+            "attackType": "APT",
+            "attackDuration": "8 hours",
+            "attackVolume": "120 GB",
+            "attackMethod": "Custom Malware",
+            "pop": 122880
+        },
+        {
+            "Id": 134,
+            "startPoint": [
+                39.9334,
+                32.8597
+            ],
+            "endPoint": [
+                35.6895,
+                139.6917
+            ],
+            "time": "2025-03-27T14:00:00Z",
+            "status": "Active",
+            "severity": "Medium",
+            "description": "DDoS attack on a tech company in Tokyo",
+            "target": "Tokyo Tech Innovations",
+            "attackers": "ByteStorm",
+            "attackType": "DDoS",
+            "attackDuration": "4 hours",
+            "attackVolume": "2.2 GB",
+            "attackMethod": "UDP Flood",
+            "pop": 2253
+        },
+        {
+            "Id": 135,
+            "startPoint": [
+                28.6139,
+                77.209
+            ],
+            "endPoint": [
+                55.7558,
+                37.6176
+            ],
+            "time": "2025-04-01T16:15:00Z",
+            "status": "Active",
+            "severity": "Medium",
+            "description": "SQL Injection attack on a tech company in Moscow",
+            "target": "Moscow Tech Solutions",
+            "attackers": "SQLStorm",
+            "attackType": "SQL Injection",
+            "attackDuration": "3 hours",
+            "attackVolume": "1.6 GB",
+            "attackMethod": "SQL Injection",
+            "pop": 1638
+        },
+        {
+            "Id": 136,
+            "startPoint": [
+                25.276987,
+                51.526398
+            ],
+            "endPoint": [
+                40.7128,
+                -74.006
+            ],
+            "time": "2025-04-06T09:45:00Z",
+            "status": "Active",
+            "severity": "High",
+            "description": "Ransomware attack on a tech company in New York",
+            "target": "NY Tech Innovations",
+            "attackers": "DarkStorm",
+            "attackType": "Ransomware",
+            "attackDuration": "5 hours",
+            "attackVolume": "60 GB",
+            "attackMethod": "Email Attachment",
+            "pop": 61440
+        },
+        {
+            "Id": 137,
+            "startPoint": [
+                10.7769,
+                106.7009
+            ],
+            "endPoint": [
+                25.276987,
+                55.296249
+            ],
+            "time": "2025-04-11T11:00:00Z",
+            "status": "Active",
+            "severity": "High",
+            "description": "Ransomware attack on a government institution in Dubai",
+            "target": "Dubai Govt. Center",
+            "attackers": "DarkStorm",
+            "attackType": "Ransomware",
+            "attackDuration": "6 hours",
+            "attackVolume": "55 GB",
+            "attackMethod": "Email Attachment",
+            "pop": 56320
+        },
+        {
+            "Id": 138,
+            "startPoint": [
+                38.0962,
+                46.2738
+            ],
+            "endPoint": [
+                35.6895,
+                139.6917
+            ],
+            "time": "2025-04-16T13:15:00Z",
+            "status": "Active",
+            "severity": "Medium",
+            "description": "DDoS attack on a tech company in Tokyo",
+            "target": "Tokyo Tech Innovations",
+            "attackers": "ByteStorm",
+            "attackType": "DDoS",
+            "attackDuration": "3 hours",
+            "attackVolume": "1.8 GB",
+            "attackMethod": "UDP Flood",
+            "pop": 1843
+        },
+        {
+            "Id": 139,
+            "startPoint": [
+                51.1694,
+                71.4491
+            ],
+            "endPoint": [
+                28.6139,
+                77.209
+            ],
+            "time": "2025-04-21T15:30:00Z",
+            "status": "Active",
+            "severity": "Low",
+            "description": "Phishing attack on a tech company in Delhi",
+            "target": "Delhi Tech Solutions",
+            "attackers": "PhishByte",
+            "attackType": "Phishing",
+            "attackDuration": "2 hours",
+            "attackVolume": "850 MB",
+            "attackMethod": "Email",
+            "pop": 850
+        },
+        {
+            "Id": 140,
+            "startPoint": [
+                34.0479,
+                100.6197
+            ],
+            "endPoint": [
+                51.5074,
+                -0.1278
+            ],
+            "time": "2025-04-26T10:45:00Z",
+            "status": "Active",
+            "severity": "Medium",
+            "description": "SQL Injection attack on a government institution in London",
+            "target": "London Govt. Center",
+            "attackers": "SQLStorm",
+            "attackType": "SQL Injection",
+            "attackDuration": "3 hours",
+            "attackVolume": "2 GB",
+            "attackMethod": "SQL Injection",
+            "pop": 2048
+        },
+        {
+            "Id": 141,
+            "startPoint": [
+                33.9416,
+                67.7099
+            ],
+            "endPoint": [
+                48.8566,
+                2.3522
+            ],
+            "time": "2025-05-01T12:00:00Z",
+            "status": "Active",
+            "severity": "Medium",
+            "description": "DDoS attack on a bank in Paris",
+            "target": "Paris Bank",
+            "attackers": "ByteStorm",
+            "attackType": "DDoS",
+            "attackDuration": "4 hours",
+            "attackVolume": "2.3 GB",
+            "attackMethod": "UDP Flood",
+            "pop": 2355
+        },
+        {
+            "Id": 142,
+            "startPoint": [
+                27.7172,
+                85.324
+            ],
+            "endPoint": [
+                51.5074,
+                -0.1278
+            ],
+            "time": "2025-05-06T13:15:00Z",
+            "status": "Active",
+            "severity": "Medium",
+            "description": "SQL Injection attack on a government institution in London",
+            "target": "London Govt. Center",
+            "attackers": "SQLStorm",
+            "attackType": "SQL Injection",
+            "attackDuration": "3 hours",
+            "attackVolume": "1.9 GB",
+            "attackMethod": "SQL Injection",
+            "pop": 1946
+        },
+        {
+            "Id": 143,
+            "startPoint": [
+                36.2048,
+                138.2529
+            ],
+            "endPoint": [
+                48.8566,
+                2.3522
+            ],
+            "time": "2025-05-11T15:30:00Z",
+            "status": "Active",
+            "severity": "High",
+            "description": "Ransomware attack on a bank in Paris",
+            "target": "Paris Bank",
+            "attackers": "DarkStorm",
+            "attackType": "Ransomware",
+            "attackDuration": "6 hours",
+            "attackVolume": "50 GB",
+            "attackMethod": "Email Attachment",
+            "pop": 51200
+        },
+        {
+            "Id": 144,
+            "startPoint": [
+                55.7558,
+                37.6176
+            ],
+            "endPoint": [
+                25.276987,
+                51.526398
+            ],
+            "time": "2025-05-16T10:45:00Z",
+            "status": "Active",
+            "severity": "High",
+            "description": "Ransomware attack on a government institution in Dubai",
+            "target": "Dubai Govt. Center",
+            "attackers": "DarkStorm",
+            "attackType": "Ransomware",
+            "attackDuration": "5 hours",
+            "attackVolume": "55 GB",
+            "attackMethod": "Email Attachment",
+            "pop": 56320
+        },
+        {
+            "Id": 145,
+            "startPoint": [
+                55.7558,
+                37.6176
+            ],
+            "endPoint": [
+                35.6895,
+                139.6917
+            ],
+            "time": "2025-05-21T12:00:00Z",
+            "status": "Active",
+            "severity": "High",
+            "description": "Ransomware attack on a tech company in Tokyo",
+            "target": "Tokyo Tech Innovations",
+            "attackers": "DarkStorm",
+            "attackType": "Ransomware",
+            "attackDuration": "6 hours",
+            "attackVolume": "60 GB",
+            "attackMethod": "Email Attachment",
+            "pop": 61440
+        },
+        {
+            "Id": 146,
+            "startPoint": [
+                40.7128,
+                -74.006
+            ],
+            "endPoint": [
+                25.276987,
+                55.296249
+            ],
+            "time": "2025-05-26T13:15:00Z",
+            "status": "Active",
+            "severity": "High",
+            "description": "Ransomware attack on a government institution in Dubai",
+            "target": "Dubai Govt. Center",
+            "attackers": "DarkStorm",
+            "attackType": "Ransomware",
+            "attackDuration": "5 hours",
+            "attackVolume": "60 GB",
+            "attackMethod": "Email Attachment",
+            "pop": 61440
+        },
+        {
+            "Id": 147,
+            "startPoint": [
+                51.5074,
+                -0.1278
+            ],
+            "endPoint": [
+                35.6895,
+                139.6917
+            ],
+            "time": "2025-05-31T14:30:00Z",
+            "status": "Active",
+            "severity": "Critical",
+            "description": "Advanced Persistent Threat attack on a government institution in Tokyo",
+            "target": "Tokyo Govt. Center",
+            "attackers": "BlackStorm",
+            "attackType": "APT",
+            "attackDuration": "8 hours",
+            "attackVolume": "120 GB",
+            "attackMethod": "Custom Malware",
+            "pop": 122880
+        },
+        {
+            "Id": 148,
+            "startPoint": [
+                52.5200,
+                13.4050
+            ],
+            "endPoint": [
+                35.6895,
+                139.6917
+            ],
+            "time": "2025-06-05T16:45:00Z",
+            "status": "Active",
+            "severity": "Medium",
+            "description": "DDoS attack on a tech company in Tokyo",
+            "target": "Tokyo Tech Innovations",
+            "attackers": "ByteStorm",
+            "attackType": "DDoS",
+            "attackDuration": "3 hours",
+            "attackVolume": "1.5 GB",
+            "attackMethod": "UDP Flood",
+            "pop": 1536
+        },
+        {
+            "Id": 149,
+            "startPoint": [
+                31.2304,
+                121.4737
+            ],
+            "endPoint": [
+                55.7558,
+                37.6176
+            ],
+            "time": "2025-06-10T09:30:00Z",
+            "status": "Active",
+            "severity": "Medium",
+            "description": "SQL Injection attack on a tech company in Moscow",
+            "target": "Moscow Tech Innovations",
+            "attackers": "SQLStorm",
+            "attackType": "SQL Injection",
+            "attackDuration": "3 hours",
+            "attackVolume": "1.8 GB",
+            "attackMethod": "SQL Injection",
+            "pop": 1843
+        },
+        {
+            "Id": 150,
+            "startPoint": [
+                51.5074,
+                -0.1278
+            ],
+            "endPoint": [
+                25.276987,
+                51.526398
+            ],
+            "time": "2025-06-15T11:45:00Z",
+            "status": "Active",
+            "severity": "High",
+            "description": "Ransomware attack on a tech company in Doha",
+            "target": "Doha Tech Innovations",
+            "attackers": "DarkStorm",
+            "attackType": "Ransomware",
+            "attackDuration": "6 hours",
+            "attackVolume": "55 GB",
+            "attackMethod": "Email Attachment",
+            "pop": 56320
+        },
+        {
+            "Id": 151,
+            "startPoint": [
+                51.1694,
+                71.4491
+            ],
+            "endPoint": [
+                28.6139,
+                77.209
+            ],
+            "time": "2025-06-20T13:00:00Z",
+            "status": "Active",
+            "severity": "High",
+            "description": "Ransomware attack on a government institution in Delhi",
+            "target": "Delhi Govt. Center",
+            "attackers": "DarkStorm",
+            "attackType": "Ransomware",
+            "attackDuration": "5 hours",
+            "attackVolume": "50 GB",
+            "attackMethod": "Email Attachment",
+            "pop": 51200
+        },
+        {
+            "Id": 152,
+            "startPoint": [
+                34.0479,
+                100.6197
+            ],
+            "endPoint": [
+                35.6895,
+                139.6917
+            ],
+            "time": "2025-06-25T15:15:00Z",
+            "status": "Active",
+            "severity": "High",
+            "description": "Ransomware attack on a tech company in Tokyo",
+            "target": "Tokyo Tech Innovations",
+            "attackers": "DarkStorm",
+            "attackType": "Ransomware",
+            "attackDuration": "6 hours",
+            "attackVolume": "60 GB",
+            "attackMethod": "Email Attachment",
+            "pop": 61440
+        },
+        {
+            "Id": 153,
+            "startPoint": [
+                33.9416,
+                67.7099
+            ],
+            "endPoint": [
+                25.276987,
+                51.526398
+            ],
+            "time": "2025-06-30T16:30:00Z",
+            "status": "Active",
+            "severity": "High",
+            "description": "Ransomware attack on a government institution in Doha",
+            "target": "Doha Govt. Center",
+            "attackers": "DarkStorm",
+            "attackType": "Ransomware",
+            "attackDuration": "5 hours",
+            "attackVolume": "55 GB",
+            "attackMethod": "Email Attachment",
+            "pop": 56320
         }
     ]
 }

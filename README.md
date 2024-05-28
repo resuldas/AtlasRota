@@ -19,7 +19,7 @@
 
 ## Genel Bakış
 
-ThreatTracker, Dünya genelinde yapılan siber saldırıların harita üzerinde graf gibi çeşitli grafiklerle birlikte görselleştirilmesi ve listelenmesin sağlar.
+ThreatTracker, dünya genelinde gerçekleşen siber saldırıları izlemek ve analiz etmek amacıyla tasarlanmış yenilikçi bir web platformudur. Kullanıcı dostu arayüzümüz, siber güvenlik profesyonellerine, araştırmacılara ve meraklılarına, siber tehditlerin kapsamlı bir şekilde görselleştirilmesini sağlar. Graf veri modeli ile saldırılar arasındaki ilişkileri ve bağları net bir şekilde görebilir, bu sayede tehditleri daha derinlemesine analiz edebilirsiniz. ThreatTracker, siber saldırıların izlenmesi ve analiz edilmesinde önemli ölçüde kolaylık sağlar.
 
 <br>
 
@@ -33,7 +33,30 @@ devam ediyor...
 
 ## Özellikler
 
-devam ediyor...
+### Detaylı Harita Görselleştirmesi:
+
+Dünyanın dört bir yanındaki siber saldırılar detaylı olarak interaktif bir harita üzerinde gösterilir. Kullanıcılar, belirli bölgelerdeki saldırı yoğunluğunu ve kaynaklarını izleyebilir.
+
+### Çeşitli Grafikler ve İstatistikler:
+
+Saldırıların hacmi, türü, kaynak ve hedef ülkeler gibi birçok bilgiyi görselleştiren kapsamlı grafikler. Saldırıların zaman içindeki dağılımını ve trendlerini izleme imkanı.
+
+### Graf Veri Modeli ile Görselleştirme:
+
+Siber saldırıların karmaşık ilişkilerini ve bağlantılarını anlamak için graf veri modeli kullanılır. Saldırı kaynakları, hedefler ve aralarındaki bağlantılar, düğüm ve kenar yapıları ile görselleştirilir. Kullanıcılar, bu model sayesinde siber saldırı ağlarını ve potansiyel tehdit zincirlerini daha iyi analiz edebilir.
+
+### Detaylı Saldırı Analizi:
+
+Her bir siber saldırının türü, hedefi, kaynağı ve önem derecesi gibi detaylı bilgileri sunar. Kullanıcılar, belirli saldırı türlerine odaklanarak derinlemesine analiz yapabilir.
+
+### Öncelik ve Önem Derecesi:
+
+Saldırıların önem derecesine göre sınıflandırılması ve önceliklendirilmesi. Kritik altyapıya yönelik saldırılar gibi yüksek öncelikli tehditlere özel dikkat.
+
+### Etkileşimli ve Kullanıcı Dostu Arayüz:
+
+Kullanıcıların verileri filtreleyip özelleştirebileceği dinamik ve sezgisel bir arayüz. Farklı görselleştirme seçenekleri ile verilerin kolayca anlaşılması sağlanır.
+
 
 ## Başlangıç
 
@@ -86,7 +109,7 @@ Bu proje [MIT Lisansı](/LICENSE) kapsamında lisanslanmıştır.
 
 ## Overview
 
-ThreatTracker allows you to visualize and list cyber attacks around the world with various graphs such as graf on a map.
+ThreatTracker is an innovative web platform designed to track and analyze cyber attacks occurring worldwide. Our user-friendly interface provides cybersecurity professionals, researchers, and enthusiasts with a comprehensive visualization of cyber threats. By using a graph data model, you can clearly see the relationships and connections between attacks, allowing for a deeper analysis of threats. ThreatTracker significantly facilitates the monitoring and analysis of cyber attacks.
 
 <br>
 
@@ -100,7 +123,30 @@ progressing...
 
 ## Features
 
-progressing...
+### Detailed Map Visualization:
+
+Cyber attacks from around the world are detailedly showcased on an interactive map. Users can track the intensity and origins of attacks in specific regions.
+
+### Various Graphs and Statistics:
+
+Comprehensive graphs visualize various information such as the volume, type, sources, and target countries of attacks. Users can observe the distribution and trends of attacks over time.
+
+### Visualization with Graph Data Model:
+
+A graph data model is utilized to understand the complex relationships and connections of cyber attacks. Attack sources, targets, and their connections are visualized with node and edge structures. Users can better analyze cyber attack networks and potential threat chains through this model.
+
+### Detailed Attack Analysis:
+
+Detailed information about each cyber attack is provided, including type, target, source, and severity. Users can conduct in-depth analysis by focusing on specific types of attacks.
+
+### Priority and Severity Classification:
+
+Attacks are classified and prioritized based on their severity. Special attention is given to high-priority threats such as attacks on critical infrastructure.
+
+### Interactive and User-Friendly Interface:
+
+A dynamic and intuitive interface enables users to filter and customize data. Different visualization options ensure easy understanding of the data.
+
 
 ## Getting Started
 
