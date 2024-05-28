@@ -195,7 +195,7 @@ function openNav() {
     document.getElementById("drawerSpan").style.display = "none";
     document.getElementById("pauseButton").style.visibility = "hidden";
     document.getElementById("attackListContainer").style.visibility = "hidden";
-    document.getElementById("graf-dropdown").style.visibility="hidden";
+    document.getElementById("graf-dropdown").style.visibility = "hidden";
 }
 
 function closeNav() {
@@ -203,7 +203,7 @@ function closeNav() {
     document.getElementById("drawerSpan").style.display = "block";
     document.getElementById("pauseButton").style.visibility = "visible";
     document.getElementById("attackListContainer").style.visibility = "visible";
-    document.getElementById("graf-dropdown").style.visibility="visible";
+    document.getElementById("graf-dropdown").style.visibility = "visible";
 }
 
 function pause() {
