@@ -328,28 +328,40 @@ input:checked+.slider:before {
     color: #1b1a1a;
 }
 
+#graf-menu {
+    position: absolute;
+    bottom: 25px;
+    left: 80px;
+    z-index: 1000;
+}
+
 .graf-menu {
     color: white;
     background-color: #0b1921;
     border-radius: 17px;
-    height: 34px;
+    height: 40px;
     width: 100px;
+    display: flex;
     flex-direction: row;
     align-items: center;
-    cursor: pointer;
-    z-index: 1000;
-    position: absolute;
-    bottom: 20px;
-    left: 150px;
-    transform: none;
-    z-index: 1000;
-    display: flex;
     justify-content: center;
+    cursor: pointer;
+    transition: width 0.3s ease;
 }
 
 .graf-menu .item {
     display: none;
     color: white;
+    margin: 0 5px;
+}
+
+.graf-menu .item a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.graf-menu .item a:hover {
+    color: #cccccc;
 }
 
 .graf-menu #open-button {
@@ -377,7 +389,7 @@ input:checked+.slider:before {
 }
 
 .graf-menu.open .item:hover {
-    color: #19262f;
+    color: #cccccc;
 }
 
 .graf-menu.open #close-button {
@@ -385,9 +397,40 @@ input:checked+.slider:before {
 }
 
 .graf-menu.open #close-button:hover {
-    color: #19262f;
+    color: #cccccc;
 }
 
 .graf-menu.open #open-button {
     display: none;
+}
+
+/* Hover effect to open the menu */
+#graf-menu:hover .graf-menu {
+    width: 300px;
+    justify-content: space-around;
+}
+
+#graf-menu:hover .graf-menu .item {
+    display: block;
+}
+
+#graf-menu:hover .graf-menu #open-button {
+    display: none;
+}
+
+#graf-menu:hover .graf-menu #close-button {
+    display: block;
+}
+
+.item:not(a) {
+    color: #999999;
+}
+
+.item:not(a):hover {
+    color: #cccccc;
+}
+
+.item.active, .item a.active {
+    color: #333333; /* Koyu gri */
+    background-color: #1c1c1c; /* Koyu siyah */
 }
