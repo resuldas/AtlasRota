@@ -1,3 +1,6 @@
+let world;
+let isPlaying = true;
+
 
 fetch('../data/newData.json')
     .then(response => response.json())
@@ -66,7 +69,7 @@ function openNav() {
     document.getElementById("drawerSpan").style.display = "none";
     document.getElementById("pauseButton").style.visibility = "hidden";
     document.getElementById("attackListContainer").style.visibility = "hidden";
-    document.getElementById("graf-dropdown").style.visibility="hidden";
+    document.getElementById("graf-dropdown").style.visibility = "hidden";
 }
 
 function closeNav() {
@@ -74,7 +77,7 @@ function closeNav() {
     document.getElementById("drawerSpan").style.display = "block";
     document.getElementById("pauseButton").style.visibility = "visible";
     document.getElementById("attackListContainer").style.visibility = "visible";
-    document.getElementById("graf-dropdown").style.visibility="visible";
+    document.getElementById("graf-dropdown").style.visibility = "visible";
 }
 function pause() {
     if (myGlobe) {
@@ -151,5 +154,19 @@ function startAutoScroll() {
         attackList.style.top = `0px`;
         attackList.classList.add('auto-scroll');
         attackList.style.animationDuration = `${(totalHeight / attackItemHeight) * 5}s`;
+    }
+}
+
+function pause() {
+    if (world) {
+        if (isPlaying) {
+            world.controls().autoRotate = false;
+            world.arcDashAnimateTime(0);
+            isPlaying = false;
+        } else {
+            world.controls().autoRotate = true;
+            world.arcDashAnimateTime(6000);
+            isPlaying = true;
+        }
     }
 }
