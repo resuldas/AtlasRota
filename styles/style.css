@@ -285,11 +285,12 @@ input:checked+.slider:before {
 
 #attackDictListContainer {
     scrollbar-width: none;
-    width: 500px;
-    height: auto;
+    display: flex;
+    text-align: center;
     position: relative;
-    display: inline-block;
-    align-items: center;
+    margin: 20px auto;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 #attackDictListContainer h3 {
@@ -300,30 +301,31 @@ input:checked+.slider:before {
 
 #attackDictList {
     list-style-type: none;
-    padding: 0;
+    width: 900px;
+    height: 350px;
+    padding: 10px;
     scrollbar-width: none;
-    width: 500px;
-    height: auto;
     overflow-y: auto;
-    position: relative;
     display: inline-block;
-    background-color: rgba(17, 20, 41, 0.7);
-    color: white;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.607);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 10px;
     box-shadow: 0px 0px 4px rgb(239, 239, 239);
     z-index: 1000;
-    margin-top: 1%;
-    margin-left: 5px;
+    margin: 0 10px 10px 10px;
     border-radius: 20px;
 }
 
 #attackDictList p {
-    color: #828298;
-
+    color: #242323;
 }
 
 #attackDictList h4 {
-    color: rgb(239, 239, 239);
+    color: #1b1a1a;
 }
 
 .graf-menu {
