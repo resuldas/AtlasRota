@@ -97,11 +97,13 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #2b2e36;
+    background-color: transparent;
+    background-image: url("../assets/images/switchButton/moon.png");
+    background-size: contain;
+    background-position: center ;
     -webkit-transition: .4s;
     transition: .4s;
     border-radius: 20px;
-    background-image: url("../assets/images/switchButton/day.png");
     background-size: cover;
 }
 
@@ -117,7 +119,7 @@ body {
     -webkit-transition: .4s;
     transition: .4s;
     border-radius: 50%;
-    background-image: url("../assets/images/switchButton/sun.png");
+    background-image: url("../assets/images/switchButton/night.png");
     background-size: cover;
 }
 
