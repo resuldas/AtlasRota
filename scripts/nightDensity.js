@@ -170,3 +170,16 @@ function pause() {
         }
     }
 }
+
+[...document.getElementsByClassName("item")].forEach(i => i.addEventListener("click", function (e) {
+    e.stopPropagation();
+    console.log(this);
+}));
+
+document.getElementById("open-button").addEventListener("click", function () {
+    this.parentElement.classList.add("open");
+});
+
+document.getElementById("close-button").addEventListener("click", function () {
+    this.parentElement.classList.remove("open");
+});
