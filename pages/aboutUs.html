@@ -5,104 +5,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hakkımızda</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 0;
-            background-image: url('//unpkg.com/three-globe/example/img/night-sky.png')
-        }
-
-        .container {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            background-color: rgba(255, 255, 255, 0.607);
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            align-items: center;
-            text-align: center
-        }
-
-        h1 {
-            text-align: center;
-            color: #1b1a1a;
-        }
-
-        p {
-            line-height: 1.6;
-            color: #242323;
-        }
-
-        .developer {
-            margin-bottom: 20px;
-        }
-
-        .developer h3 {
-            margin-bottom: 5px;
-            font-size: 18px;
-        }
-
-        .developer p {
-            font-size: 16px;
-        }
-
-        .developerContainer {
-            display: flex;
-            text-align: center;
-            position: relative;
-            margin: 20px auto;
-            padding-left: 10%;
-            padding-right: 10%;
-        }
-
-        .profileImg {
-            width: 200px;
-            height: 200px;
-            padding: 0 50px 0 50px;
-            border-radius: 100%;
-        }
-
-        .SocialIcon {
-            width: 30px;
-            height: 30px;
-            padding-right: 10px;
-        }
-
-        .socialContainer{
-            align-items: center;
-            text-align: center;
-            justify-items: center;
-            justify-content: center;
-            display: flex;
-        }
-
-        a {
-            color: #000;
-        }
-    </style>
+    <link rel="stylesheet" href="../styles/aboutStyle.css">
 </head>
 
 <body>
-
+    <div id="mySidenav" class="sidenav">
+        <hr width="240px">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">Cyber Security</a>
+        <a href="#">Most Intense Attacks</a>
+        <a href="#">How to Protect</a>
+        <a href="https://cyware.com/cyber-security-news-articles" target="_blank">Articles</a>
+        <a href="https://www.bbc.com/turkce/topics/cdr56v87v05t" target="_blank">News</a>
+        <a href="aboutUs.html">About Us</a>
+    </div>
+    <span id="drawerSpan" onclick="openNav()">&#9776;</span>
     <div class="container">
         <h1>Hakkımızda</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet arcu vitae vestibulum aliquet. Nullam
-            lacinia sem vitae libero volutpat, a mattis felis egestas. Donec eget tortor ac magna semper elementum.
-            Aliquam eget vehicula urna, at dignissim dui. In hac habitasse platea dictumst. Nam tristique nunc non
-            tortor venenatis, ut bibendum odio tincidunt. Duis dapibus, lectus sit amet malesuada tincidunt, risus velit
-            convallis sem, id feugiat ligula arcu nec justo. Curabitur consequat magna in lectus fermentum, vel aliquet
-            nulla convallis.</p>
-        <p>Nullam ac mi ligula. Phasellus sit amet enim vel sem egestas interdum. Morbi non libero a felis convallis
-            posuere. Suspendisse ut dui eu libero vestibulum consectetur. Proin commodo bibendum risus, nec feugiat
-            mauris finibus a. Vivamus nec felis est. Vivamus bibendum venenatis nulla, eu pellentesque turpis gravida
-            sit amet. Pellentesque dapibus ligula in eros luctus, vel tristique est tristique. Vestibulum ac pretium
-            mauris. Ut id malesuada nisi. Integer a ex a arcu aliquet interdum. Fusce vestibulum blandit sapien.</p>
-        <p>Quisque maximus auctor mi, non tincidunt nunc ultricies sed. Vivamus feugiat risus et tellus accumsan, non
-            convallis leo bibendum. Nam aliquet metus nec mauris malesuada laoreet. Sed vel lorem eget justo vestibulum
-            vehicula. Vestibulum tincidunt libero in magna dapibus elementum. Aliquam vel justo sit amet nisl congue
-            suscipit. Nam a libero id libero suscipit molestie.</p>
+        <p>Hakkımızda
+            Thread Tracker ekibi olarak, siber güvenlik dünyasında fark yaratma hedefiyle yola çıktık. Küresel düzeyde artan siber saldırılar ve bu saldırıların yarattığı tehditler, bireylerin ve kurumların güvenliğini her geçen gün daha fazla tehdit ediyor. Bu nedenle, dünya genelinde gerçekleşen siber saldırıları izleyen ve analiz eden yenilikçi bir platform oluşturduk.</p>
+            
+           <p> Misyonumuz
+            Misyonumuz, siber güvenlik farkındalığını artırmak ve kullanıcılarımıza siber tehditlere karşı daha iyi korunma imkanı sunmaktır. Siber saldırıları izleme ve analiz araçlarımızla, siber saldırıların nereden geldiğini ve nereye yöneldiğini anında görselleştirerek, kullanıcılarımızın proaktif önlemler almasına yardımcı oluyoruz.
+        </p><p>
+            Vizyonumuz
+            Vizyonumuz, dünya genelinde siber güvenlik bilincini yaymak ve dijital dünyada daha güvenli bir ortam oluşturmak için öncü bir platform olmaktır. Teknolojinin hızla geliştiği bir dünyada, siber tehditlerle başa çıkmak için sürekli yenilikler yaparak ve en güncel verileri sunarak, kullanıcılarımızın güvenlik stratejilerini güçlendirmeyi amaçlıyoruz.
+        </p><p>
+            Değerlerimiz
+            Yenilikçilik: Sürekli olarak en son teknolojileri ve yöntemleri kullanarak siber güvenlik çözümlerimizi geliştiriyoruz.
+            Güvenilirlik: Kullanıcılarımıza doğru ve güvenilir veriler sunarak, siber güvenlik alanında güvenilir bir kaynak olmayı hedefliyoruz.
+            Şeffaflık: Siber tehditler ve saldırılar hakkında şeffaf bilgi paylaşımı yaparak, kullanıcılarımızın bilinçli kararlar almasını sağlıyoruz.
+            Eğitim: Siber güvenlik konusunda farkındalığı artırmak için eğitim materyalleri ve kaynaklar sunuyoruz.
+            İşbirliği: Küresel düzeyde siber güvenlik işbirliklerini teşvik ederek, siber suçlarla daha etkili mücadele etmeyi amaçlıyoruz.
+        </p>
+            <p>
+            Hizmetlerimiz
+            Siber Saldırıları İzleme ve Analiz Etme: Dünya genelinde gerçekleşen siber saldırıları inceleyip analiz ediyoruz.
+            İnteraktif Görselleştirme: Saldırıların kaynak ve hedef noktalarını dünya haritası üzerinde dinamik çizgilerle görselleştiriyoruz. Çizgiler ile etkileşime geçerek söz konusu saldırı hakkında daha detaylı bilgiler vermektedir.
+            Bölgesel Saldırı Analizleri: Belirli bölgelere yapılan büyük ölçekli saldırıları detaylandıran grafikler sunuyoruz.
+            Eğitim ve Bilgilendirme: Kullanıcılarımıza siber güvenlik konusunda bilgi ve eğitim materyalleri sağlıyoruz.
+            Thread Tracker olarak, dijital dünyada güvenliği sağlamak ve siber tehditlere karşı etkili çözümler sunmak için buradayız. Misyonumuz ve vizyonumuz doğrultusunda, kullanıcılarımızın yanındayız ve onların güvenliğini her zaman en ön planda tutuyoruz.
+        </p>
     </div>
 
     <div class="developerContainer">
@@ -171,5 +114,5 @@
     </div>
 
 </body>
-
+<script src="../scripts/aboutUs.js"></script>
 </html>
