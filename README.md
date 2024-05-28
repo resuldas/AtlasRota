@@ -29,7 +29,31 @@ Not: Projeyi çalıştırmak için Kullandığınız ide üzerinden "LiveServer"
 
 ## Uygulama içi ekran görüntüleri
 
-devam ediyor...
+
+<p align="center">
+  <img src="previews/day_graph.png" alt="Day Graph" width="45%">
+  <img src="previews/night_graph.png" alt="Night Graph" width="45%">
+</p>
+<p align="center">
+  Gündüz saldırı graf modeli
+  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+  Gece saldırı graf modeli
+</p>
+<p align="center">
+  <img src="previews/night_density.png" alt="Night Density" width="45%">
+  <img src="previews/attack_attiributes.png" alt="Attack Attributes" width="45%">
+</p>
+<p align="center">
+  Saldırı yoğunluk grafiği
+  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+  Saldırı detayları
+</p>
+<p align="center">
+  <img src="previews/dictionary.png" alt="Dictionary" width="45%">
+</p>
+<p align="center">
+  Saldırı sözlüğü
+</p>
 
 ## Özellikler
 
@@ -119,7 +143,30 @@ Note: To run the project, you must install the "LiveServer" plugin on the ide yo
 
 ## In App Screenshots
 
-progressing...
+<p align="center">
+  <img src="previews/day_graph.png" alt="Day Graph" width="45%">
+  <img src="previews/night_graph.png" alt="Night Graph" width="45%">
+</p>
+<p align="center">
+  Day attack graph model
+  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+  Night attack graph model
+</p>
+<p align="center">
+  <img src="previews/night_density.png" alt="Night Density" width="45%">
+  <img src="previews/attack_attiributes.png" alt="Attack Attributes" width="45%">
+</p>
+<p align="center">
+  Attack density chart
+  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+  Attack details
+</p>
+<p align="center">
+  <img src="previews/dictionary.png" alt="Dictionary" width="45%">
+</p>
+<p align="center">
+  Attack dictionary
+</p>
 
 ## Features
 
