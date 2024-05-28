@@ -62,7 +62,7 @@ p {
     padding-right: 10px;
 }
 
-.socialContainer{
+.socialContainer {
     align-items: center;
     text-align: center;
     justify-items: center;
@@ -73,6 +73,7 @@ p {
 a {
     color: #000;
 }
+
 .sidenav {
     height: 100%;
     width: 0;
@@ -106,6 +107,7 @@ a {
     font-size: 36px;
     margin-left: 50px;
 }
+
 #drawerSpan {
     font-size: 35px;
     cursor: pointer;
