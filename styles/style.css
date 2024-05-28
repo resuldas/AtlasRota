@@ -160,6 +160,7 @@ input:checked+.slider:before {
     right: 20px;
     z-index: 1000;
     width: 300px;
+    height:90%;
     background-color: #15004e56;
     border-radius: 20px;
     padding: 20px;
@@ -282,7 +283,6 @@ input:checked+.slider:before {
     }
 }
 
-/* Dropdown Menü CSS */
 #graf-dropdown {
     position: absolute;
     bottom: 20px;

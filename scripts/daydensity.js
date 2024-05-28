@@ -57,4 +57,18 @@ daySwitch.addEventListener('change', function () {
     }
 });
 
+function pause() {
+    if (myGlobe) {
+        if (isPlaying) {
+            myGlobe.controls().autoRotate = false;
+            myGlobe.arcDashAnimateTime(0);
+            isPlaying = false;
+        } else {
+            myGlobe.controls().autoRotate = true;
+            myGlobe.arcDashAnimateTime(6000);
+            isPlaying = true;
+        }
+    }
+}
+
 

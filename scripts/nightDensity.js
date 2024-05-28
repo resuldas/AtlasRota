@@ -43,7 +43,19 @@ fetch('../data/newData.json')
         world.hexBinPointsData(attacksData);
         world.controls().autoRotate = true;
         world.controls().autoRotateSpeed = 0.6;
-
+function pause() {
+    if (myGlobe) {
+        if (isPlaying) {
+            myGlobe.controls().autoRotate = false;
+            myGlobe.arcDashAnimateTime(0);
+            isPlaying = false;
+        } else {
+            myGlobe.controls().autoRotate = true;
+            myGlobe.arcDashAnimateTime(6000);
+            isPlaying = true;
+        }
+    }
+}
 
     })
 
