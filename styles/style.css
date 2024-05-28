@@ -403,34 +403,3 @@ input:checked+.slider:before {
 .graf-menu.open #open-button {
     display: none;
 }
-
-/* Hover effect to open the menu */
-#graf-menu:hover .graf-menu {
-    width: 300px;
-    justify-content: space-around;
-}
-
-#graf-menu:hover .graf-menu .item {
-    display: block;
-}
-
-#graf-menu:hover .graf-menu #open-button {
-    display: none;
-}
-
-#graf-menu:hover .graf-menu #close-button {
-    display: block;
-}
-
-.item:not(a) {
-    color: #999999;
-}
-
-.item:not(a):hover {
-    color: #cccccc;
-}
-
-.item.active, .item a.active {
-    color: #333333; /* Koyu gri */
-    background-color: #1c1c1c; /* Koyu siyah */
-}
