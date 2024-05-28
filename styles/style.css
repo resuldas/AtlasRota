@@ -160,7 +160,7 @@ input:checked+.slider:before {
     right: 20px;
     z-index: 1000;
     width: 300px;
-    height:90%;
+    height: 90%;
     background-color: #15004e56;
     border-radius: 20px;
     padding: 20px;
@@ -283,63 +283,14 @@ input:checked+.slider:before {
     }
 }
 
-#graf-dropdown {
-    position: absolute;
-    bottom: 20px;
-    left: 150px;
-    transform: none;
-    z-index: 1000;
-    display: inline-block;
-}
-
-.dropbtn {
-    background-color: #0b1921;
-    color: white;
-    padding: 12px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-    border-radius: 14px;
-    transition: background-color 0.3s ease;
-}
-
-.dropbtn:hover {
-    background-color: #19262f;
-}
-
-.dropdown-content {
-    display: none;
-    position: relative;
-    background-color: #0b1921;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-    border-radius: 14px;
-    overflow: hidden;
-    
-}
-
-.dropdown-content a {
-    color: rgb(255, 255, 255);
-    padding: 12px 12px;
-    text-decoration: none;
-    display: block;
-    transition: background-color 0.3s ease;
-}
-
-.dropdown-content a:hover {
-    background-color: #19262f;
-}
-
-#graf-dropdown:hover .dropdown-content {
-    display: block;
-}
 #attackDictListContainer {
     scrollbar-width: none;
-    width: 500px;
-    height: auto;
+    display: flex;
+    text-align: center;
     position: relative;
-    display: inline-block;
-    align-items: center;
+    margin: 20px auto;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 #attackDictListContainer h3 {
@@ -350,26 +301,93 @@ input:checked+.slider:before {
 
 #attackDictList {
     list-style-type: none;
-    padding: 0;
+    width: 900px;
+    height: 350px;
+    padding: 10px;
     scrollbar-width: none;
-    width: 500px;
-    height: auto;
     overflow-y: auto;
-    position: relative;
     display: inline-block;
-    background-color: rgba(17, 20, 41, 0.7);
-    color: white;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.607);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 10px;
     box-shadow: 0px 0px 4px rgb(239, 239, 239);
     z-index: 1000;
-    margin-top: 1%;
-    margin-left: 5px;
+    margin: 0 10px 10px 10px;
     border-radius: 20px;
 }
-#attackDictList p{
-    color: #828298;
 
+#attackDictList p {
+    color: #242323;
 }
-#attackDictList h4{
-    color: rgb(239, 239, 239);
+
+#attackDictList h4 {
+    color: #1b1a1a;
+}
+
+.graf-menu {
+    color: white;
+    background-color: #0b1921;
+    border-radius: 17px;
+    height: 34px;
+    width: 100px;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    z-index: 1000;
+    position: absolute;
+    bottom: 20px;
+    left: 150px;
+    transform: none;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+}
+
+.graf-menu .item {
+    display: none;
+    color: white;
+}
+
+.graf-menu #open-button {
+    display: block;
+}
+
+.graf-menu #close-button {
+    display: none;
+    color: white;
+}
+
+.graf-menu.open {
+    justify-content: space-around;
+    width: 300px;
+    padding: 5px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.graf-menu.open .item {
+    display: block;
+}
+
+.graf-menu.open .item:hover {
+    color: #19262f;
+}
+
+.graf-menu.open #close-button {
+    display: block;
+}
+
+.graf-menu.open #close-button:hover {
+    color: #19262f;
+}
+
+.graf-menu.open #open-button {
+    display: none;
 }
