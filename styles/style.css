@@ -161,7 +161,7 @@ input:checked+.slider:before {
     z-index: 1000;
     width: 300px;
     height: 90%;
-    background-color: #15004e56;
+    background-color: #0c3d5a36;
     border-radius: 20px;
     padding: 20px;
     display: flex;
@@ -171,7 +171,7 @@ input:checked+.slider:before {
     color: white;
     font-size: 20px;
     text-align: center;
-    box-shadow: rgba(0, 57, 90, 0.527) 0px 0px 10px 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 #infoCardTitle {
@@ -266,7 +266,7 @@ input:checked+.slider:before {
 
 #pauseButton {
     position: absolute;
-    bottom: 20px;
+    bottom: 25px;
     left: 20px;
     z-index: 1000;
     border: none;
@@ -337,7 +337,7 @@ input:checked+.slider:before {
 
 .graf-menu {
     color: white;
-    background-color: #0b1921;
+    background-color: #0c3d5a36;
     border-radius: 17px;
     height: 40px;
     width: 100px;
