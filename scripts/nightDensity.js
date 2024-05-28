@@ -1,5 +1,3 @@
-let world;
-let isPlaying = true;
 
 fetch('../data/newData.json')
     .then(response => response.json())
@@ -63,6 +61,34 @@ daySwitch.addEventListener('change', function () {
         window.location.href = 'dayDensity.html';
     }
 })
+function openNav() {
+    document.getElementById("mySidenav").style.width = "275px";
+    document.getElementById("drawerSpan").style.display = "none";
+    document.getElementById("pauseButton").style.visibility = "hidden";
+    document.getElementById("attackListContainer").style.visibility = "hidden";
+    document.getElementById("graf-dropdown").style.visibility="hidden";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("drawerSpan").style.display = "block";
+    document.getElementById("pauseButton").style.visibility = "visible";
+    document.getElementById("attackListContainer").style.visibility = "visible";
+    document.getElementById("graf-dropdown").style.visibility="visible";
+}
+function pause() {
+    if (myGlobe) {
+        if (isPlaying) {
+            myGlobe.controls().autoRotate = false;
+            myGlobe.arcDashAnimateTime(0);
+            isPlaying = false;
+        } else {
+            myGlobe.controls().autoRotate = true;
+            myGlobe.arcDashAnimateTime(6000);
+            isPlaying = true;
+        }
+    }
+}
 
 function pause() {
     if (world) {
