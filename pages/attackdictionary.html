@@ -8,59 +8,85 @@
     <link rel="stylesheet" href="../styles/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
 </head>
+
 <body background="//unpkg.com/three-globe/example/img/night-sky.png">
     <div id="mySidenav" class="sidenav">
+        <img src="../assets/images/logograf.png" alt="logo" width="100px" height="100px"
+            style="padding-left: 30% ; padding-bottom: 50px;">
         <hr width="240px">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="#">Cyber Security</a>
-        <a href="#">Most Intense Attacks</a>
+        <a href="day.html">Home Page</a>
+        <a href="attackdictionary.html">Attack Dictionary</a>
         <a href="#">How to Protect</a>
-        <a href="https://cyware.com/cyber-security-news-articles" target="_blank">Articles</a>
-        <a href="https://www.bbc.com/turkce/topics/cdr56v87v05t" target="_blank">News</a>
+        <a href="https://academic.oup.com/cybersecurity" target="_blank">Articles</a>
+        <a href="https://www.securitymagazine.com/topics/2236-cybersecurity-news" target="_blank">News</a>
         <a href="aboutUs.html">About Us</a>
     </div>
     <span id="drawerSpan" onclick="openNav()">&#9776;</span>
     <nav class="navbar bg-black" data-bs-theme="dark">
         <div class="container-fluid" style="padding-left: 50px;">
-          <a class="navbar-brand" href="day.html">
-            <img src="../assets/images/logograf.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
-            ThreadTracker
-          </a>
+            <a class="navbar-brand" href="day.html">
+                <img src="../assets/images/logograf.png" alt="Logo" width="30" height="30"
+                    class="d-inline-block align-text-top">
+                ThreadTracker
+            </a>
         </div>
-      </nav>
-<div id="attackDictListContainer" class="attackDictListContainer">
-    <div id="attackDictList" class="attackDictList">
-        <h4>DDoS (Distributed Denial of Service)</h4>
-        <p>DDoS saldırısı, "Distributed Denial of Service" (Dağıtık Hizmet Engelleme) anlamına gelir. Bu tür saldırılar, bir web sitesi, ağ veya çevrimiçi hizmeti aşırı yükleyerek kullanılamaz hale getirmeyi amaçlar. Birçok farklı kaynaktan gelen yüksek miktarda trafik, hedef sistemin kaynaklarını tüketir ve normal kullanıcıların erişimini engeller. DDoS saldırıları genellikle botnet adı verilen kötü amaçlı yazılımlar tarafından kontrol edilen geniş bilgisayar ağları kullanılarak gerçekleştirilir.</p>
-    </div>
+    </nav>
+    <div id="attackDictListContainer" class="attackDictListContainer">
+        <div id="attackDictList" class="attackDictList">
+            <h4>DDoS (Distributed Denial of Service)</h4>
+            <p>DDoS saldırısı, "Distributed Denial of Service" (Dağıtık Hizmet Engelleme) anlamına gelir. Bu tür
+                saldırılar, bir web sitesi, ağ veya çevrimiçi hizmeti aşırı yükleyerek kullanılamaz hale getirmeyi
+                amaçlar. Birçok farklı kaynaktan gelen yüksek miktarda trafik, hedef sistemin kaynaklarını tüketir ve
+                normal kullanıcıların erişimini engeller. DDoS saldırıları genellikle botnet adı verilen kötü amaçlı
+                yazılımlar tarafından kontrol edilen geniş bilgisayar ağları kullanılarak gerçekleştirilir.</p>
+        </div>
 
-    <div id="attackDictList" class="attackDictList">
-        <h4>Ransomware</h4>
-        <p>Ransomware, "Ransom Software" (Fidye Yazılımı) kelimelerinin birleşiminden oluşur. Bu tür kötü amaçlı yazılımlar, bir kullanıcının veya kuruluşun verilerini şifreler ve şifre çözme anahtarını vermek için fidye talep eder. Saldırganlar genellikle ödeme yapılana kadar verilerin erişilemez durumda kalacağını belirtirler. Ransomware saldırıları, genellikle kimlik avı e-postaları veya güvenlik açıklarından yararlanan kötü amaçlı yazılımlar aracılığıyla gerçekleştirilir.</p>
+        <div id="attackDictList" class="attackDictList">
+            <h4>Ransomware</h4>
+            <p>Ransomware, "Ransom Software" (Fidye Yazılımı) kelimelerinin birleşiminden oluşur. Bu tür kötü amaçlı
+                yazılımlar, bir kullanıcının veya kuruluşun verilerini şifreler ve şifre çözme anahtarını vermek için
+                fidye talep eder. Saldırganlar genellikle ödeme yapılana kadar verilerin erişilemez durumda kalacağını
+                belirtirler. Ransomware saldırıları, genellikle kimlik avı e-postaları veya güvenlik açıklarından
+                yararlanan kötü amaçlı yazılımlar aracılığıyla gerçekleştirilir.</p>
+        </div>
+        <div id="attackDictList" class="attackDictList">
+            <h4>SQL Injection (Structured Query Language Injection) </h4>
+            <p>SQL Injection, bir web uygulamasının veritabanına gönderdiği SQL sorgularını manipüle ederek, saldırganın
+                yetkisiz veri erişimi, veri değiştirme veya silme gibi işlemler yapmasını sağlar. SQL Injection,
+                kullanıcı girdilerini doğru şekilde filtrelemeyen veya temizlemeyen web uygulamaları üzerinden
+                gerçekleştirilir. Bu tür saldırılar, hassas verilerin çalınmasına, veritabanlarının bozulmasına ve diğer
+                güvenlik açıklarına yol açabilir.</p>
+        </div>
     </div>
-    <div id="attackDictList" class="attackDictList">
-        <h4>SQL Injection (Structured Query Language Injection) </h4>
-        <p>SQL Injection, bir web uygulamasının veritabanına gönderdiği SQL sorgularını manipüle ederek, saldırganın yetkisiz veri erişimi, veri değiştirme veya silme gibi işlemler yapmasını sağlar. SQL Injection, kullanıcı girdilerini doğru şekilde filtrelemeyen veya temizlemeyen web uygulamaları üzerinden gerçekleştirilir. Bu tür saldırılar, hassas verilerin çalınmasına, veritabanlarının bozulmasına ve diğer güvenlik açıklarına yol açabilir.</p>
+    <div id="attackDictListContainer" class="attackDictListContainer">
+        <div id="attackDictList" class="attackDictList">
+            <h4>Phishing (Password Harvesting Fishing) </h4>
+            <p>Phishing, sahte veya yanıltıcı iletiler kullanarak kullanıcıları kişisel bilgilerini veya hassas
+                bilgilerini vermek için kandırmayı amaçlar. Genellikle sahte e-postalar, web siteleri veya sosyal medya
+                mesajları aracılığıyla gerçekleştirilir. Phishing saldırıları, kullanıcıların kimlik avına düşmesi
+                sonucu hassas bilgilerin ifşa edilmesine ve kötü niyetli kişilerin bu bilgileri kötüye kullanmasına yol
+                açabilir.</p>
+        </div>
+        <div id="attackDictList" class="attackDictList">
+            <h4>Vishing (Voice Phishing) </h4>
+            <p>Vishing, telekomünikasyon araçları, özellikle telefon aramaları aracılığıyla gerçekleştirilir.
+                Saldırganlar, sahte kimlikler veya kuruluşlarla iletişim kurarak kurbanlarından hassas bilgileri elde
+                etmeye çalışır. Vishing saldırıları, sahte çağrı merkezleri, sesli mesajlar veya otomatik yanıt
+                sistemleri kullanılarak gerçekleştirilebilir.</p>
+        </div>
+        <div id="attackDictList" class="attackDictList">
+            <h4>XSS (Cross-Site Scripting) </h4>
+            <p>XSS, Bu tür bir saldırı, web uygulamalarında bulunan güvenlik açıklarını kullanarak saldırganın
+                kullanıcıların tarayıcılarında kötü niyetli JavaScript kodları çalıştırmasını sağlar. XSS saldırıları
+                genellikle kullanıcıya zarar vermek, oturum çalmak veya hassas bilgileri çalmak amacıyla kullanılır.</p>
+        </div>
     </div>
-</div>
-<div id="attackDictListContainer" class="attackDictListContainer">
-    <div id="attackDictList" class="attackDictList">
-        <h4>Phishing (Password Harvesting Fishing) </h4>
-        <p>Phishing, sahte veya yanıltıcı iletiler kullanarak kullanıcıları kişisel bilgilerini veya hassas bilgilerini vermek için kandırmayı amaçlar. Genellikle sahte e-postalar, web siteleri veya sosyal medya mesajları aracılığıyla gerçekleştirilir. Phishing saldırıları, kullanıcıların kimlik avına düşmesi sonucu hassas bilgilerin ifşa edilmesine ve kötü niyetli kişilerin bu bilgileri kötüye kullanmasına yol açabilir.</p>
-    </div>
-    <div id="attackDictList" class="attackDictList">
-        <h4>Vishing (Voice Phishing) </h4>
-        <p>Vishing, telekomünikasyon araçları, özellikle telefon aramaları aracılığıyla gerçekleştirilir. Saldırganlar, sahte kimlikler veya kuruluşlarla iletişim kurarak kurbanlarından hassas bilgileri elde etmeye çalışır. Vishing saldırıları, sahte çağrı merkezleri, sesli mesajlar veya otomatik yanıt sistemleri kullanılarak gerçekleştirilebilir.</p>
-    </div>
-    <div id="attackDictList" class="attackDictList">
-        <h4>XSS (Cross-Site Scripting) </h4>
-        <p>XSS, Bu tür bir saldırı, web uygulamalarında bulunan güvenlik açıklarını kullanarak saldırganın kullanıcıların tarayıcılarında kötü niyetli JavaScript kodları çalıştırmasını sağlar. XSS saldırıları genellikle kullanıcıya zarar vermek, oturum çalmak veya hassas bilgileri çalmak amacıyla kullanılır.</p>
-    </div>
-</div>
     <script src="//unpkg.com/d3-dsv"></script>
     <script src="//unpkg.com/index-array-by"></script>
     <script src="//unpkg.com/globe.gl"></script>
     <script src="../scripts/dayScript.js"></script>
 </body>
 <script src="../scripts/attackDictionary.js"></script>
+
 </html>
