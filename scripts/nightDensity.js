@@ -10,7 +10,7 @@ fetch('../data/newData.json')
             attackVolume: attack.attackVolume,
             lat: attack.endPoint[0],
             lng: attack.endPoint[1],
-            pop: attack.pop * 5,
+            pop: attack.pop,
 
             // attacks list data
             attackType: attack.attackType,
@@ -38,10 +38,10 @@ fetch('../data/newData.json')
             .backgroundImageUrl('//unpkg.com/three-globe/example/img/night-sky.png')
             .hexBinPointWeight('pop')
             .pointOfView({ lat: 39.9334, lng: 32.8597, altitude: 2 })
-            .hexAltitude(d => d.sumWeight * 6e-8)
-            .hexBinResolution(4)
-            .hexTopColor(d => weightColor(d.sumWeight))
-            .hexSideColor(d => weightColor(d.sumWeight))
+            .hexAltitude(d => d.sumWeight * 4e-6)
+            .hexBinResolution(3)
+            .hexTopColor(d => weightColor(d.sumWeight * 25))
+            .hexSideColor(d => weightColor(d.sumWeight * 25))
             .hexBinMerge(true)
             .enablePointerInteraction(false);
 
