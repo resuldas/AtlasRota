@@ -66,6 +66,7 @@ function openNav() {
     document.getElementById("pauseButton").style.visibility = "hidden";
     document.getElementById("attackListContainer").style.visibility = "hidden";
     document.getElementById("graf-menu").style.visibility = "hidden";
+    document.getElementById("logo").style.visibility = "hidden";
 }
 
 function closeNav() {
@@ -74,6 +75,7 @@ function closeNav() {
     document.getElementById("pauseButton").style.visibility = "visible";
     document.getElementById("attackListContainer").style.visibility = "visible";
     document.getElementById("graf-menu").style.visibility = "visible";
+    document.getElementById("logo").style.visibility = "visible";
 }
 
 function pause() {

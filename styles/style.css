@@ -389,3 +389,13 @@ input:checked+.slider:before {
 .graf-menu.open #open-button {
     display: none;
 }
+
+#logo {
+    position: absolute;
+    left: 50px;
+    top: 2px;
+    z-index: 1000;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+}
