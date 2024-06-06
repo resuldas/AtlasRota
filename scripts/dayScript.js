@@ -26,7 +26,7 @@ fetch('../data/newData.json')
         myGlobe = Globe()
             (document.getElementById('globeViz'))
             .globeImageUrl('//unpkg.com/three-globe/example/img/earth-blue-marble.jpg')
-            .backgroundImageUrl('//unpkg.com/three-globe/example/img/night-sky.png')
+            .backgroundImageUrl('//unpkg.com/three-globe/example/img/night-sky.png') // white https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIeUiSYrjdeCzS5Tp7HJF5L3YVkrcAc2KaV8aqBRGNTRxHRoP_UCfwCtslw7MyuoEl3ko&usqp=CAU
             .pointOfView({ lat: 39.9334, lng: 32.8597, altitude: 2 })
             .arcLabel(d => `${d.attackType} - ${d.status} - ${d.severity}`)
             .arcStartLat(d => +d.startPoint.lat)

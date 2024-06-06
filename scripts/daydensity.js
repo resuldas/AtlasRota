@@ -42,7 +42,7 @@ fetch('../data/newData.json')
             .hexTopColor(d => weightColor(d.sumWeight * 25))
             .hexSideColor(d => weightColor(d.sumWeight * 25))
             .hexBinMerge(true)
-            .enablePointerInteraction(false); // performance improvement
+            .enablePointerInteraction(false);
 
         world.hexBinPointsData(attacksData);
         world.controls().autoRotate = true;
